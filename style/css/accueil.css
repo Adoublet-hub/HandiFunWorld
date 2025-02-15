@@ -1,12 +1,28 @@
 .center{
-    width: 70%;
+    margin: 30px auto; /* 20px pour le haut et le bas, auto pour centrer horizontalement */ 
+    width: 45%;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
+    
 }
 
-.zone{
-    margin: 5%;
+.zoneLogo{
+    margin: 30px auto; /* 20px pour le haut et le bas, auto pour centrer horizontalement */    
     background-color: red;
-    width: 75%;
+    width: 45%;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoneHashtag{
+    margin: 30px auto; /* 20px pour le haut et le bas, auto pour centrer horizontalement */    
+    background-color: red;
+    width: 45%;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
 }

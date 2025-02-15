@@ -1,12 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 .header {
     display: flex;
     flex-direction: column; /* Affiche les éléments en colonne (titre au-dessus, menu en dessous) */
     justify-content: center;
     align-items: center;
-    padding: 130px;
+    padding: 60px;
     background: linear-gradient(45deg, #5373ff,  #b1d5ff);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin: 0;
 }
 
 .title {
