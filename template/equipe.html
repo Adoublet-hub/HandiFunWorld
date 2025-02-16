@@ -22,7 +22,35 @@
                 <li><a href="/partenaires">Partenaires</a></li>
             </ul>
         </div>
-        <h1>test</h1>
     </div>
+    <h1>Notre Équipe</h1>
+    <div id="team-container">
+        <!-- Les membres seront ajoutés ici en JavaScript -->
+    </div>
+
+    <script>
+        // Charger les membres depuis l'API
+        fetch('/api/equipe')
+            .then(response => response.json())
+            .then(data => {
+                const teamContainer = document.getElementById('team-container');
+                
+                data.team.forEach(member => {
+                    // Créer un élément pour chaque membre
+                    const memberDiv = document.createElement('div');
+                    memberDiv.classList.add('member');
+
+                    memberDiv.innerHTML = `
+                        <img src="${member.photo}" alt="Photo de ${member.name}">
+                        <h2>${member.name}</h2>
+                        <h3>${member.role}</h3>
+                        <p>${member.description}</p>
+                    `;
+
+                    teamContainer.appendChild(memberDiv);
+                });
+            })
+            .catch(error => console.error('Erreur lors du chargement des membres:', error));
+    </script>
 </body>
 </html>

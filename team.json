@@ -1,0 +1,59 @@
+{
+    "team": [
+      {
+        "name": "Flora",
+        "role": "Développeur Backend",
+        "description": "Passionné de Golang et d'architecture logicielle, Jean travaille sur la stabilité et la performance du serveur.",
+        "photo": "https://example.com/photos/jean.jpg"
+      },
+      {
+        "name": "Carole",
+        "role": "Designer UX/UI",
+        "description": "Sophie conçoit des interfaces intuitives et agréables pour améliorer l'expérience utilisateur.",
+        "photo": "https://example.com/photos/sophie.jpg"
+      },
+      {
+        "name": "Amandine",
+        "role": "Développeur Frontend",
+        "description": "Expert en JavaScript et React, Ali construit des interfaces dynamiques et réactives.",
+        "photo": "https://example.com/photos/ali.jpg"
+      },
+      {
+        "name": "Solène",
+        "role": "Chef de projet",
+        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
+        "photo": "https://example.com/photos/emma.jpg"
+      },
+      {
+        "name": "Erika",
+        "role": "Chef de projet",
+        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
+        "photo": "https://example.com/photos/emma.jpg"
+      },
+      {
+        "name": "Nassuif",
+        "role": "Chef de projet",
+        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
+        "photo": "https://example.com/photos/emma.jpg"
+      },
+      {
+        "name": "Cara",
+        "role": "Chef de projet",
+        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
+        "photo": "https://example.com/photos/emma.jpg"
+      },
+      {
+        "name": "Enora",
+        "role": "Chef de projet",
+        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
+        "photo": "https://example.com/photos/emma.jpg"
+      },
+      {
+        "name": "Hayden",
+        "role": "Chef de projet",
+        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
+        "photo": "https://example.com/photos/emma.jpg"
+      }
+    ]
+  }
+  

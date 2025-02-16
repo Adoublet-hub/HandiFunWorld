@@ -1,0 +1,35 @@
+#team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member {
+    width: 250px;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.member h2 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+.member h3 {
+    color: #555;
+    font-size: 1em;
+}
+
+.member p {
+    font-size: 0.9em;
+    color: #666;
+}
