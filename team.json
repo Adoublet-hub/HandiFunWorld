@@ -1,58 +1,64 @@
 {
     "team": [
       {
+        "name": "Funny",
+        "role": "La mascotte",
+        "description": "Salut moi c'est funny! Je suis un ourson de soutien emotionnel. Si tu veux en apprendre plus sur moi fonce dans ma rubrique!",
+        "photo": "/style/img/photo_test.png"
+      },
+      {
         "name": "Flora",
-        "role": "Développeur Backend",
-        "description": "Passionné de Golang et d'architecture logicielle, Jean travaille sur la stabilité et la performance du serveur.",
-        "photo": "https://example.com/photos/jean.jpg"
+        "role": "Présidente",
+        "description": "J'ai rejoint cette aventure pour apporter mon soutien aux enfants, qui comme mon petit frère, atteint de Craniosténose, subissent le poids du handicap et des allers-retours dans les hôpitaux en attendant un miracle de la part des soignants afin de retrouver une vie normale, je veux aussi être présente pour la famille qui attend patiemment un verdict sur la santé de leurs petits bouts. Je veux être là pour leurs montrer qu'il y a toujours de l'espoir et que la vie en dehors des murs blanc de l'hôpital est proche. Alors si vous êtes comme moi et que vous voulez agir pour eux ou que vous êtes ces personnes que je décris alors vous êtes au bon endroit.",
+        "photo": "/style/img/photo_test.png"
       },
       {
         "name": "Carole",
-        "role": "Designer UX/UI",
-        "description": "Sophie conçoit des interfaces intuitives et agréables pour améliorer l'expérience utilisateur.",
-        "photo": "https://example.com/photos/sophie.jpg"
+        "role": "Trésorière",
+        "description": "Je suis maman de 4 enfants, Flora, Cara, Enora et Hayden. Je me joins à l'aventure de l'Handi'Fun World en tant que trésorière. Cette aassociation est importante pour moi car l'handicap me touche d'autant plus que mon petit garçon Hayden est atteint de Crâniosténose. Il avait des retards d'acquisition et il était non verbal jusqu'à ses 3ans et demi. Je me bats au quotidien depuis sa naissance pour lui faire rattraper son retard avec la motricité fine, la motricité libre et lui faire découvrir le monde comme n'importe quel petit garçon de son âge. Mon petit prince a également par la suite été diagnostiqué autiste. Il est, malgé son handicap, un petit garçon EXTRAordinaire.",
+        "photo": "/style/img/photo_test.png"
       },
       {
         "name": "Amandine",
-        "role": "Développeur Frontend",
-        "description": "Expert en JavaScript et React, Ali construit des interfaces dynamiques et réactives.",
-        "photo": "https://example.com/photos/ali.jpg"
+        "role": "Éditrice",
+        "description": "Ayant moi-même une soeur et une mère porteuse de handicap. Apporter une aide à ceux qui en ont besoin est quelque chose de très important à mes yeux. Mère nature n'a pas souhaiter tous nous formé a l'identique et selon moi, notre rôle à tous est de rétablir une équité, c'est pourquoi cette association m'a immédiatement touchée (Et étant une grande fan d'Harry Potter, Marvel et Disney, pouvoir combiné ma passion et ce projet est top!). En plus d'écrire je donne mon avis et j'apporte mon aide sur quelque projet de l'association, j'en propose aussi lorsque mon cerveau ce met en mode création. ;) ",
+        "photo": "/style/img/photo_test.png"
       },
       {
         "name": "Solène",
-        "role": "Chef de projet",
-        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
-        "photo": "https://example.com/photos/emma.jpg"
+        "role": "Illustratrice",
+        "description": "J'ai dessiné la masscotte et maintenant, je deviens l'illustratrice de l'association. Je dessine depuis que je suis toutes petites, mais j'ai commencé à m'intéresser au dessin en seconde. Je dessinais beaucoup pendant mes temps de pause et depuis, je n'ai pas arrêté de dessiner! C'est deve,i ine activité que je fais quotidiennement. Flora et Amandine sont des amies d'enfance. Rejoindre l'association était une excellente opportunité d'exercer ma passion tout en rendant service à mes amies et en participant à une bonne action. Bien que je n'ai pas de handicap, j'ai évidemment été très touchée par l'association et ces projets. ",
+        "photo": "/style/img/photo_test.png"
       },
       {
         "name": "Erika",
-        "role": "Chef de projet",
-        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
-        "photo": "https://example.com/photos/emma.jpg"
+        "role": "Secrétaire",
+        "description": "Sortant d'un cancer avec tumeur, j'ai dû abandonner le monde du travail car je suis devenue handicapée physiquement à la suite de cette épreuve. J'ai également une maladie silencieuse qui s'appelle la bipolarité, ainsi qu'une malformation cardiaque de naissance nommer bicuspidie aortique. C'est pourquoi j'ai donc lancé ma propre entreprise, une boutique eco-responsable en ligne, partenaire de notre association. je souhaiterais à travers cette association donner tout le soutiens possible aux personnes handicaoées qu'elles soient de tout âges car je sais combien l'annonce de la maladie ou du diagnostique peut être terrible mais aussi le parcours médical encourus à la fois pour la personne qui le recoit mais aussi pour son entourage. J'espère, que vous trouverez avec nous un peu de réconfort, d'écoute et une entraide dont vous aurez besoin.",
+        "photo": "/style/img/photo_test.png"
       },
       {
         "name": "Nassuif",
-        "role": "Chef de projet",
-        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
-        "photo": "https://example.com/photos/emma.jpg"
+        "role": "Développeur",
+        "description": ".",
+        "photo": "/style/img/photo_test.png"
       },
       {
         "name": "Cara",
-        "role": "Chef de projet",
-        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
-        "photo": "https://example.com/photos/emma.jpg"
+        "role": "Bénévole en chef",
+        "description": "Je suis fan de Disney et de Harry Potter. Je suis bénévole pour l'association afin de stopper l'ignorance et la discrimination autour des personnes en situation de handicap tout en partageant avec vous différents projets sur le handicap et sur nos univers favoris. J'espère que cette aventure vous plaira tout autant qu'à moi! Cara est présente et investie à chaque évènement de l'association. L'équipe a donc décidé de faire d'elle la représentante des bénévoles. Elles gère les différentes équipes de bénèvoles présents lors des évènements.",
+        "photo": "/style/img/photo_test.png"
       },
       {
         "name": "Enora",
-        "role": "Chef de projet",
-        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
-        "photo": "https://example.com/photos/emma.jpg"
+        "role": "Mini bénévole",
+        "description": "Je suis une grande fan du personnage de Stitch et des Pokémon. Je suis bénévole pour l'association! j'aime jouer au cartes Pokémon et à un tas de jeux de société alors quand je viens à l'association. Je viens jouer avec les autres enfants. Enora est elle aussi présente à chaque évènement et tiens toujours un stand de jeux qu'elle aime.",
+        "photo": "/style/img/photo_test.png"
       },
       {
         "name": "Hayden",
-        "role": "Chef de projet",
-        "description": "Emma coordonne l'équipe et s'assure que le projet avance dans la bonne direction.",
-        "photo": "https://example.com/photos/emma.jpg"
+        "role": "Le petit prince de l'Handi Fun World",
+        "description": "J'adore Mickey et Funny! Je suis née atteint de Craniosténose, j'ai fais plusieurs séjour à l'hôpital pour me soigner. Beaucoup de gens me connaissent pour être le petit guerrier. A l'âge de 3ans j'ai été diagnostiqué Autiste. C'est pour moi et tout les copains et copines porteurs de handicap que je suis membre de l'association. Je teste chaque jeux et chaque activités pour être sur que mes amis s'amuse bien. Hayden est la raison pour laquelle beaucoup de membres du bureau de l'association ont fondé l'Handi'Fun World.",
+        "photo": "/style/img/photo_test.png"
       }
     ]
   }
