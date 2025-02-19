@@ -15,3 +15,4 @@ fetch('team.json')
     });
   })
   .catch(error => console.error("Erreur lors du chargement des données:", error));
+
