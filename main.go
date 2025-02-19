@@ -16,7 +16,6 @@ type Member struct {
 
 // Handler API pour récupérer la liste des membres en JSON
 func apiEquipeHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("API /api/equipe appelée")
 
 	// Lire le fichier JSON
 	file, err := os.ReadFile("team.json")

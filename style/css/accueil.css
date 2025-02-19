@@ -19,10 +19,18 @@
 }
 
 .zoneHashtag{
-    margin: 30px auto; /* 20px pour le haut et le bas, auto pour centrer horizontalement */    
-    background-color: red;
+    margin: 30px auto; /* 20px pour le haut et le bas, auto pour centrer horizontalement */   
     width: 45%;
     padding: 50px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700; /* Gras */
+    font-size: 4rem;
+    color: rgb(194, 30, 85);
+}
+
+.p{
+    color: black;
 }

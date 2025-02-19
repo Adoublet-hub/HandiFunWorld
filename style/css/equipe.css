@@ -1,35 +1,53 @@
 #team-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 40px; /* Espacement entre les éléments */
+    margin: auto; /* Centrer sur la page */
 }
 
 .member {
-    width: 250px;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background: #f8f8f8;
-    padding: 15px;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px; /* Espace entre la photo et le texte */
+    width: 40rem;
 }
 
 .member img {
-    width: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
+.member-info {
+    flex: 1; /* Le texte prend l'espace restant */
+}
+
 .member h2 {
-    margin: 10px 0 5px;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
 }
 
 .member h3 {
-    color: #555;
-    font-size: 1em;
+    color: #777;
+    font-size: 1.1em;
+    margin-bottom: 10px;
 }
 
 .member p {
-    font-size: 0.9em;
-    color: #666;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Ajustement pour mobile (1 colonne) */
+@media (max-width: 768px) {
+    #team-container {
+        grid-template-columns: 1fr; /* 1 seule colonne */
+    }
 }
