@@ -1,0 +1,72 @@
+.handinfo-container {
+    display: flex;
+    flex-direction: column; /* Place l'image au-dessus du bouton */
+    align-items: center; /* Centre l'image et le bouton */
+    text-align: center;
+}
+
+.handinfo-container img {
+    width: 100%; /* Ajuste la largeur selon tes besoins */
+    max-width: 200px; /* Limite la taille de l’image */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.handinfo-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.handinfo-container button:hover {
+    background: #0056b3;
+}
+
+
+/* Style de la fenêtre modale (pop-up) */
+
+.modal {
+    display: none; /* Caché par défaut */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-content img {
+    width: 80%; /* Réduit les images dans la pop-up */
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Fermer la pop-up */
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
