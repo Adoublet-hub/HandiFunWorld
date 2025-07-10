@@ -24,52 +24,75 @@
         </div>
     </div>
     
-    <div class="handinfo-container">
-        <img src="../style/img/Handinfo/1.HANDICAP/han 1.jpg" alt="handicap">
-        <button id="openModal">Plus d'informations</button>
-    </div>
-    
-    <!-- Fenêtre Pop-up (Modal) -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <img src="../style/img/Handinfo/1.HANDICAP/han 2.jpg" alt="handicap">
-            <img src="../style/img/Handinfo/1.HANDICAP/han 3.jpg" alt="handicap">
-            <img src="../style/img/Handinfo/1.HANDICAP/han 4.jpg" alt="handicap">
-        </div>
-    </div>
+    <div id="modalsContainer"></div>
     
  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        // Sélection des éléments
-        const modal = document.getElementById("modal");
-        const openModal = document.getElementById("openModal");
-        const closeModal = document.querySelector(".close");
+fetch('./modales.json')
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById('modalsContainer');
 
-        // Vérification que les éléments existent
-        if (!modal || !openModal || !closeModal) {
-            console.error("Erreur : Un des éléments de la pop-up est introuvable !");
-            return;
+    data.forEach(modalData => {
+      // Crée le conteneur
+      const handinfo = document.createElement('div');
+      handinfo.className = 'handinfo-container';
+
+      // Image miniature
+      const img = document.createElement('img');
+      img.src = modalData.thumbnail;
+      img.alt = 'miniature';
+      handinfo.appendChild(img);
+
+      // Bouton
+      const button = document.createElement('button');
+      button.textContent = 'Plus d\'informations';
+      button.dataset.modal = modalData.id;
+      handinfo.appendChild(button);
+
+      // Modale
+      const modal = document.createElement('div');
+      modal.className = 'modal';
+      modal.id = modalData.id;
+
+      const modalContent = document.createElement('div');
+      modalContent.className = 'modal-content';
+
+      const close = document.createElement('span');
+      close.className = 'close';
+      close.innerHTML = '&times;';
+      modalContent.appendChild(close);
+
+      modalData.images.forEach(imgSrc => {
+        const modalImg = document.createElement('img');
+        modalImg.src = imgSrc;
+        modalImg.alt = 'handicap';
+        modalContent.appendChild(modalImg);
+      });
+
+      modal.appendChild(modalContent);
+      container.appendChild(handinfo);
+      container.appendChild(modal);
+
+      // Ouvrir la modale
+      button.addEventListener('click', () => {
+        modal.style.display = 'flex'; // Important si tu utilises justify-content
+      });
+
+      // Fermer la modale
+      close.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+
+      // Fermer en cliquant à l'extérieur
+      window.addEventListener('click', e => {
+        if (e.target === modal) {
+          modal.style.display = 'none';
         }
-
-        // Ouvrir la pop-up au clic sur le bouton
-        openModal.addEventListener("click", () => {
-            modal.style.display = "flex";
-        });
-
-        // Fermer la pop-up au clic sur la croix
-        closeModal.addEventListener("click", () => {
-            modal.style.display = "none";
-        });
-
-        // Fermer la pop-up si on clique en dehors du contenu
-        window.addEventListener("click", (event) => {
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
-        });
+      });
     });
+  });
 </script>
+
 
 </body>
     

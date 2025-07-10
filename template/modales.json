@@ -1,0 +1,21 @@
+[
+  {
+    "id": "modal1",
+    "thumbnail": "../style/img/Handinfo/1.HANDICAP/han 1.jpg",
+    "images": [
+      "../style/img/Handinfo/1.HANDICAP/han 2.jpg",
+      "../style/img/Handinfo/1.HANDICAP/han 3.jpg",
+      "../style/img/Handinfo/1.HANDICAP/han 4.jpg"
+    ]
+  },
+  {
+    "id": "modal2",
+    "thumbnail": "../style/img/Handinfo/2.NANISME/nain 1.jpg",
+    "images": [
+      "../style/img/Handinfo/2.NANISME/nain 2.jpg",
+      "../style/img/Handinfo/2.NANISME/nain 3.jpg",
+      "../style/img/Handinfo/2.NANISME/nain 4.jpg",
+      "../style/img/Handinfo/2.NANISME/nain 5.jpg"
+    ]
+  }
+]
