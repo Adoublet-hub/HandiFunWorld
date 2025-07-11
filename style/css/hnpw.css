@@ -34,7 +34,7 @@
 
 /* Bouton */
 .handinfo-container button {
-    background-color: #ff6299;
+    background-color: #004AAD;
     color: white;
     border: none;
     border-radius: 5px;
@@ -44,7 +44,7 @@
 }
 
 .handinfo-container button:hover {
-    background-color: #005fa3;
+    background-color: #004AAD;
 }
 
 /* POP-UP (modale) */

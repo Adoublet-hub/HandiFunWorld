@@ -9,13 +9,14 @@
     
 }
 
-.zoneLogo{
-    margin: 30px auto; /* 20px pour le haut et le bas, auto pour centrer horizontalement */    
-    background-color: red;
+.zoneLogo {
+    margin: 30px auto;
     width: 45%;
-    padding: 50px;
-    justify-content: center;
-    align-items: center;
+    height: 150px; /* nécessaire pour afficher une image */
+    background-image: url('../img/logo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .zoneHashtag{
