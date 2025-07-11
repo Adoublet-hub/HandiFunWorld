@@ -1,37 +1,51 @@
-.center{
-    margin: 30px auto; /* 20px pour le haut et le bas, auto pour centrer horizontalement */ 
-    width: 45%;
-    padding: 70px;
+.center {
+    margin: 20px auto;
+    width: 35%;
+    padding: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2rem;
-    
+    font-size: 1.4rem;
 }
 
 .zoneLogo {
-    margin: 30px auto;
-    width: 45%;
-    height: 150px; /* nécessaire pour afficher une image */
+    margin: 20px auto;
+    width: 35%;
+    height: 100px;
     background-image: url('../img/logo.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.zoneHashtag{
-    margin: 30px auto; /* 20px pour le haut et le bas, auto pour centrer horizontalement */   
-    width: 45%;
-    padding: 50px;
+.zoneHashtag {
+    margin: 20px auto;
+    width: 35%;
+    padding: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-weight: 700; /* Gras */
-    font-size: 4rem;
-    color: rgb(194, 30, 85);
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #004AAD;
 }
 
-.p{
+.p {
     color: black;
+}
+
+.joliTexte {
+    white-space: pre-line;
+    background-color: #f8f9fa;
+    border-left: 4px solid #004AAD;
+    padding: 15px 20px;
+    margin: 30px auto;
+    width: 70%;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
 }
