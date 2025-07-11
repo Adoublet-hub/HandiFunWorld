@@ -1,11 +1,11 @@
 [
   {
     "id": "modal1",
-    "thumbnail": "../style/img/Handinfo/1handicap/han1.jpg",
+    "thumbnail": "../style/img/handinfo/1handicap/han1.jpg",
     "images": [
-      "../style/img/Handinfo/1handicap/han2.jpg",
-      "../style/img/Handinfo/1handicap/han3.jpg",
-      "../style/img/Handinfo/1handicap/han4.jpg"
+      "../style/img/handinfo/1handicap/han2.jpg",
+      "../style/img/handinfo/1handicap/han3.jpg",
+      "../style/img/handinfo/1handicap/han4.jpg"
     ]
   },
   {
