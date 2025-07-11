@@ -10,490 +10,490 @@
   },
   {
     "id": "modal2",
-    "thumbnail": "../style/img/Handinfo/2nanisme/nain1.jpg",
+    "thumbnail": "../style/img/handinfo/2nanisme/nain1.jpg",
     "images": [
-      "../style/img/Handinfo/2nanisme/nain2.jpg",
-      "../style/img/Handinfo/2nanisme/nain3.jpg",
-      "../style/img/Handinfo/2nanisme/nain4.jpg",
-      "../style/img/Handinfo/2nanisme/nain5.jpg"
+      "../style/img/handinfo/2nanisme/nain2.jpg",
+      "../style/img/handinfo/2nanisme/nain3.jpg",
+      "../style/img/handinfo/2nanisme/nain4.jpg",
+      "../style/img/handinfo/2nanisme/nain5.jpg"
     ]
   },
   {
     "id": "modal3",
-    "thumbnail": "../style/img/Handinfo/3tdah/tdah1.jpg",
+    "thumbnail": "../style/img/handinfo/3tdah/tdah1.jpg",
     "images": [
-      "../style/img/Handinfo/3tdah/tdah2.jpg",
-      "../style/img/Handinfo/3tdah/tdah3.jpg",
-      "../style/img/Handinfo/3tdah/tdah4.jpg"
+      "../style/img/handinfo/3tdah/tdah2.jpg",
+      "../style/img/handinfo/3tdah/tdah3.jpg",
+      "../style/img/handinfo/3tdah/tdah4.jpg"
     ]
   },
   {
     "id": "modal4",
-    "thumbnail": "../style/img/Handinfo/4depression/dep1.jpg",
+    "thumbnail": "../style/img/handinfo/4depression/dep1.jpg",
     "images": [
-      "../style/img/Handinfo/4depression/dep2.jpg",
-      "../style/img/Handinfo/4depression/dep3.jpg",
-      "../style/img/Handinfo/4depression/dep4.jpg",
-      "../style/img/Handinfo/4depression/dep5.jpg"
+      "../style/img/handinfo/4depression/dep2.jpg",
+      "../style/img/handinfo/4depression/dep3.jpg",
+      "../style/img/handinfo/4depression/dep4.jpg",
+      "../style/img/handinfo/4depression/dep5.jpg"
     ]
   },
   {
     "id": "modal5",
-    "thumbnail": "../style/img/Handinfo/5autisme/tsa1.jpg",
+    "thumbnail": "../style/img/handinfo/5autisme/tsa1.jpg",
     "images": [
-      "../style/img/Handinfo/5autisme/tsa2.jpg",
-      "../style/img/Handinfo/5autisme/tsa3.jpg",
-      "../style/img/Handinfo/5autisme/tsa4.jpg"
+      "../style/img/handinfo/5autisme/tsa2.jpg",
+      "../style/img/handinfo/5autisme/tsa3.jpg",
+      "../style/img/handinfo/5autisme/tsa4.jpg"
     ]
   },
   {
     "id": "modal6",
-    "thumbnail": "../style/img/Handinfo/6anxiete/anx1.jpg",
+    "thumbnail": "../style/img/handinfo/6anxiete/anx1.jpg",
     "images": [
-      "../style/img/Handinfo/6anxiete/anx2.jpg",
-      "../style/img/Handinfo/6anxiete/anx3.jpg",
-      "../style/img/Handinfo/6anxiete/anx4.jpg"
+      "../style/img/handinfo/6anxiete/anx2.jpg",
+      "../style/img/handinfo/6anxiete/anx3.jpg",
+      "../style/img/handinfo/6anxiete/anx4.jpg"
     ]
   },
   {
     "id": "modal7",
-    "thumbnail": "../style/img/Handinfo/7dyspraxie/dyspra1.jpg",
+    "thumbnail": "../style/img/handinfo/7dyspraxie/dyspra1.jpg",
     "images": [
-      "../style/img/Handinfo/7dyspraxie/dyspra2.jpg",
-      "../style/img/Handinfo/7dyspraxie/dyspra3.jpg",
-      "../style/img/Handinfo/7dyspraxie/dyspra4.jpg"
+      "../style/img/handinfo/7dyspraxie/dyspra2.jpg",
+      "../style/img/handinfo/7dyspraxie/dyspra3.jpg",
+      "../style/img/handinfo/7dyspraxie/dyspra4.jpg"
     ]
   },
   {
     "id": "modal8",
-    "thumbnail": "../style/img/Handinfo/8tdi/tdi1.jpg",
+    "thumbnail": "../style/img/handinfo/8tdi/tdi1.jpg",
     "images": [
-      "../style/img/Handinfo/8tdi/tdi2.jpg",
-      "../style/img/Handinfo/8tdi/tdi3.jpg",
-      "../style/img/Handinfo/8tdi/tdi4.jpg"
+      "../style/img/handinfo/8tdi/tdi2.jpg",
+      "../style/img/handinfo/8tdi/tdi3.jpg",
+      "../style/img/handinfo/8tdi/tdi4.jpg"
     ]
   },
   {
     "id": "modal9",
-    "thumbnail": "../style/img/Handinfo/9vitiligo/vitiligo1.jpg",
+    "thumbnail": "../style/img/handinfo/9vitiligo/vitiligo1.jpg",
     "images": [
-      "../style/img/Handinfo/9vitiligo/vitiligo2.jpg",
-      "../style/img/Handinfo/9vitiligo/vitiligo3.jpg",
-      "../style/img/Handinfo/9vitiligo/vitiligo4.jpg"
+      "../style/img/handinfo/9vitiligo/vitiligo2.jpg",
+      "../style/img/handinfo/9vitiligo/vitiligo3.jpg",
+      "../style/img/handinfo/9vitiligo/vitiligo4.jpg"
     ]
   },
   {
     "id": "modal10",
-    "thumbnail": "../style/img/Handinfo/10mdlewy/mdl1.jpg",
+    "thumbnail": "../style/img/handinfo/10mdlewy/mdl1.jpg",
     "images": [
-      "../style/img/Handinfo/10mdlewy/mdl2.jpg",
-      "../style/img/Handinfo/10mdlewy/mdl3.jpg",
-      "../style/img/Handinfo/10mdlewy/mdl4.jpg"
+      "../style/img/handinfo/10mdlewy/mdl2.jpg",
+      "../style/img/handinfo/10mdlewy/mdl3.jpg",
+      "../style/img/handinfo/10mdlewy/mdl4.jpg"
     ]
   },
   {
     "id": "modal11",
-    "thumbnail": "../style/img/Handinfo/11parkinson/parkinson1.jpg",
+    "thumbnail": "../style/img/handinfo/11parkinson/parkinson1.jpg",
     "images": [
-      "../style/img/Handinfo/11parkinson/parkinson2.jpg",
-      "../style/img/Handinfo/11parkinson/parkinson3.jpg",
-      "../style/img/Handinfo/11parkinson/parkinson4.jpg"
+      "../style/img/handinfo/11parkinson/parkinson2.jpg",
+      "../style/img/handinfo/11parkinson/parkinson3.jpg",
+      "../style/img/handinfo/11parkinson/parkinson4.jpg"
     ]
   },
   {
     "id": "modal12",
-    "thumbnail": "../style/img/Handinfo/12alzheimer/alzheimer1.jpg",
+    "thumbnail": "../style/img/handinfo/12alzheimer/alzheimer1.jpg",
     "images": [
-      "../style/img/Handinfo/12alzheimer/alzheimer2.jpg",
-      "../style/img/Handinfo/12alzheimer/alzheimer3.jpg",
-      "../style/img/Handinfo/12alzheimer/alzheimer4.jpg"
+      "../style/img/handinfo/12alzheimer/alzheimer2.jpg",
+      "../style/img/handinfo/12alzheimer/alzheimer3.jpg",
+      "../style/img/handinfo/12alzheimer/alzheimer4.jpg"
     ]
   },
   {
     "id": "modal13",
-    "thumbnail": "../style/img/Handinfo/13trisomie/trisomie1.jpg",
+    "thumbnail": "../style/img/handinfo/13trisomie/trisomie1.jpg",
     "images": [
-      "../style/img/Handinfo/13trisomie/trisomie2.jpg",
-      "../style/img/Handinfo/13trisomie/trisomie3.jpg",
-      "../style/img/Handinfo/13trisomie/trisomie4.jpg"
+      "../style/img/handinfo/13trisomie/trisomie2.jpg",
+      "../style/img/handinfo/13trisomie/trisomie3.jpg",
+      "../style/img/handinfo/13trisomie/trisomie4.jpg"
     ]
   },
   {
     "id": "modal14",
-    "thumbnail": "../style/img/Handinfo/14epilepsie/epilepsie1.jpg",
+    "thumbnail": "../style/img/handinfo/14epilepsie/epilepsie1.jpg",
     "images": [
-      "../style/img/Handinfo/14epilepsie/epilepsie2.jpg",
-      "../style/img/Handinfo/14epilepsie/epilepsie3.jpg",
-      "../style/img/Handinfo/14epilepsie/epilepsie4.jpg"
+      "../style/img/handinfo/14epilepsie/epilepsie2.jpg",
+      "../style/img/handinfo/14epilepsie/epilepsie3.jpg",
+      "../style/img/handinfo/14epilepsie/epilepsie4.jpg"
     ]
   },
   {
     "id": "modal15",
-    "thumbnail": "../style/img/Handinfo/15tetra.paraplegie/tpplegie1.jpg",
+    "thumbnail": "../style/img/handinfo/15tetra.paraplegie/tpplegie1.jpg",
     "images": [
-      "../style/img/Handinfo/15tetra.paraplegie/tpplegie2.jpg",
-      "../style/img/Handinfo/15tetra.paraplegie/tpplegie3.jpg",
-      "../style/img/Handinfo/15tetra.paraplegie/tpplegie4.jpg"
+      "../style/img/handinfo/15tetra.paraplegie/tpplegie2.jpg",
+      "../style/img/handinfo/15tetra.paraplegie/tpplegie3.jpg",
+      "../style/img/handinfo/15tetra.paraplegie/tpplegie4.jpg"
     ]
   },
   {
     "id": "modal16",
-    "thumbnail": "../style/img/Handinfo/16neurofibrome/neurofibrome1.jpg",
+    "thumbnail": "../style/img/handinfo/16neurofibrome/neurofibrome1.jpg",
     "images": [
-      "../style/img/Handinfo/16neurofibrome/neurofibrome2.jpg",
-      "../style/img/Handinfo/16neurofibrome/neurofibrome3.jpg",
-      "../style/img/Handinfo/16neurofibrome/neurofibrome4.jpg"
+      "../style/img/handinfo/16neurofibrome/neurofibrome2.jpg",
+      "../style/img/handinfo/16neurofibrome/neurofibrome3.jpg",
+      "../style/img/handinfo/16neurofibrome/neurofibrome4.jpg"
     ]
   },
   {
     "id": "modal17",
-    "thumbnail": "../style/img/Handinfo/17scleroseenplaque/sclerose1.jpg",
+    "thumbnail": "../style/img/handinfo/17scleroseenplaque/sclerose1.jpg",
     "images": [
-      "../style/img/Handinfo/17scleroseenplaque/sclerose2.jpg",
-      "../style/img/Handinfo/17scleroseenplaque/sclerose3.jpg",
-      "../style/img/Handinfo/17scleroseenplaque/sclerose4.jpg"
+      "../style/img/handinfo/17scleroseenplaque/sclerose2.jpg",
+      "../style/img/handinfo/17scleroseenplaque/sclerose3.jpg",
+      "../style/img/handinfo/17scleroseenplaque/sclerose4.jpg"
     ]
   },
   {
     "id": "modal18",
-    "thumbnail": "../style/img/Handinfo/18psoriasis/psoria1.jpg",
+    "thumbnail": "../style/img/handinfo/18psoriasis/psoria1.jpg",
     "images": [
-      "../style/img/Handinfo/18psoriasis/psoria2.jpg",
-      "../style/img/Handinfo/18psoriasis/psoria3.jpg",
-      "../style/img/Handinfo/18psoriasis/psoria4.jpg"
+      "../style/img/handinfo/18psoriasis/psoria2.jpg",
+      "../style/img/handinfo/18psoriasis/psoria3.jpg",
+      "../style/img/handinfo/18psoriasis/psoria4.jpg"
     ]
   },
   {
     "id": "modal19",
-    "thumbnail": "../style/img/Handinfo/19hutchinson-gilford/hgilford1.jpg",
+    "thumbnail": "../style/img/handinfo/19hutchinson-gilford/hgilford1.jpg",
     "images": [
-      "../style/img/Handinfo/19hutchinson-gilford/hgilford2.jpg",
-      "../style/img/Handinfo/19hutchinson-gilford/hgilford3.jpg",
-      "../style/img/Handinfo/19hutchinson-gilford/hgilford4.jpg"
+      "../style/img/handinfo/19hutchinson-gilford/hgilford2.jpg",
+      "../style/img/handinfo/19hutchinson-gilford/hgilford3.jpg",
+      "../style/img/handinfo/19hutchinson-gilford/hgilford4.jpg"
     ]
   },
   {
     "id": "modal20",
-    "thumbnail": "../style/img/Handinfo/20craniostenose/cranios1.jpg",
+    "thumbnail": "../style/img/handinfo/20craniostenose/cranios1.jpg",
     "images": [
-      "../style/img/Handinfo/20craniostenose/cranios2.jpg",
-      "../style/img/Handinfo/20craniostenose/cranios3.jpg",
-      "../style/img/Handinfo/20craniostenose/cranios4.jpg"
+      "../style/img/handinfo/20craniostenose/cranios2.jpg",
+      "../style/img/handinfo/20craniostenose/cranios3.jpg",
+      "../style/img/handinfo/20craniostenose/cranios4.jpg"
     ]
   },
   {
     "id": "modal21",
-    "thumbnail": "../style/img/Handinfo/21endometriose/endo1.jpg",
+    "thumbnail": "../style/img/handinfo/21endometriose/endo1.jpg",
     "images": [
-      "../style/img/Handinfo/21endometriose/endo2.jpg",
-      "../style/img/Handinfo/21endometriose/endo3.jpg",
-      "../style/img/Handinfo/21endometriose/endo4.jpg"
+      "../style/img/handinfo/21endometriose/endo2.jpg",
+      "../style/img/handinfo/21endometriose/endo3.jpg",
+      "../style/img/handinfo/21endometriose/endo4.jpg"
     ]
   },
   {
     "id": "modal22",
-    "thumbnail": "../style/img/Handinfo/22mucoviscidose/muco1.jpg",
+    "thumbnail": "../style/img/handinfo/22mucoviscidose/muco1.jpg",
     "images": [
-      "../style/img/Handinfo/22mucoviscidose/muco2.jpg",
-      "../style/img/Handinfo/22mucoviscidose/muco3.jpg",
-      "../style/img/Handinfo/22mucoviscidose/muco4.jpg"
+      "../style/img/handinfo/22mucoviscidose/muco2.jpg",
+      "../style/img/handinfo/22mucoviscidose/muco3.jpg",
+      "../style/img/handinfo/22mucoviscidose/muco4.jpg"
     ]
   },
   {
     "id": "modal23",
-    "thumbnail": "../style/img/Handinfo/23bipolarite/bipolaire1.jpg",
+    "thumbnail": "../style/img/handinfo/23bipolarite/bipolaire1.jpg",
     "images": [
-      "../style/img/Handinfo/23bipolarite/bipolaire2.jpg",
-      "../style/img/Handinfo/23bipolarite/bipolaire3.jpg",
-      "../style/img/Handinfo/23bipolarite/bipolaire4.jpg"
+      "../style/img/handinfo/23bipolarite/bipolaire2.jpg",
+      "../style/img/handinfo/23bipolarite/bipolaire3.jpg",
+      "../style/img/handinfo/23bipolarite/bipolaire4.jpg"
     ]
   },
   {
     "id": "modal24",
-    "thumbnail": "../style/img/Handinfo/24csein/csein1.jpg",
+    "thumbnail": "../style/img/handinfo/24csein/csein1.jpg",
     "images": [
-      "../style/img/Handinfo/24csein/csein2.jpg",
-      "../style/img/Handinfo/24csein/csein3.jpg",
-      "../style/img/Handinfo/24csein/csein4.jpg"
+      "../style/img/handinfo/24csein/csein2.jpg",
+      "../style/img/handinfo/24csein/csein3.jpg",
+      "../style/img/handinfo/24csein/csein4.jpg"
     ]
   },
   {
     "id": "modal25",
-    "thumbnail": "../style/img/Handinfo/25leucemie/leucemie1.jpg",
+    "thumbnail": "../style/img/handinfo/25leucemie/leucemie1.jpg",
     "images": [
-      "../style/img/Handinfo/25leucemie/leucemie2.jpg",
-      "../style/img/Handinfo/25leucemie/leucemie3.jpg",
-      "../style/img/Handinfo/25leucemie/leucemie4.jpg"
+      "../style/img/handinfo/25leucemie/leucemie2.jpg",
+      "../style/img/handinfo/25leucemie/leucemie3.jpg",
+      "../style/img/handinfo/25leucemie/leucemie4.jpg"
     ]
   },
   {
     "id": "modal26",
-    "thumbnail": "../style/img/Handinfo/26cpancreas/pancreas1.jpg",
+    "thumbnail": "../style/img/handinfo/26cpancreas/pancreas1.jpg",
     "images": [
-      "../style/img/Handinfo/26cpancreas/pancreas2.jpg",
-      "../style/img/Handinfo/26cpancreas/pancreas3.jpg",
-      "../style/img/Handinfo/26cpancreas/pancreas4.jpg"
+      "../style/img/handinfo/26cpancreas/pancreas2.jpg",
+      "../style/img/handinfo/26cpancreas/pancreas3.jpg",
+      "../style/img/handinfo/26cpancreas/pancreas4.jpg"
     ]
   },
   {
     "id": "modal27",
-    "thumbnail": "../style/img/Handinfo/27cpoumons/poumon1.jpg",
+    "thumbnail": "../style/img/handinfo/27cpoumons/poumon1.jpg",
     "images": [
-      "../style/img/Handinfo/27cpoumons/poumon2.jpg",
-      "../style/img/Handinfo/27cpoumons/poumon3.jpg",
-      "../style/img/Handinfo/27cpoumons/poumon4.jpg"
+      "../style/img/handinfo/27cpoumons/poumon2.jpg",
+      "../style/img/handinfo/27cpoumons/poumon3.jpg",
+      "../style/img/handinfo/27cpoumons/poumon4.jpg"
     ]
   },
   {
     "id": "modal28",
-    "thumbnail": "../style/img/Handinfo/28ccolon/colon1.jpg",
+    "thumbnail": "../style/img/handinfo/28ccolon/colon1.jpg",
     "images": [
-      "../style/img/Handinfo/28ccolon/colon2.jpg",
-      "../style/img/Handinfo/28ccolon/colon3.jpg",
-      "../style/img/Handinfo/28ccolon/colon4.jpg"
+      "../style/img/handinfo/28ccolon/colon2.jpg",
+      "../style/img/handinfo/28ccolon/colon3.jpg",
+      "../style/img/handinfo/28ccolon/colon4.jpg"
     ]
   },
   {
     "id": "modal29",
-    "thumbnail": "../style/img/Handinfo/29cuterus/uterus1.jpg",
+    "thumbnail": "../style/img/handinfo/29cuterus/uterus1.jpg",
     "images": [
-      "../style/img/Handinfo/29cuterus/uterus2.jpg",
-      "../style/img/Handinfo/29cuterus/uterus3.jpg",
-      "../style/img/Handinfo/29cuterus/uterus4.jpg"
+      "../style/img/handinfo/29cuterus/uterus2.jpg",
+      "../style/img/handinfo/29cuterus/uterus3.jpg",
+      "../style/img/handinfo/29cuterus/uterus4.jpg"
     ]
   },
   {
     "id": "modal30",
-    "thumbnail": "../style/img/Handinfo/30alopecie/alopecie1.jpg",
+    "thumbnail": "../style/img/handinfo/30alopecie/alopecie1.jpg",
     "images": [
-      "../style/img/Handinfo/30alopecie/alopecie2.jpg",
-      "../style/img/Handinfo/30alopecie/alopecie3.jpg",
-      "../style/img/Handinfo/30alopecie/alopecie4.jpg"
+      "../style/img/handinfo/30alopecie/alopecie2.jpg",
+      "../style/img/handinfo/30alopecie/alopecie3.jpg",
+      "../style/img/handinfo/30alopecie/alopecie4.jpg"
     ]
   },
   {
     "id": "modal31",
-    "thumbnail": "../style/img/Handinfo/31ovairespolykistique/sopk1.jpg",
+    "thumbnail": "../style/img/handinfo/31ovairespolykistique/sopk1.jpg",
     "images": [
-      "../style/img/Handinfo/31ovairespolykistique/sopk2.jpg",
-      "../style/img/Handinfo/31ovairespolykistique/sopk3.jpg",
-      "../style/img/Handinfo/31ovairespolykistique/sopk4.jpg"
+      "../style/img/handinfo/31ovairespolykistique/sopk2.jpg",
+      "../style/img/handinfo/31ovairespolykistique/sopk3.jpg",
+      "../style/img/handinfo/31ovairespolykistique/sopk4.jpg"
     ]
   },
   {
     "id": "modal32",
-    "thumbnail": "../style/img/Handinfo/32fibromyalgie/fibro1.jpg",
+    "thumbnail": "../style/img/handinfo/32fibromyalgie/fibro1.jpg",
     "images": [
-      "../style/img/Handinfo/32fibromyalgie/fibro2.jpg",
-      "../style/img/Handinfo/32fibromyalgie/fibro3.jpg",
-      "../style/img/Handinfo/32fibromyalgie/fibro4.jpg"
+      "../style/img/handinfo/32fibromyalgie/fibro2.jpg",
+      "../style/img/handinfo/32fibromyalgie/fibro3.jpg",
+      "../style/img/handinfo/32fibromyalgie/fibro4.jpg"
     ]
   },
   {
     "id": "modal33",
-    "thumbnail": "../style/img/Handinfo/33vih/vih1.jpg",
+    "thumbnail": "../style/img/handinfo/33vih/vih1.jpg",
     "images": [
-      "../style/img/Handinfo/33vih/vih2.jpg",
-      "../style/img/Handinfo/33vih/vih3.jpg",
-      "../style/img/Handinfo/33vih/vih4.jpg"
+      "../style/img/handinfo/33vih/vih2.jpg",
+      "../style/img/handinfo/33vih/vih3.jpg",
+      "../style/img/handinfo/33vih/vih4.jpg"
     ]
   },
   {
     "id": "modal34",
-    "thumbnail": "../style/img/Handinfo/34toc/toc1.jpg",
+    "thumbnail": "../style/img/handinfo/34toc/toc1.jpg",
     "images": [
-      "../style/img/Handinfo/34toc/toc2.jpg",
-      "../style/img/Handinfo/34toc/toc3.jpg",
-      "../style/img/Handinfo/34toc/toc4.jpg"
+      "../style/img/handinfo/34toc/toc2.jpg",
+      "../style/img/handinfo/34toc/toc3.jpg",
+      "../style/img/handinfo/34toc/toc4.jpg"
     ]
   },
   {
     "id": "modal35",
-    "thumbnail": "../style/img/Handinfo/35diabete/diab1.jpg",
+    "thumbnail": "../style/img/handinfo/35diabete/diab1.jpg",
     "images": [
-      "../style/img/Handinfo/35diabete/diab2.jpg",
-      "../style/img/Handinfo/35diabete/diab3.jpg",
-      "../style/img/Handinfo/35diabete/diab4.jpg"
+      "../style/img/handinfo/35diabete/diab2.jpg",
+      "../style/img/handinfo/35diabete/diab3.jpg",
+      "../style/img/handinfo/35diabete/diab4.jpg"
     ]
   },
   {
     "id": "modal36",
-    "thumbnail": "../style/img/Handinfo/36algievasculaire/avf1.jpg",
+    "thumbnail": "../style/img/handinfo/36algievasculaire/avf1.jpg",
     "images": [
-      "../style/img/Handinfo/36algievasculaire/avf2.jpg",
-      "../style/img/Handinfo/36algievasculaire/avf3.jpg",
-      "../style/img/Handinfo/36algievasculaire/avf4.jpg"
+      "../style/img/handinfo/36algievasculaire/avf2.jpg",
+      "../style/img/handinfo/36algievasculaire/avf3.jpg",
+      "../style/img/handinfo/36algievasculaire/avf4.jpg"
     ]
   },
   {
     "id": "modal37",
-    "thumbnail": "../style/img/Handinfo/37scoliose/scoliose1.jpg",
+    "thumbnail": "../style/img/handinfo/37scoliose/scoliose1.jpg",
     "images": [
-      "../style/img/Handinfo/37scoliose/scoliose2.jpgg",
-      "../style/img/Handinfo/37scoliose/scoliose3.jpg",
-      "../style/img/Handinfo/37scoliose/scoliose4.jpg"
+      "../style/img/handinfo/37scoliose/scoliose2.jpgg",
+      "../style/img/handinfo/37scoliose/scoliose3.jpg",
+      "../style/img/handinfo/37scoliose/scoliose4.jpg"
     ]
   },
   {
     "id": "modal38",
-    "thumbnail": "../style/img/Handinfo/38dyschromatopsie/dyschromatopsie1.jpg",
+    "thumbnail": "../style/img/handinfo/38dyschromatopsie/dyschromatopsie1.jpg",
     "images": [
-      "../style/img/Handinfo/38dyschromatopsie/dyschromatopsie2.jpg",
-      "../style/img/Handinfo/38dyschromatopsie/dyschromatopsie3.jpg",
-      "../style/img/Handinfo/38dyschromatopsie/dyschromatopsie4.jpg"
+      "../style/img/handinfo/38dyschromatopsie/dyschromatopsie2.jpg",
+      "../style/img/handinfo/38dyschromatopsie/dyschromatopsie3.jpg",
+      "../style/img/handinfo/38dyschromatopsie/dyschromatopsie4.jpg"
     ]
   },
   {
     "id": "modal39",
-    "thumbnail": "../style/img/Handinfo/39dyslexie/dyslexie1.jpg",
+    "thumbnail": "../style/img/handinfo/39dyslexie/dyslexie1.jpg",
     "images": [
-      "../style/img/Handinfo/39dyslexie/dyslexie2.jpg",
-      "../style/img/Handinfo/39dyslexie/dyslexie3.jpg",
-      "../style/img/Handinfo/39dyslexie/dyslexie4.jpg"
+      "../style/img/handinfo/39dyslexie/dyslexie2.jpg",
+      "../style/img/handinfo/39dyslexie/dyslexie3.jpg",
+      "../style/img/handinfo/39dyslexie/dyslexie4.jpg"
     ]
   },
   {
     "id": "modal40",
-    "thumbnail": "../style/img/Handinfo/40syndrometourette/tourette1.jpg",
+    "thumbnail": "../style/img/handinfo/40syndrometourette/tourette1.jpg",
     "images": [
-      "../style/img/Handinfo/40syndrometourette/tourette2.jpg",
-      "../style/img/Handinfo/40syndrometourette/tourette3.jpg",
-      "../style/img/Handinfo/40syndrometourette/tourette4.jpg"
+      "../style/img/handinfo/40syndrometourette/tourette2.jpg",
+      "../style/img/handinfo/40syndrometourette/tourette3.jpg",
+      "../style/img/handinfo/40syndrometourette/tourette4.jpg"
     ]
   },
   {
     "id": "modal41",
-    "thumbnail": "../style/img/Handinfo/41schizophrenie/schizo1.jpg",
+    "thumbnail": "../style/img/handinfo/41schizophrenie/schizo1.jpg",
     "images": [
-      "../style/img/Handinfo/41schizophrenie/schizo2.jpg",
-      "../style/img/Handinfo/41schizophrenie/schizo3.jpg",
-      "../style/img/Handinfo/41schizophrenie/schizo4.jpg"
+      "../style/img/handinfo/41schizophrenie/schizo2.jpg",
+      "../style/img/handinfo/41schizophrenie/schizo3.jpg",
+      "../style/img/handinfo/41schizophrenie/schizo4.jpg"
     ]
   },
   {
     "id": "modal42",
-    "thumbnail": "../style/img/Handinfo/42albinisme/albinos1.jpg",
+    "thumbnail": "../style/img/handinfo/42albinisme/albinos1.jpg",
     "images": [
-      "../style/img/Handinfo/42albinisme/albinos2.jpg",
-      "../style/img/Handinfo/42albinisme/albinos3.jpg",
-      "../style/img/Handinfo/42albinisme/albinos4.jpg"
+      "../style/img/handinfo/42albinisme/albinos2.jpg",
+      "../style/img/handinfo/42albinisme/albinos3.jpg",
+      "../style/img/handinfo/42albinisme/albinos4.jpg"
     ]
   },
   {
     "id": "modal43",
-    "thumbnail": "../style/img/Handinfo/43lupus/lupus1.jpg",
+    "thumbnail": "../style/img/handinfo/43lupus/lupus1.jpg",
     "images": [
-      "../style/img/Handinfo/43lupus/lupus2.jpg",
-      "../style/img/Handinfo/43lupus/lupus3.jpg",
-      "../style/img/Handinfo/43lupus/lupus4.jpg"
+      "../style/img/handinfo/43lupus/lupus2.jpg",
+      "../style/img/handinfo/43lupus/lupus3.jpg",
+      "../style/img/handinfo/43lupus/lupus4.jpg"
     ]
   },
   {
     "id": "modal44",
-    "thumbnail": "../style/img/Handinfo/44asthme/asthme1.jpg",
+    "thumbnail": "../style/img/handinfo/44asthme/asthme1.jpg",
     "images": [
-      "../style/img/Handinfo/44asthme/asthme2.jpg",
-      "../style/img/Handinfo/44asthme/asthme3.jpg",
-      "../style/img/Handinfo/44asthme/asthme4.jpg"
+      "../style/img/handinfo/44asthme/asthme2.jpg",
+      "../style/img/handinfo/44asthme/asthme3.jpg",
+      "../style/img/handinfo/44asthme/asthme4.jpg"
     ]
   },
   {
     "id": "modal45",
-    "thumbnail": "../style/img/Handinfo/45amblyopie/amblyopie1.jpg",
+    "thumbnail": "../style/img/handinfo/45amblyopie/amblyopie1.jpg",
     "images": [
-      "../style/img/Handinfo/45amblyopie/amblyopie2.jpg",
-      "../style/img/Handinfo/45amblyopie/amblyopie3.jpg",
-      "../style/img/Handinfo/45amblyopie/amblyopie4.jpg"
+      "../style/img/handinfo/45amblyopie/amblyopie2.jpg",
+      "../style/img/handinfo/45amblyopie/amblyopie3.jpg",
+      "../style/img/handinfo/45amblyopie/amblyopie4.jpg"
     ]
   },
   {
     "id": "modal46",
-    "thumbnail": "../style/img/Handinfo/46charcotsla/sla1.jpg",
+    "thumbnail": "../style/img/handinfo/46charcotsla/sla1.jpg",
     "images": [
-      "../style/img/Handinfo/46charcotsla/sla2.jpg",
-      "../style/img/Handinfo/46charcotsla/sla3.jpg",
-      "../style/img/Handinfo/46charcotsla/sla4.jpg"
+      "../style/img/handinfo/46charcotsla/sla2.jpg",
+      "../style/img/handinfo/46charcotsla/sla3.jpg",
+      "../style/img/handinfo/46charcotsla/sla4.jpg"
     ]
   },
   {
     "id": "modal47",
-    "thumbnail": "../style/img/Handinfo/47hepatite/hepatite1.jpg",
+    "thumbnail": "../style/img/handinfo/47hepatite/hepatite1.jpg",
     "images": [
-      "../style/img/Handinfo/47hepatite/hepatite2.jpg",
-      "../style/img/Handinfo/47hepatite/hepatite3.jpg",
-      "../style/img/Handinfo/47hepatite/hepatite4.jpg"
+      "../style/img/handinfo/47hepatite/hepatite2.jpg",
+      "../style/img/handinfo/47hepatite/hepatite3.jpg",
+      "../style/img/handinfo/47hepatite/hepatite4.jpg"
     ]
   },
   {
     "id": "modal48",
-    "thumbnail": "../style/img/Handinfo/48surdite/sourd1.jpg",
+    "thumbnail": "../style/img/handinfo/48surdite/sourd1.jpg",
     "images": [
-      "../style/img/Handinfo/48surdite/sourd2.jpg",
-      "../style/img/Handinfo/48surdite/sourd3.jpg",
-      "../style/img/Handinfo/48surdite/sourd4.jpg"
+      "../style/img/handinfo/48surdite/sourd2.jpg",
+      "../style/img/handinfo/48surdite/sourd3.jpg",
+      "../style/img/handinfo/48surdite/sourd4.jpg"
     ]
   },
   {
     "id": "modal49",
-    "thumbnail": "../style/img/Handinfo/49hodgkins/hodgkins1.jpg",
+    "thumbnail": "../style/img/handinfo/49hodgkins/hodgkins1.jpg",
     "images": [
-      "../style/img/Handinfo/49hodgkins/hodgkins2.jpg",
-      "../style/img/Handinfo/49hodgkins/hodgkins3.jpg",
-      "../style/img/Handinfo/49hodgkins/hodgkins4.jpg"
+      "../style/img/handinfo/49hodgkins/hodgkins2.jpg",
+      "../style/img/handinfo/49hodgkins/hodgkins3.jpg",
+      "../style/img/handinfo/49hodgkins/hodgkins4.jpg"
     ]
   },
   {
     "id": "modal50",
-    "thumbnail": "../style/img/Handinfo/50tmi/tmi1.jpg",
+    "thumbnail": "../style/img/handinfo/50tmi/tmi1.jpg",
     "images": [
-      "../style/img/Handinfo/50tmi/tmi2.jpg",
-      "../style/img/Handinfo/50tmi/tmi3.jpg",
-      "../style/img/Handinfo/50tmi/tmi4.jpg"
+      "../style/img/handinfo/50tmi/tmi2.jpg",
+      "../style/img/handinfo/50tmi/tmi3.jpg",
+      "../style/img/handinfo/50tmi/tmi4.jpg"
     ]
   },
   {
     "id": "modal51",
-    "thumbnail": "../style/img/Handinfo/51praderwilli/pw1.jpg",
+    "thumbnail": "../style/img/handinfo/51praderwilli/pw1.jpg",
     "images": [
-      "../style/img/Handinfo/51praderwilli/pw2.jpg",
-      "../style/img/Handinfo/51praderwilli/pw3.jpg",
-      "../style/img/Handinfo/51praderwilli/pw4.jpg"
+      "../style/img/handinfo/51praderwilli/pw2.jpg",
+      "../style/img/handinfo/51praderwilli/pw3.jpg",
+      "../style/img/handinfo/51praderwilli/pw4.jpg"
     ]
   },
   {
     "id": "modal52",
-    "thumbnail": "../style/img/Handinfo/52aphasie/aphasie1.jpg",
+    "thumbnail": "../style/img/handinfo/52aphasie/aphasie1.jpg",
     "images": [
-      "../style/img/Handinfo/52aphasie/aphasie2.jpg",
-      "../style/img/Handinfo/52aphasie/aphasie3.jpg",
-      "../style/img/Handinfo/52aphasie/aphasie4.jpg"
+      "../style/img/handinfo/52aphasie/aphasie2.jpg",
+      "../style/img/handinfo/52aphasie/aphasie3.jpg",
+      "../style/img/handinfo/52aphasie/aphasie4.jpg"
     ]
   },
   {
     "id": "modal53",
-    "thumbnail": "../style/img/Handinfo/53mdlyme/lyme1.jpg",
+    "thumbnail": "../style/img/handinfo/53mdlyme/lyme1.jpg",
     "images": [
-      "../style/img/Handinfo/53mdlyme/lyme2.jpg",
-      "../style/img/Handinfo/53mdlyme/lyme3.jpg",
-      "../style/img/Handinfo/53mdlyme/lyme4.jpg"
+      "../style/img/handinfo/53mdlyme/lyme2.jpg",
+      "../style/img/handinfo/53mdlyme/lyme3.jpg",
+      "../style/img/handinfo/53mdlyme/lyme4.jpg"
     ]
   },
   {
     "id": "modal54",
-    "thumbnail": "../style/img/Handinfo/54obesite/obesite1.jpg",
+    "thumbnail": "../style/img/handinfo/54obesite/obesite1.jpg",
     "images": [
-      "../style/img/Handinfo/54obesite/obesite2.jpg",
-      "../style/img/Handinfo/54obesite/obesite3.jpg",
-      "../style/img/Handinfo/54obesite/obesite4.jpg"
+      "../style/img/handinfo/54obesite/obesite2.jpg",
+      "../style/img/handinfo/54obesite/obesite3.jpg",
+      "../style/img/handinfo/54obesite/obesite4.jpg"
     ]
   },
   {
     "id": "modal55",
-    "thumbnail": "../style/img/Handinfo/55poliomyelite/polio1.jpg",
+    "thumbnail": "../style/img/handinfo/55poliomyelite/polio1.jpg",
     "images": [
-      "../style/img/Handinfo/55poliomyelite/polio2.jpg",
-      "../style/img/Handinfo/55poliomyelite/polio3.jpg",
-      "../style/img/Handinfo/55poliomyelite/polio4.jpg"
+      "../style/img/handinfo/55poliomyelite/polio2.jpg",
+      "../style/img/handinfo/55poliomyelite/polio3.jpg",
+      "../style/img/handinfo/55poliomyelite/polio4.jpg"
     ]
   }
 ]
