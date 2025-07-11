@@ -1,99 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'Handi Fun World</title>
-    <link rel="stylesheet" href="../style/css/header.css">
-    <link rel="stylesheet" href="../style/css/handinfo.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>L'Handi Fun World</title>
+  <link rel="stylesheet" href="../style/css/header.css">
+  <link rel="stylesheet" href="../style/css/handinfo.css">
 </head>
 <body>
-    <div class="header">
-        <h1 class="title">L'Handi Fun World</h1>
-        <div class="content_center">
-            <ul>
-                <li><a href="/accueil.html">Page d'accueil</a></li>
-                <li><a href="/equipe">L'équipe</a></li>
-                <li><a href="/funny">Funny</a></li>
-                <li><a href="/evenements">Évènements</a></li>
-                <li><a href="/handinfo">Handinfo</a></li>
-                <li><a href="/hnpw">Handi Newspaper World</a></li>
-                <li><a href="/storytime">Story Time</a></li>
-                <li><a href="/partenaires">Partenaires</a></li>
-            </ul>
-        </div>
+
+  <div class="header">
+    <h1 class="title">L'Handi Fun World</h1>
+    <div class="content_center">
+      <ul>
+        <li><a href="/accueil.html">Page d'accueil</a></li>
+        <li><a href="/equipe">L'équipe</a></li>
+        <li><a href="/funny">Funny</a></li>
+        <li><a href="/evenements">Évènements</a></li>
+        <li><a href="/handinfo">Handinfo</a></li>
+        <li><a href="/hnpw">Handi Newspaper World</a></li>
+        <li><a href="/storytime">Story Time</a></li>
+        <li><a href="/partenaires">Partenaires</a></li>
+      </ul>
     </div>
-    
-    <div id="modalsContainer"></div>
-    
- <script>
-fetch('./modales.json')
-  .then(response => response.json())
-  .then(data => {
-    const container = document.getElementById('modalsContainer');
+  </div>
 
-    data.forEach(modalData => {
-      // Crée le conteneur
-      const handinfo = document.createElement('div');
-      handinfo.className = 'handinfo-container';
+  <div id="modalsContainer"></div>
 
-      // Image miniature
-      const img = document.createElement('img');
-      img.src = modalData.thumbnail;
-      img.alt = 'miniature';
-      handinfo.appendChild(img);
+  <script>
+    fetch('./modales.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('modalsContainer');
 
-      // Bouton
-      const button = document.createElement('button');
-      button.textContent = 'Plus d\'informations';
-      button.dataset.modal = modalData.id;
-      handinfo.appendChild(button);
+        data.forEach(modalData => {
+          // Crée le conteneur de la carte
+          const handinfo = document.createElement('div');
+          handinfo.className = 'handinfo-container';
 
-      // Modale
-      const modal = document.createElement('div');
-      modal.className = 'modal';
-      modal.id = modalData.id;
+          // Image miniature
+          const img = document.createElement('img');
+          img.src = modalData.thumbnail;
+          img.alt = 'miniature';
+          handinfo.appendChild(img);
 
-      const modalContent = document.createElement('div');
-      modalContent.className = 'modal-content';
+          // Bouton
+          const button = document.createElement('button');
+          button.textContent = 'Plus d\'informations';
+          button.dataset.modal = modalData.id;
+          handinfo.appendChild(button);
 
-      const close = document.createElement('span');
-      close.className = 'close';
-      close.innerHTML = '&times;';
-      modalContent.appendChild(close);
+          // Ajoute la carte au container
+          container.appendChild(handinfo);
 
-      modalData.images.forEach(imgSrc => {
-        const modalImg = document.createElement('img');
-        modalImg.src = imgSrc;
-        modalImg.alt = 'handicap';
-        modalContent.appendChild(modalImg);
+          // Crée la modale (placée en dehors du container)
+          const modal = document.createElement('div');
+          modal.className = 'modal';
+          modal.id = modalData.id;
+
+          const modalContent = document.createElement('div');
+          modalContent.className = 'modal-content';
+
+          const close = document.createElement('span');
+          close.className = 'close';
+          close.innerHTML = '&times;';
+          modalContent.appendChild(close);
+
+          modalData.images.forEach(imgSrc => {
+            const modalImg = document.createElement('img');
+            modalImg.src = imgSrc;
+            modalImg.alt = 'image';
+            modalContent.appendChild(modalImg);
+          });
+
+          modal.appendChild(modalContent);
+          document.body.appendChild(modal); // ← Ajoute la modale dans le <body>, pas dans le grid
+
+          // Ouvre la modale
+          button.addEventListener('click', () => {
+            modal.style.display = 'flex';
+          });
+
+          // Ferme la modale
+          close.addEventListener('click', () => {
+            modal.style.display = 'none';
+          });
+
+          window.addEventListener('click', e => {
+            if (e.target === modal) {
+              modal.style.display = 'none';
+            }
+          });
+        });
       });
-
-      modal.appendChild(modalContent);
-      container.appendChild(handinfo);
-      container.appendChild(modal);
-
-      // Ouvrir la modale
-      button.addEventListener('click', () => {
-        modal.style.display = 'flex'; // Important si tu utilises justify-content
-      });
-
-      // Fermer la modale
-      close.addEventListener('click', () => {
-        modal.style.display = 'none';
-      });
-
-      // Fermer en cliquant à l'extérieur
-      window.addEventListener('click', e => {
-        if (e.target === modal) {
-          modal.style.display = 'none';
-        }
-      });
-    });
-  });
-</script>
-
+  </script>
 
 </body>
-    
 </html>

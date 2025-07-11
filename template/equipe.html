@@ -29,7 +29,7 @@
     </div>
 
     <script>
-        fetch('/api/equipe')
+        fetch('./team.json')
     .then(response => response.json())
     .then(data => {
         const teamContainer = document.getElementById('team-container');
