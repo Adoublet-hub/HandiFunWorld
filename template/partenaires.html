@@ -14,20 +14,58 @@
         <h1 class="title">L'Handi Fun World</h1>
         <div class="content_center">
             <ul>
-  <li><a href="/HandiFunWorld/index.html">Page d'accueil</a></li>
-  <li><a href="/HandiFunWorld/template/equipe.html">L'équipe</a></li>
-  <li><a href="/HandiFunWorld/template/funny.html">Funny</a></li>
-  <li><a href="/HandiFunWorld/template/evenements.html">Évènements</a></li>
-  <li><a href="/HandiFunWorld/template/handinfo.html">Handinfo</a></li>
-  <li><a href="/HandiFunWorld/template/hnpw.html">Handi Newspaper World</a></li>
-  <li><a href="/HandiFunWorld/template/storytime.html">Story Time</a></li>
-  <li><a href="/HandiFunWorld/template/partenaires.html">Partenaires</a></li>
-</ul>
-
-
+                <li><a href="/HandiFunWorld/index.html">Page d'accueil</a></li>
+                <li><a href="/HandiFunWorld/template/equipe.html">L'équipe</a></li>
+                <li><a href="/HandiFunWorld/template/funny.html">Funny</a></li>
+                <li><a href="/HandiFunWorld/template/evenements.html">Évènements</a></li>
+                <li><a href="/HandiFunWorld/template/handinfo.html">Handinfo</a></li>
+                <li><a href="/HandiFunWorld/template/hnpw.html">Handi Newspaper World</a></li>
+                <li><a href="/HandiFunWorld/template/storytime.html">Story Time</a></li>
+                <li><a href="/HandiFunWorld/template/partenaires.html">Partenaires</a></li>
+            </ul>
         </div>
-        <h1>test6</h1>
     </div>
+    <div class="scene">
+  <div class="cube" id="cube">
+    <div class="face front" data-info="Partenaire A">A</div>
+    <div class="face back" data-info="Partenaire B">B</div>
+    <div class="face right" data-info="Partenaire C">C</div>
+    <div class="face left" data-info="Partenaire D">D</div>
+    <div class="face top" data-info="Partenaire E">E</div>
+    <div class="face bottom" data-info="Partenaire F">F</div>
+  </div>
+</div>
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <p id="popup-text"></p>
+  </div>
+</div>
+<script>
+  const faces = document.querySelectorAll('.face');
+  const popup = document.getElementById('popup');
+  const popupText = document.getElementById('popup-text');
+  const closeBtn = document.querySelector('.close');
+
+  faces.forEach(face => {
+    face.addEventListener('click', () => {
+      popupText.textContent = face.dataset.info;
+      popup.style.display = 'flex';
+    });
+  });
+
+  closeBtn.addEventListener('click', () => {
+    popup.style.display = 'none';
+  });
+
+  window.addEventListener('click', e => {
+    if (e.target === popup) {
+      popup.style.display = 'none';
+    }
+  });
+</script>
+
 </body>
 
 </html>
