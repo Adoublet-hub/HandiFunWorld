@@ -31,6 +31,20 @@
 .top    { transform: rotateX(90deg) translateZ(100px); }
 .bottom { transform: rotateX(-90deg) translateZ(100px); }
 
+.face.front {
+  background-image: url('/HandiFunWorld/style/img/partenaires/logo_crazy.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.face.back {
+  background-image: url('/HandiFunWorld/style/img/partenaires/partenaireB.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* idem pour left, right, top, bottom */
+
 
 /* Popup */
 .popup {
