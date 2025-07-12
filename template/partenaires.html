@@ -42,15 +42,19 @@
     <p id="popup-text"></p>
   </div>
 </div>
+
 <script>
+  const cube = document.querySelector('.cube');
   const faces = document.querySelectorAll('.face');
   const popup = document.getElementById('popup');
   const popupText = document.getElementById('popup-text');
   const closeBtn = document.querySelector('.close');
 
+  // Pop-up logique
   faces.forEach(face => {
     face.addEventListener('click', () => {
-      popupText.textContent = face.dataset.info;
+      popup.className = 'popup'; // reset classes
+      popup.classList.add(face.dataset.popup); // ex: "popup front"
       popup.style.display = 'flex';
     });
   });
@@ -65,37 +69,84 @@
     }
   });
 
-    const cube = document.querySelector('.cube');
-    let isDragging = false;
-    let previousX, previousY;
-    let rotateX = 0, rotateY = 0;
+  // Rotation logique
+  let rotateX = 0, rotateY = 0;
+  let isDragging = false;
+  let autoRotate = true;
+  let previousX, previousY;
 
-    cube.addEventListener('mousedown', (e) => {
-        isDragging = true;
-        previousX = e.clientX;
-        previousY = e.clientY;
-    });
+  let lastInteraction = Date.now();
+  const idleDelay = 1000; // 5s sans interaction = redémarrer rotation
 
-    document.addEventListener('mousemove', (e) => {
-        if (!isDragging) return;
+  function animateCube() {
+    if (autoRotate && Date.now() - lastInteraction > idleDelay) {
+      rotateY += 0.3;
+      rotateX += 0.1;
+      updateTransform();
+    }
+    requestAnimationFrame(animateCube);
+  }
 
-        const deltaX = e.clientX - previousX;
-        const deltaY = e.clientY - previousY;
+  function updateTransform() {
+    cube.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+  }
 
-        rotateY += deltaX * 0.5;
-        rotateX -= deltaY * 0.5;
+  // Souris (desktop)
+  cube.addEventListener('mousedown', e => {
+    isDragging = true;
+    autoRotate = false;
+    lastInteraction = Date.now();
+    previousX = e.clientX;
+    previousY = e.clientY;
+  });
 
-        cube.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+  document.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+    const deltaX = e.clientX - previousX;
+    const deltaY = e.clientY - previousY;
+    rotateY += deltaX * 0.5;
+    rotateX -= deltaY * 0.5;
+    updateTransform();
+    previousX = e.clientX;
+    previousY = e.clientY;
+  });
 
-        previousX = e.clientX;
-        previousY = e.clientY;
-    });
+  document.addEventListener('mouseup', () => {
+    isDragging = false;
+    lastInteraction = Date.now();
+  });
 
-    document.addEventListener('mouseup', () => {
-        isDragging = false;
-    });
+  // Tactile (mobile)
+  cube.addEventListener('touchstart', e => {
+    isDragging = true;
+    autoRotate = false;
+    lastInteraction = Date.now();
+    const touch = e.touches[0];
+    previousX = touch.clientX;
+    previousY = touch.clientY;
+  });
 
+  cube.addEventListener('touchmove', e => {
+    if (!isDragging) return;
+    const touch = e.touches[0];
+    const deltaX = touch.clientX - previousX;
+    const deltaY = touch.clientY - previousY;
+    rotateY += deltaX * 0.5;
+    rotateX -= deltaY * 0.5;
+    updateTransform();
+    previousX = touch.clientX;
+    previousY = touch.clientY;
+  });
+
+  cube.addEventListener('touchend', () => {
+    isDragging = false;
+    lastInteraction = Date.now();
+  });
+
+  // Lancer l'animation automatique
+  animateCube();
 </script>
+
 
 </body>
 
