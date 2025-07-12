@@ -76,7 +76,7 @@
   let previousX, previousY;
 
   let lastInteraction = Date.now();
-  const idleDelay = 1000; // 5s sans interaction = redémarrer rotation
+  const idleDelay = 100; // 5s sans interaction = redémarrer rotation
 
   function animateCube() {
     if (autoRotate && Date.now() - lastInteraction > idleDelay) {
@@ -104,8 +104,8 @@
     if (!isDragging) return;
     const deltaX = e.clientX - previousX;
     const deltaY = e.clientY - previousY;
-    rotateY += deltaX * 0.5;
-    rotateX -= deltaY * 0.5;
+    rotateY += deltaX * 1;
+    rotateX -= deltaY * 1;
     updateTransform();
     previousX = e.clientX;
     previousY = e.clientY;
@@ -131,8 +131,8 @@
     const touch = e.touches[0];
     const deltaX = touch.clientX - previousX;
     const deltaY = touch.clientY - previousY;
-    rotateY += deltaX * 0.5;
-    rotateX -= deltaY * 0.5;
+    rotateY += deltaX * 1;
+    rotateX -= deltaY * 1;
     updateTransform();
     previousX = touch.clientX;
     previousY = touch.clientY;
