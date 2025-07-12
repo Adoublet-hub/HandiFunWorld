@@ -38,12 +38,28 @@
 }
 
 .face.back {
-  background-image: url('/HandiFunWorld/style/img/partenaires/partenaireB.png');
+  background-image: url('/HandiFunWorld/style/img/partenaires/logo_dragaura.png');
   background-size: cover;
   background-position: center;
 }
 
-/* idem pour left, right, top, bottom */
+.face.right {
+  background-image: url('/HandiFunWorld/style/img/partenaires/logo_elixirs.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.face.left {
+  background-image: url('/HandiFunWorld/style/img/partenaires/logo_heavijio.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.face.top {
+  background-image: url('/HandiFunWorld/style/img/partenaires/logo_pandemonium');
+  background-size: cover;
+  background-position: center;
+}
 
 
 /* Popup */
