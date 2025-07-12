@@ -10,7 +10,6 @@
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  animation: rotate 10s infinite linear;
 }
 
 .face {
@@ -32,10 +31,6 @@
 .top    { transform: rotateX(90deg) translateZ(100px); }
 .bottom { transform: rotateX(-90deg) translateZ(100px); }
 
-@keyframes rotate {
-  from { transform: rotateX(0deg) rotateY(0deg); }
-  to   { transform: rotateX(360deg) rotateY(360deg); }
-}
 
 /* Popup */
 .popup {
