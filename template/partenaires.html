@@ -1,158 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'Handi Fun World</title>
-    <link rel="stylesheet" href="/HandiFunWorld/style/css/header.css">
-    <link rel="stylesheet" href="/HandiFunWorld/style/css/partenaires.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Partenaires – L'Handi Fun World</title>
+  <link rel="stylesheet" href="/HandiFunWorld/style/css/header.css" />
+  <link rel="stylesheet" href="/HandiFunWorld/style/css/partenaires.css" />
 </head>
-
 <body>
-    <div class="header">
-        <h1 class="title">L'Handi Fun World</h1>
-        <div class="content_center">
-            <ul>
-                <li><a href="/HandiFunWorld/index.html">Page d'accueil</a></li>
-                <li><a href="/HandiFunWorld/template/equipe.html">L'équipe</a></li>
-                <li><a href="/HandiFunWorld/template/funny.html">Funny</a></li>
-                <li><a href="/HandiFunWorld/template/evenements.html">Évènements</a></li>
-                <li><a href="/HandiFunWorld/template/handinfo.html">Handinfo</a></li>
-                <li><a href="/HandiFunWorld/template/hnpw.html">Handi Newspaper World</a></li>
-                <li><a href="/HandiFunWorld/template/storytime.html">Story Time</a></li>
-                <li><a href="/HandiFunWorld/template/partenaires.html">Partenaires</a></li>
-            </ul>
-        </div>
+  <div class="header">
+    <h1 class="title">L'Handi Fun World</h1>
+    <div class="content_center">
+      <ul>
+        <li><a href="/HandiFunWorld/index.html">Page d'accueil</a></li>
+        <li><a href="/HandiFunWorld/template/equipe.html">L'équipe</a></li>
+        <li><a href="/HandiFunWorld/template/funny.html">Funny</a></li>
+        <li><a href="/HandiFunWorld/template/evenements.html">Évènements</a></li>
+        <li><a href="/HandiFunWorld/template/handinfo.html">Handinfo</a></li>
+        <li><a href="/HandiFunWorld/template/hnpw.html">Handi Newspaper World</a></li>
+        <li><a href="/HandiFunWorld/template/storytime.html">Story Time</a></li>
+        <li><a href="/HandiFunWorld/template/partenaires.html">Partenaires</a></li>
+      </ul>
     </div>
-    <div class="scene">
-  <div class="cube" id="cube">
-    <div class="face front" data-info="Partenaire A"></div>
-    <div class="face back" data-info="Partenaire B"></div>
-    <div class="face right" data-info="Partenaire C"></div>
-    <div class="face left" data-info="Partenaire D"></div>
-    <div class="face top" data-info="Partenaire E"></div>
-    <div class="face bottom" data-info="Partenaire F"></div>
   </div>
-</div>
 
-<div id="popup" class="popup front">
-  <div class="popup-content">
-    <span class="close">&times;</span>
+  <div class="scene">
+    <div class="cube">
+      <div class="face front">A</div>
+      <div class="face back">B</div>
+      <div class="face left">C</div>
+      <div class="face right">D</div>
+      <div class="face top">E</div>
+      <div class="face bottom">F</div>
+    </div>
   </div>
-</div>
 
+  <!-- POPUP -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+    </div>
+  </div>
 
-<script>
-  const cube = document.querySelector('.cube');
-  const faces = document.querySelectorAll('.face');
-  const popup = document.getElementById('popup');
-  const popupText = document.getElementById('popup-text');
-  const closeBtn = document.querySelector('.close');
-
-  // Pop-up logique
-  faces.forEach(face => {
-  face.addEventListener('click', () => {
-    popup.className = 'popup ' + face.classList.contains('front') ? 'front' :
-                  face.classList.contains('back') ? 'back' :
-                  face.classList.contains('left') ? 'left' :
-                  face.classList.contains('right') ? 'right' :
-                  face.classList.contains('top') ? 'top' :
-                  face.classList.contains('bottom') ? 'bottom' : '';
-    popup.style.display = 'flex';
-  });
-});
-
-
-  closeBtn.addEventListener('click', () => {
-    popup.style.display = 'none';
-  });
-
-  window.addEventListener('click', e => {
-    if (e.target === popup) {
-      popup.style.display = 'none';
-    }
-  });
-
-  // Rotation logique
-  let rotateX = 0, rotateY = 0;
-  let isDragging = false;
-  let autoRotate = true;
-  let previousX, previousY;
-
-  let lastInteraction = Date.now();
-  const idleDelay = 100; // 5s sans interaction = redémarrer rotation
-
-  function animateCube() {
-    if (autoRotate && Date.now() - lastInteraction > idleDelay) {
-      rotateY += 0.3;
-      rotateX += 0.1;
-      updateTransform();
-    }
-    requestAnimationFrame(animateCube);
-  }
-
-  function updateTransform() {
-    cube.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-  }
-
-  // Souris (desktop)
-  cube.addEventListener('mousedown', e => {
-    isDragging = true;
-    autoRotate = false;
-    lastInteraction = Date.now();
-    previousX = e.clientX;
-    previousY = e.clientY;
-  });
-
-  document.addEventListener('mousemove', e => {
-    if (!isDragging) return;
-    const deltaX = e.clientX - previousX;
-    const deltaY = e.clientY - previousY;
-    rotateY += deltaX * 1;
-    rotateX -= deltaY * 1;
-    updateTransform();
-    previousX = e.clientX;
-    previousY = e.clientY;
-  });
-
-  document.addEventListener('mouseup', () => {
-    isDragging = false;
-    lastInteraction = Date.now();
-  });
-
-  // Tactile (mobile)
-  cube.addEventListener('touchstart', e => {
-    isDragging = true;
-    autoRotate = false;
-    lastInteraction = Date.now();
-    const touch = e.touches[0];
-    previousX = touch.clientX;
-    previousY = touch.clientY;
-  });
-
-  cube.addEventListener('touchmove', e => {
-    if (!isDragging) return;
-    const touch = e.touches[0];
-    const deltaX = touch.clientX - previousX;
-    const deltaY = touch.clientY - previousY;
-    rotateY += deltaX * 1;
-    rotateX -= deltaY * 1;
-    updateTransform();
-    previousX = touch.clientX;
-    previousY = touch.clientY;
-  });
-
-  cube.addEventListener('touchend', () => {
-    isDragging = false;
-    lastInteraction = Date.now();
-  });
-
-  // Lancer l'animation automatique
-  animateCube();
-</script>
-
-
+  <script src="/HandiFunWorld/script/partenaires.js"></script>
 </body>
-
 </html>
