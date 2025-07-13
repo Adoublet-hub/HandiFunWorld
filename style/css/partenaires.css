@@ -23,12 +23,12 @@
 }
 
 /* Faces avec image de fond */
-.front  { transform: rotateY(  0deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/crazy.jpg'); }
+/* .front  { transform: rotateY(  0deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/crazy.jpg'); }
 .back   { transform: rotateY(180deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/dragaura.jpg'); }
 .left   { transform: rotateY(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/elixir.jpg'); }
 .right  { transform: rotateY( 90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/heavijio.jpg'); }
 .top    { transform: rotateX( 90deg) translateZ(100px); background-color: #222; }
-.bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/pandemonium.jpg'); }
+.bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/pandemonium.jpg'); } */
 
 .popup {
   display: none;
