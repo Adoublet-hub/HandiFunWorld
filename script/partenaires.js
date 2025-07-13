@@ -11,7 +11,7 @@
   let previousX, previousY;
 
   let lastInteraction = Date.now();
-  const idleDelay = 1000; // 5 secondes d'inactivité = reprise rotation auto
+  const idleDelay = 500; // 5 secondes d'inactivité = reprise rotation auto
 
   function updateTransform() {
     cube.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
@@ -19,8 +19,8 @@
 
   function animateCube() {
     if (autoRotate && Date.now() - lastInteraction > idleDelay) {
-      rotateY += 0.3;
-      rotateX += 0.1;
+      rotateY += 0.7;
+      rotateX += 0.5;
       updateTransform();
     }
     requestAnimationFrame(animateCube);
