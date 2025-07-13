@@ -24,11 +24,11 @@
 
 /* Faces avec image de fond */
 .face.front  { transform: rotateY(  0deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_crazy.jpg'); }
-.face.back   { transform: rotateY(180deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_dragaura.jpg'); }
-.face.left   { transform: rotateY(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_elixir.jpg'); }
+.face.back   { transform: rotateY(180deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_dragaura.png'); }
+.face.left   { transform: rotateY(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_elixirs.jpg'); }
 .face.right  { transform: rotateY( 90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_heavijio.jpg'); }
 .face.top    { transform: rotateX( 90deg) translateZ(100px); background-color: #222; }
-.face.bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_pandemonium.jpg'); }
+.face.bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_pandemonium.png'); }
 
 .popup {
   display: none;
