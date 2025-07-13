@@ -55,6 +55,7 @@ faces.forEach(face => {
      if (direction) {
       popup.classList.add(direction);
       console.log('Clicked face class:', direction); // Debug
+      console.log(popup)
     }
     popup.style.display = 'flex';
   });
