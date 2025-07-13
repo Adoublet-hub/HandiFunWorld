@@ -94,6 +94,7 @@
 
 .popup.back .popup-content {
   background-image: url('/HandiFunWorld/style/img/partenaires/dragaura.jpg');
+   transform: scaleX(-1)
 }
 
 .popup.left .popup-content {
