@@ -23,35 +23,32 @@
 }
 
 /* Faces avec image de fond */
-.face.front  { transform: rotateY(  0deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/crazy.jpg'); }
-.face.back   { transform: rotateY(180deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/dragaura.jpg'); }
-.face.left   { transform: rotateY(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/elixir.jpg'); }
-.face.right  { transform: rotateY( 90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/heavijio.jpg'); }
+.face.front  { transform: rotateY(  0deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_crazy.jpg'); }
+.face.back   { transform: rotateY(180deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_dragaura.jpg'); }
+.face.left   { transform: rotateY(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_elixir.jpg'); }
+.face.right  { transform: rotateY( 90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_heavijio.jpg'); }
 .face.top    { transform: rotateX( 90deg) translateZ(100px); background-color: #222; }
-.face.bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/pandemonium.jpg'); }
+.face.bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_pandemonium.jpg'); }
 
-.popup {
-  display: none;
-  position: fixed;
-  z-index: 10;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6); /* fond foncé */
+.popup-content {
+  max-width: 90vw;
+  max-height: 90vh;
+  background: none;
+  padding: 0;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #000;
+  position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.popup-content {
-  width: 60%;
-  height: 60%;
-  background-size: cover;
-  background-position: center;
+.popup-content img {
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 15px;
-  box-shadow: 0 0 20px #000;
-  position: relative;
 }
+
 
 /* Bouton de fermeture */
 .popup .close {

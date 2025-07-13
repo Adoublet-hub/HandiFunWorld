@@ -44,22 +44,49 @@ cube.addEventListener('touchmove', (e) => {
 });
 cube.addEventListener('touchend', () => isDragging = false);
 
+// Images associées à chaque face
+const faceToImage = {
+  front: 'crazy.jpg',
+  back: 'dragaura.jpg',
+  left: 'elixir.jpg',
+  right: 'heavijio.jpg',
+  bottom: 'pandemonium.jpg',
+  top: null // Pas d'image pour top
+};
+
 // Pop-up
 faces.forEach(face => {
   face.addEventListener('click', () => {
-    // Nettoyer anciennes classes
     popup.className = 'popup';
+
     const direction = Array.from(face.classList).find(cls =>
       ['front', 'back', 'left', 'right', 'top', 'bottom'].includes(cls)
     );
-     if (direction) {
+
+    if (direction) {
       popup.classList.add(direction);
-      console.log('Clicked face class:', direction); // Debug
-      console.log(popup)
+      console.log('Clicked face class:', direction);
+
+      // Réinitialiser le contenu du popup
+      popupContent.innerHTML = '<span class="close">&times;</span>';
+
+      const imgName = faceToImage[direction];
+      if (imgName) {
+        const img = document.createElement('img');
+        img.src = `/HandiFunWorld/style/img/partenaires/${imgName}`;
+        img.alt = direction;
+        img.style.maxWidth = '100%';
+        img.style.maxHeight = '100%';
+        img.style.borderRadius = '15px';
+        popupContent.appendChild(img);
+      }
+
+      popup.style.display = 'flex';
     }
-    popup.style.display = 'flex';
   });
 });
+
+// Fermer le popup
 closeBtn.addEventListener('click', () => {
   popup.style.display = 'none';
 });
