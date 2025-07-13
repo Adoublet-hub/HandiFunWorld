@@ -53,7 +53,12 @@
   // Pop-up logique
   faces.forEach(face => {
   face.addEventListener('click', () => {
-    popup.className = 'popup ' + face.classList[1]; // Ajoute 'front', 'back', etc.
+    popup.className = 'popup ' + face.classList.contains('front') ? 'front' :
+                  face.classList.contains('back') ? 'back' :
+                  face.classList.contains('left') ? 'left' :
+                  face.classList.contains('right') ? 'right' :
+                  face.classList.contains('top') ? 'top' :
+                  face.classList.contains('bottom') ? 'bottom' : '';
     popup.style.display = 'flex';
   });
 });
