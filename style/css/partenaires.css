@@ -44,8 +44,8 @@
 }
 
 .popup-content {
-  width: 300px; /* largeur fixe */
-  height: 450px; /* hauteur adaptée au portrait */
+  width: 400px; /* largeur fixe */
+  height: 550px; /* hauteur adaptée au portrait */
   background-size: contain; /* optionnel : 'contain' garde le ratio sans crop */
   background-position: center;
   background-repeat: no-repeat;
