@@ -52,7 +52,10 @@ faces.forEach(face => {
     const direction = Array.from(face.classList).find(cls =>
       ['front', 'back', 'left', 'right', 'top', 'bottom'].includes(cls)
     );
-    if (direction) popup.classList.add(direction);
+     if (direction) {
+      popup.classList.add(direction);
+      console.log('Clicked face class:', direction); // Debug
+    }
     popup.style.display = 'flex';
   });
 });
