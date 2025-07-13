@@ -89,19 +89,19 @@
 
 /* Personnalisation des fonds selon la face */
 .popup.front .popup-content {
-  background-image: url('../style/img/partenaires/crazy.jpg');
+  background-image: url('/HandiFunWorld/style/img/partenaires/crazy.jpg');
 }
 
 .popup.back .popup-content {
-  background-image: url('../style/img/partenaires/dragaura.jpg');
+  background-image: url('/HandiFunWorld/style/img/partenaires/dragaura.jpg');
 }
 
 .popup.left .popup-content {
-  background-image: url('../style/img/partenaires/elixir.jpg');
+  background-image: url('/HandiFunWorld/style/img/partenaires/elixir.jpg');
 }
 
 .popup.right .popup-content {
-  background-image: url('../style/img/partenaires/heavijio.jpg');
+  background-image: url('/HandiFunWorld/style/img/partenaires/heavijio.jpg');
 }
 
 .popup.top .popup-content {
@@ -109,7 +109,7 @@
 }
 
 .popup.bottom .popup-content {
-  background-image: url('../style/img/partenaires/pandemonium.jpg');
+  background-image: url('/HandiFunWorld/style/img/partenaires/pandemonium.jpg');
 }
 
 .close {
