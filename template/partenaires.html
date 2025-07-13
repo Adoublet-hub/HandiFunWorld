@@ -36,12 +36,12 @@
   </div>
 </div>
 
-<div id="popup" class="popup">
+<div id="popup" class="popup front">
   <div class="popup-content">
     <span class="close">&times;</span>
-    <p id="popup-text"></p>
   </div>
 </div>
+
 
 <script>
   const cube = document.querySelector('.cube');
@@ -52,12 +52,12 @@
 
   // Pop-up logique
   faces.forEach(face => {
-    face.addEventListener('click', () => {
-      popup.className = 'popup'; // reset classes
-      popup.classList.add(face.dataset.popup); // ex: "popup front"
-      popup.style.display = 'flex';
-    });
+  face.addEventListener('click', () => {
+    popup.className = 'popup ' + face.classList[1]; // Ajoute 'front', 'back', etc.
+    popup.style.display = 'flex';
   });
+});
+
 
   closeBtn.addEventListener('click', () => {
     popup.style.display = 'none';
