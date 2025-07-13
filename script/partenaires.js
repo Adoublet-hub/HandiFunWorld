@@ -104,4 +104,3 @@
       popup.style.display = 'none';
     }
   });
-</script>
