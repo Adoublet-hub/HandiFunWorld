@@ -44,14 +44,16 @@
 }
 
 .popup-content {
-  width: 60%;
-  height: 60%;
-  background-size: cover;
+  width: 300px; /* largeur fixe */
+  height: 450px; /* hauteur adaptée au portrait */
+  background-size: contain; /* optionnel : 'contain' garde le ratio sans crop */
   background-position: center;
+  background-repeat: no-repeat;
   border-radius: 15px;
   box-shadow: 0 0 20px #000;
   position: relative;
 }
+
 
 /* Bouton de fermeture */
 .popup .close {
