@@ -1,10 +1,19 @@
-.partner-card {
-  perspective: 1000px;
-  width: 300px; /* largeur carte */
-  height: 400px; /* hauteur carte */
+.partners-container {
+  display: flex;
+  flex-wrap: wrap; /* pour passer à la ligne si nécessaire */
+  justify-content: center; /* centre horizontalement */
+  gap: 30px; /* espace entre les cartes */
+  padding: 30px 0; /* un peu d'espace en haut et bas */
 }
 
-/* Pour le flip */
+.partner-card {
+  perspective: 1000px;
+  width: 250px; /* largeur carte */
+  height: 350px; /* hauteur carte */
+  margin: 10px; /* marge supplémentaire autour de chaque carte */
+}
+
+/* Flip */
 .card-inner {
   position: relative;
   width: 100%;
@@ -13,7 +22,6 @@
   transform-style: preserve-3d;
 }
 
-/* Flip quand class flipped ajoutée */
 .partner-card.flipped .card-inner {
   transform: rotateY(180deg);
 }
@@ -26,7 +34,7 @@
   backface-visibility: hidden;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25); /* un peu plus de profondeur */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,26 +44,28 @@
 
 /* --- Face avant --- */
 .card-front img {
-  max-width: 80px; /* taille logo réduite, ajustable */
-  max-height: 80px; /* taille logo réduite, ajustable */
+  max-width: 100px; /* ajustable */
+  max-height: 100px;
   margin-bottom: 15px;
 }
 
 .card-front h2 {
   margin: 10px 0;
   color: #004AAD;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .card-front p {
   padding: 0 15px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   text-align: center;
   flex: 1;
 }
 
 .card-front button {
-  margin: 15px;
-  padding: 8px 16px;
+  margin: 10px 0;
+  padding: 10px 20px;
   border: none;
   background: #004AAD;
   color: white;
@@ -72,17 +82,19 @@
 .card-back {
   transform: rotateY(180deg);
   background: #000;
+  color: white;
 }
 
 .card-back img {
-  width: 100%;      /* taille image descriptive */
-  height: 100%;     /* ajustable si besoin */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .card-back button {
-  margin: 15px;
-  padding: 8px 16px;
+  margin: 10px 0;
+  padding: 10px 20px;
   border: none;
   background: #004AAD;
   color: white;
