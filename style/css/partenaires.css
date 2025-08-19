@@ -1,88 +1,85 @@
-/* Positionnement cube */
-.scene {
-  width: 200px;
-  height: 200px;
-  margin: 100px auto;
-  perspective: 800px;
+.partners-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  padding: 50px;
 }
-.cube {
+
+.partner-card {
+  perspective: 1000px;
+  width: 300px;
+  height: 400px;
+}
+
+.card-inner {
+  position: relative;
   width: 100%;
   height: 100%;
-  position: relative;
+  transition: transform 0.8s;
   transform-style: preserve-3d;
-  transition: transform 0.5s ease;
 }
-.face {
+
+.partner-card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;
-  cursor: pointer;
-}
-
-/* Faces avec image de fond */
-.face.front  { transform: rotateY(  0deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_crazy.jpg'); }
-.face.back   { transform: rotateY(180deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_dragaura.png'); }
-.face.left   { transform: rotateY(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_elixirs.jpg'); }
-.face.right  { transform: rotateY( 90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_heavijio.jpg'); }
-.face.top    { transform: rotateX( 90deg) translateZ(100px); background-color: #222; }
-.face.bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('/HandiFunWorld/style/img/partenaires/logo_pandemonium.png'); }
-
-.popup {
-  display: none;
-  position: fixed;
-  z-index: 10;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6); /* fond foncé */
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: white;
 }
 
-.popup-content {
-  width: 550px; /* largeur fixe */
-  height: 700px; /* hauteur adaptée au portrait */
-  background-size: contain; /* optionnel : 'contain' garde le ratio sans crop */
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  box-shadow: 0 0 20px #000;
-  position: relative;
+.card-front img {
+  max-width: 120px;
+  margin-bottom: 15px;
 }
 
+.card-front h2 {
+  margin: 10px 0;
+  color: #004AAD;
+}
 
-/* Bouton de fermeture */
-.popup .close {
-  position: absolute;
-  top: 15px;
-  right: 25px;
-  font-size: 30px;
-  font-weight: bold;
+.card-front p {
+  padding: 0 15px;
+  font-size: 0.9rem;
+  text-align: center;
+  flex: 1;
+}
+
+.card-front button,
+.card-back button {
+  margin: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #004AAD;
   color: white;
+  border-radius: 8px;
   cursor: pointer;
-  z-index: 11;
+  transition: background 0.3s;
 }
 
-/* Styles pour chaque face */
-.popup.front .popup-content {
-  background-image: url('/HandiFunWorld/style/img/partenaires/crazy.jpg');
+.card-front button:hover,
+.card-back button:hover {
+  background: #003080;
 }
-.popup.back .popup-content {
-  background-image: url('/HandiFunWorld/style/img/partenaires/dragaura.jpg');
+
+.card-back {
+  transform: rotateY(180deg);
+  background: #000;
 }
-.popup.left .popup-content {
-  background-image: url('/HandiFunWorld/style/img/partenaires/elixir.jpg');
-}
-.popup.right .popup-content {
-  background-image: url('/HandiFunWorld/style/img/partenaires/heavijio.jpg');
-}
-.popup.bottom .popup-content {
-  background-image: url('/HandiFunWorld/style/img/partenaires/pandemonium.jpg');
-}
-.popup.top .popup-content {
-  background-color: #000; /* temporaire */
+
+.card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
