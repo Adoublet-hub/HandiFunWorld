@@ -1,17 +1,10 @@
-.partners-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  justify-items: center;
-  padding: 50px;
-}
-
 .partner-card {
   perspective: 1000px;
-  width: 300px;
-  height: 400px;
+  width: 300px; /* largeur carte */
+  height: 400px; /* hauteur carte */
 }
 
+/* Pour le flip */
 .card-inner {
   position: relative;
   width: 100%;
@@ -20,10 +13,12 @@
   transform-style: preserve-3d;
 }
 
+/* Flip quand class flipped ajoutée */
 .partner-card.flipped .card-inner {
   transform: rotateY(180deg);
 }
 
+/* Face avant et arrière */
 .card-front, .card-back {
   position: absolute;
   width: 100%;
@@ -39,8 +34,10 @@
   background: white;
 }
 
+/* --- Face avant --- */
 .card-front img {
-  max-width: 120px;
+  max-width: 80px; /* taille logo réduite, ajustable */
+  max-height: 80px; /* taille logo réduite, ajustable */
   margin-bottom: 15px;
 }
 
@@ -56,10 +53,9 @@
   flex: 1;
 }
 
-.card-front button,
-.card-back button {
+.card-front button {
   margin: 15px;
-  padding: 10px 20px;
+  padding: 8px 16px;
   border: none;
   background: #004AAD;
   color: white;
@@ -68,18 +64,33 @@
   transition: background 0.3s;
 }
 
-.card-front button:hover,
-.card-back button:hover {
+.card-front button:hover {
   background: #003080;
 }
 
+/* --- Face arrière --- */
 .card-back {
   transform: rotateY(180deg);
   background: #000;
 }
 
 .card-back img {
-  width: 100%;
-  height: 100%;
+  width: 100%;      /* taille image descriptive */
+  height: 100%;     /* ajustable si besoin */
   object-fit: cover;
+}
+
+.card-back button {
+  margin: 15px;
+  padding: 8px 16px;
+  border: none;
+  background: #004AAD;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card-back button:hover {
+  background: #003080;
 }

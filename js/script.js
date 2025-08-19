@@ -2,11 +2,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const cards = document.querySelectorAll('.partner-card');
 
   cards.forEach(card => {
-    const buttons = card.querySelectorAll('.flip-btn');
-    buttons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        card.classList.toggle('flipped');
-      });
+    const frontBtn = card.querySelector('.card-front .flip-btn');
+    const backBtn = card.querySelector('.card-back .flip-btn');
+
+    // Clique sur "Plus d'info"
+    frontBtn.addEventListener('click', () => {
+      card.classList.add('flipped');
+    });
+
+    // Clique sur "Retour"
+    backBtn.addEventListener('click', () => {
+      card.classList.remove('flipped');
     });
   });
 });
