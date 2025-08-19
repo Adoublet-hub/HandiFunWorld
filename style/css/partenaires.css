@@ -1,7 +1,7 @@
 .partner-card {
   perspective: 1000px;
-  width: 150px; /* largeur carte */
-  height: 200px; /* hauteur carte */
+  width: 300px; /* largeur carte */
+  height: 400px; /* hauteur carte */
 }
 
 /* Pour le flip */
@@ -36,8 +36,8 @@
 
 /* --- Face avant --- */
 .card-front img {
-  max-width: 40px; /* taille logo réduite, ajustable */
-  max-height: 40px; /* taille logo réduite, ajustable */
+  max-width: 80px; /* taille logo réduite, ajustable */
+  max-height: 80px; /* taille logo réduite, ajustable */
   margin-bottom: 15px;
 }
 
@@ -75,8 +75,8 @@
 }
 
 .card-back img {
-  width: 50%;      /* taille image descriptive */
-  height: 50%;     /* ajustable si besoin */
+  width: 100%;      /* taille image descriptive */
+  height: 100%;     /* ajustable si besoin */
   object-fit: cover;
 }
 
