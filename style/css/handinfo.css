@@ -21,61 +21,107 @@
   color: #333;
 }
 
-/* Style pour les cartes modales */
+/* Conteneur principal des cartes */
+#modalsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Carte individuelle */
 .handinfo-container {
-  display: inline-block;
-  margin: 20px;
-  text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
 }
 
+.handinfo-container:hover {
+    transform: scale(1.02);
+}
+
+/* Image miniature */
 .handinfo-container img {
-  width: 200px;
-  height: auto;
-  border-radius: 8px;
+    width: 100%;
+    max-width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background-color: #eee;
 }
 
-.handinfo-title {
-  font-size: 1.1rem;
-  margin-bottom: 8px;
-  color: #004aad;
+/* Bouton */
+.handinfo-container button {
+    background-color: #004AAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-/* Modale */
+.handinfo-container button:hover {
+    background-color: #004AAD;
+}
+
+/* POP-UP (modale) */
 .modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.7);
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-content {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  max-width: 90%;
-  max-height: 90%;
-  overflow-y: auto;
-  text-align: center;
+    background-color: white;
+    width: 60vw;       /* réduit de 95vw à 80vw */
+    height: 95vh;      /* réduit de 95vh à 80vh */
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
 }
 
+
+/* Images dans le pop-up (une sous l’autre) */
 .modal-content img {
-  max-width: 100%;
-  margin: 10px 0;
-  border-radius: 8px;
+    width: 60%;               /* largeur relative du conteneur */
+    max-width: 600px;         /* largeur max */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
+/* Bouton de fermeture */
 .close {
-  position: absolute;
-  top: 15px;
-  right: 25px;
-  font-size: 2rem;
-  font-weight: bold;
-  cursor: pointer;
-  color: #333;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.modal-content h2 {
+  color: #004AAD;
+  text-align: center;
+  margin-bottom: 15px;
 }
