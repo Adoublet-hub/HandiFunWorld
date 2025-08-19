@@ -77,6 +77,14 @@
             modalContent.appendChild(modalImg);
           });
 
+          // Ajouter le titre de la modale
+if(modalData.title) {
+  const modalTitle = document.createElement('h2');
+  modalTitle.textContent = modalData.title;
+  modalContent.insertBefore(modalTitle, modalContent.firstChild);
+}
+
+
           modal.appendChild(modalContent);
           document.body.appendChild(modal); // ← Ajoute la modale dans le <body>, pas dans le grid
 

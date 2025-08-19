@@ -1,6 +1,7 @@
 [
   {
     "id": "modal1",
+    "title": "Le Handicap",
     "thumbnail": "../style/img/handinfo/1handicap/han1.jpg",
     "images": [
       "../style/img/handinfo/1handicap/han2.jpg",
