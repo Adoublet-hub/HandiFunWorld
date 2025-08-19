@@ -9,45 +9,64 @@
 </head>
 <body>
 
+  <!-- Header -->
   <div class="header">
-        <h1 class="title">L'Handi Fun World</h1>
-        <div class="content_center">
-            <ul>
-  <li><a href="/HandiFunWorld/index.html">Page d'accueil</a></li>
-  <li><a href="/HandiFunWorld/template/equipe.html">L'équipe</a></li>
-  <li><a href="/HandiFunWorld/template/funny.html">Funny</a></li>
-  <li><a href="/HandiFunWorld/template/evenements.html">Évènements</a></li>
-  <li><a href="/HandiFunWorld/template/handinfo.html">Handinfo</a></li>
-  <li><a href="/HandiFunWorld/template/hnpw.html">Handi Newspaper World</a></li>
-  <li><a href="/HandiFunWorld/template/storytime.html">Story Time</a></li>
-  <li><a href="/HandiFunWorld/template/partenaires.html">Partenaires</a></li>
-</ul>
-
-
-        </div>
-    </div>
-
-<div class="partners-container">
-
-  <div class="partner-card" data-partner="crazy">
-    <div class="card-inner">
-      <div class="card-front">
-        <img src="/HandiFunWorld/style/img/partenaires/logo_crazy.jpg" alt="Logo Crazy">
-        <h2>Crazy</h2>
-        <p>Partenaire spécialisé dans les événements créatifs et innovants.</p>
-        <button class="flip-btn">Plus d'info</button>
-      </div>
-      <div class="card-back">
-        <img src="/HandiFunWorld/style/img/partenaires/crazy.jpg" alt="Crazy description">
-        <button class="flip-btn">Retour</button>
-      </div>
+    <h1 class="title">L'Handi Fun World</h1>
+    <div class="content_center">
+      <ul>
+        <li><a href="/HandiFunWorld/index.html">Page d'accueil</a></li>
+        <li><a href="/HandiFunWorld/template/equipe.html">L'équipe</a></li>
+        <li><a href="/HandiFunWorld/template/funny.html">Funny</a></li>
+        <li><a href="/HandiFunWorld/template/evenements.html">Évènements</a></li>
+        <li><a href="/HandiFunWorld/template/handinfo.html">Handinfo</a></li>
+        <li><a href="/HandiFunWorld/template/hnpw.html">Handi Newspaper World</a></li>
+        <li><a href="/HandiFunWorld/template/storytime.html">Story Time</a></li>
+        <li><a href="/HandiFunWorld/template/partenaires.html">Partenaires</a></li>
+      </ul>
     </div>
   </div>
 
-  <!-- Ajouter d'autres cartes de partenaires -->
-</div>
+  <!-- Grille de partenaires -->
+  <div class="partners-container">
 
+    <!-- Carte partenaire -->
+    <div class="partner-card">
+      <div class="card-inner">
+        <!-- Face avant -->
+        <div class="card-front">
+          <img src="/HandiFunWorld/style/img/partenaires/logo_crazy.jpg" alt="Logo Crazy">
+          <h2>Crazy</h2>
+          <p>Partenaire spécialisé dans les événements créatifs et innovants.</p>
+          <button class="flip-btn">Plus d'info</button>
+        </div>
 
-<script src="/HandiFunWorld/js/script.js"></script>
+        <!-- Face arrière -->
+        <div class="card-back">
+          <img src="/HandiFunWorld/style/img/partenaires/crazy.jpg" alt="Description Crazy">
+          <button class="flip-btn">Retour</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tu peux dupliquer la carte pour d'autres partenaires -->
+    <div class="partner-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/HandiFunWorld/style/img/partenaires/logo_example.jpg" alt="Logo Example">
+          <h2>Example</h2>
+          <p>Partenaire spécialisé dans les activités éducatives et ludiques.</p>
+          <button class="flip-btn">Plus d'info</button>
+        </div>
+        <div class="card-back">
+          <img src="/HandiFunWorld/style/img/partenaires/example.jpg" alt="Description Example">
+          <button class="flip-btn">Retour</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Script JS pour le flip -->
+  <script src="/HandiFunWorld/js/script.js"></script>
 </body>
 </html>
