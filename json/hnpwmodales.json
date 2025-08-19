@@ -1,6 +1,7 @@
 [
     {
     "id": "modal1",
+    "title": "Juillet 2022",
     "thumbnail": "../style/img/hnpw/2022juillet/p1.gif",
     "images": [
       "../style/img/hnpw/2022juillet/p1.gif",
@@ -12,6 +13,7 @@
   },
   {
     "id": "modal2",
+    "title": "Août 2022",
     "thumbnail": "../style/img/hnpw/2022aout/p1.jpg",
     "images": [
       "../style/img/hnpw/2022aout/p1.jpg",
@@ -25,6 +27,7 @@
   },
   {
     "id": "modal3",
+    "title": "Septembre 2022",
     "thumbnail": "../style/img/hnpw/2022septembre/p1.jpg",
     "images": [
       "../style/img/hnpw/2022septembre/p1.jpg",
@@ -39,6 +42,7 @@
   },
   {
     "id": "modal2",
+    "title": "Octobre 2022",
     "thumbnail": "../style/img/hnpw/2022octobre/p1.jpg",
     "images": [
       "../style/img/hnpw/2022octobre/p1.jpg",
