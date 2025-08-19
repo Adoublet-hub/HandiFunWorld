@@ -11,6 +11,7 @@
   },
   {
     "id": "modal2",
+    "title": "Le Nanisme",
     "thumbnail": "../style/img/handinfo/2nanisme/nain1.jpg",
     "images": [
       "../style/img/handinfo/2nanisme/nain2.jpg",
@@ -21,6 +22,7 @@
   },
   {
     "id": "modal3",
+    "title": "Le TDAH",
     "thumbnail": "../style/img/handinfo/3tdah/tdah1.jpg",
     "images": [
       "../style/img/handinfo/3tdah/tdah2.jpg",
@@ -30,6 +32,7 @@
   },
   {
     "id": "modal4",
+    "title": "La Dépression",
     "thumbnail": "../style/img/handinfo/4depression/dep1.jpg",
     "images": [
       "../style/img/handinfo/4depression/dep2.jpg",
@@ -40,6 +43,7 @@
   },
   {
     "id": "modal5",
+    "title": "Les TSA",
     "thumbnail": "../style/img/handinfo/5autisme/tsa1.jpg",
     "images": [
       "../style/img/handinfo/5autisme/tsa2.jpg",
@@ -49,6 +53,7 @@
   },
   {
     "id": "modal6",
+    "title": "L'Anxiété",
     "thumbnail": "../style/img/handinfo/6anxiete/anx1.jpg",
     "images": [
       "../style/img/handinfo/6anxiete/anx2.jpg",
@@ -58,6 +63,7 @@
   },
   {
     "id": "modal7",
+    "title": "La Dyspraxie",
     "thumbnail": "../style/img/handinfo/7dyspraxie/dyspra1.jpg",
     "images": [
       "../style/img/handinfo/7dyspraxie/dyspra2.jpg",
@@ -67,6 +73,7 @@
   },
   {
     "id": "modal8",
+    "title": "Le TDI",
     "thumbnail": "../style/img/handinfo/8tdi/tdi1.jpg",
     "images": [
       "../style/img/handinfo/8tdi/tdi2.jpg",
@@ -76,6 +83,7 @@
   },
   {
     "id": "modal9",
+    "title": "Le Vitiligo",
     "thumbnail": "../style/img/handinfo/9vitiligo/vitiligo1.jpg",
     "images": [
       "../style/img/handinfo/9vitiligo/vitiligo2.jpg",
@@ -85,6 +93,7 @@
   },
   {
     "id": "modal10",
+    "title": "La Maladie à corps de Lewy",
     "thumbnail": "../style/img/handinfo/10mdlewy/mdl1.jpg",
     "images": [
       "../style/img/handinfo/10mdlewy/mdl2.jpg",
@@ -94,6 +103,7 @@
   },
   {
     "id": "modal11",
+    "title": "Parkinson",
     "thumbnail": "../style/img/handinfo/11parkinson/parkinson1.jpg",
     "images": [
       "../style/img/handinfo/11parkinson/parkinson2.jpg",
@@ -103,6 +113,7 @@
   },
   {
     "id": "modal12",
+    "title": "Alzheimer",
     "thumbnail": "../style/img/handinfo/12alzheimer/alzheimer1.jpg",
     "images": [
       "../style/img/handinfo/12alzheimer/alzheimer2.jpg",
@@ -112,6 +123,7 @@
   },
   {
     "id": "modal13",
+    "title": "La Trisomie",
     "thumbnail": "../style/img/handinfo/13trisomie/trisomie1.jpg",
     "images": [
       "../style/img/handinfo/13trisomie/trisomie2.jpg",
@@ -121,6 +133,7 @@
   },
   {
     "id": "modal14",
+    "title": "L'Epilepsie",
     "thumbnail": "../style/img/handinfo/14epilepsie/epilepsie1.jpg",
     "images": [
       "../style/img/handinfo/14epilepsie/epilepsie2.jpg",
@@ -130,6 +143,7 @@
   },
   {
     "id": "modal15",
+    "title": "Tétra/Paraplégie",
     "thumbnail": "../style/img/handinfo/15tetra.paraplegie/tpplegie1.jpg",
     "images": [
       "../style/img/handinfo/15tetra.paraplegie/tpplegie2.jpg",
@@ -139,6 +153,7 @@
   },
   {
     "id": "modal16",
+    "title": "La neurofibrome",
     "thumbnail": "../style/img/handinfo/16neurofibrome/neurofibrome1.jpg",
     "images": [
       "../style/img/handinfo/16neurofibrome/neurofibrome2.jpg",
@@ -148,6 +163,7 @@
   },
   {
     "id": "modal17",
+    "title": "La Scélrose en plaques",
     "thumbnail": "../style/img/handinfo/17scleroseenplaque/sclerose1.jpg",
     "images": [
       "../style/img/handinfo/17scleroseenplaque/sclerose2.jpg",
@@ -157,6 +173,7 @@
   },
   {
     "id": "modal18",
+    "title": "Le Psoriasis",
     "thumbnail": "../style/img/handinfo/18psoriasis/psoria1.jpg",
     "images": [
       "../style/img/handinfo/18psoriasis/psoria2.jpg",
@@ -166,6 +183,7 @@
   },
   {
     "id": "modal19",
+    "title": " Le syndrome d'Hutchinson-Gilford",
     "thumbnail": "../style/img/handinfo/19hutchinson-gilford/hgilford1.jpg",
     "images": [
       "../style/img/handinfo/19hutchinson-gilford/hgilford2.jpg",
@@ -175,6 +193,7 @@
   },
   {
     "id": "modal20",
+    "title": "La Craniostenose",
     "thumbnail": "../style/img/handinfo/20craniostenose/cranios1.jpg",
     "images": [
       "../style/img/handinfo/20craniostenose/cranios2.jpg",
@@ -184,6 +203,7 @@
   },
   {
     "id": "modal21",
+    "title": "L'Endométriose",
     "thumbnail": "../style/img/handinfo/21endometriose/endo1.jpg",
     "images": [
       "../style/img/handinfo/21endometriose/endo2.jpg",
@@ -193,6 +213,7 @@
   },
   {
     "id": "modal22",
+    "title": "La Mucoviscidose",
     "thumbnail": "../style/img/handinfo/22mucoviscidose/muco1.jpg",
     "images": [
       "../style/img/handinfo/22mucoviscidose/muco2.jpg",
@@ -202,6 +223,7 @@
   },
   {
     "id": "modal23",
+    "title": "La Bipolarité",
     "thumbnail": "../style/img/handinfo/23bipolarite/bipolaire1.jpg",
     "images": [
       "../style/img/handinfo/23bipolarite/bipolaire2.jpg",
@@ -211,6 +233,7 @@
   },
   {
     "id": "modal24",
+    "title": "Le Cancer du Sein",
     "thumbnail": "../style/img/handinfo/24csein/csein1.jpg",
     "images": [
       "../style/img/handinfo/24csein/csein2.jpg",
@@ -220,6 +243,7 @@
   },
   {
     "id": "modal25",
+    "title": "La Leucémie",
     "thumbnail": "../style/img/handinfo/25leucemie/leucemie1.jpg",
     "images": [
       "../style/img/handinfo/25leucemie/leucemie2.jpg",
@@ -229,6 +253,7 @@
   },
   {
     "id": "modal26",
+    "title": "Le Cancer du Pancréas",
     "thumbnail": "../style/img/handinfo/26cpancreas/pancreas1.jpg",
     "images": [
       "../style/img/handinfo/26cpancreas/pancreas2.jpg",
@@ -238,6 +263,7 @@
   },
   {
     "id": "modal27",
+    "title": "Le Cancer du Poumon",
     "thumbnail": "../style/img/handinfo/27cpoumons/poumon1.jpg",
     "images": [
       "../style/img/handinfo/27cpoumons/poumon2.jpg",
@@ -247,6 +273,7 @@
   },
   {
     "id": "modal28",
+    "title": "Le Cancer du Colon",
     "thumbnail": "../style/img/handinfo/28ccolon/colon1.jpg",
     "images": [
       "../style/img/handinfo/28ccolon/colon2.jpg",
@@ -256,6 +283,7 @@
   },
   {
     "id": "modal29",
+    "title": "Le Cancer de l'Utérus",
     "thumbnail": "../style/img/handinfo/29cuterus/uterus1.jpg",
     "images": [
       "../style/img/handinfo/29cuterus/uterus2.jpg",
@@ -265,6 +293,7 @@
   },
   {
     "id": "modal30",
+    "title": "L'Alopécie",
     "thumbnail": "../style/img/handinfo/30alopecie/alopecie1.jpg",
     "images": [
       "../style/img/handinfo/30alopecie/alopecie2.jpg",
@@ -274,6 +303,7 @@
   },
   {
     "id": "modal31",
+    "title": "Syndrome des ovaires polykystiques",
     "thumbnail": "../style/img/handinfo/31ovairespolykistique/sopk1.jpg",
     "images": [
       "../style/img/handinfo/31ovairespolykistique/sopk2.jpg",
@@ -283,6 +313,7 @@
   },
   {
     "id": "modal32",
+    "title": "La Fibromyalgie",
     "thumbnail": "../style/img/handinfo/32fibromyalgie/fibro1.jpg",
     "images": [
       "../style/img/handinfo/32fibromyalgie/fibro2.jpg",
@@ -292,6 +323,7 @@
   },
   {
     "id": "modal33",
+    "title": "Le VIH",
     "thumbnail": "../style/img/handinfo/33vih/vih1.jpg",
     "images": [
       "../style/img/handinfo/33vih/vih2.jpg",
@@ -301,6 +333,7 @@
   },
   {
     "id": "modal34",
+    "title": "Les TOC",
     "thumbnail": "../style/img/handinfo/34toc/toc1.jpg",
     "images": [
       "../style/img/handinfo/34toc/toc2.jpg",
@@ -310,6 +343,7 @@
   },
   {
     "id": "modal35",
+    "title": "Le Diabète",
     "thumbnail": "../style/img/handinfo/35diabete/diab1.jpg",
     "images": [
       "../style/img/handinfo/35diabete/diab2.jpg",
@@ -319,6 +353,7 @@
   },
   {
     "id": "modal36",
+    "title": "L'Algie vasculaire",
     "thumbnail": "../style/img/handinfo/36algievasculaire/avf1.jpg",
     "images": [
       "../style/img/handinfo/36algievasculaire/avf2.jpg",
@@ -328,6 +363,7 @@
   },
   {
     "id": "modal37",
+    "title": "La Scoliose",
     "thumbnail": "../style/img/handinfo/37scoliose/scoliose1.jpg",
     "images": [
       "../style/img/handinfo/37scoliose/scoliose2.jpg",
@@ -337,6 +373,7 @@
   },
   {
     "id": "modal38",
+    "title": "La Dyschromatopsie",
     "thumbnail": "../style/img/handinfo/38dyschromatopsie/dyschromatopsie1.jpg",
     "images": [
       "../style/img/handinfo/38dyschromatopsie/dyschromatopsie2.jpg",
@@ -346,6 +383,7 @@
   },
   {
     "id": "modal39",
+    "title": "La Dyslexie",
     "thumbnail": "../style/img/handinfo/39dyslexie/dyslexie1.jpg",
     "images": [
       "../style/img/handinfo/39dyslexie/dyslexie2.jpg",
@@ -355,6 +393,7 @@
   },
   {
     "id": "modal40",
+    "title": "Le Syndrome Gilles de la Tourette",
     "thumbnail": "../style/img/handinfo/40syndrometourette/tourette1.jpg",
     "images": [
       "../style/img/handinfo/40syndrometourette/tourette2.jpg",
@@ -364,6 +403,7 @@
   },
   {
     "id": "modal41",
+    "title": "La Schizophrenie",
     "thumbnail": "../style/img/handinfo/41schizophrenie/schizo1.jpg",
     "images": [
       "../style/img/handinfo/41schizophrenie/schizo2.jpg",
@@ -373,6 +413,7 @@
   },
   {
     "id": "modal42",
+    "title": "L'Albinisme",
     "thumbnail": "../style/img/handinfo/42albinisme/albinos1.jpg",
     "images": [
       "../style/img/handinfo/42albinisme/albinos2.jpg",
@@ -382,6 +423,7 @@
   },
   {
     "id": "modal43",
+    "title": "Le Lupus",
     "thumbnail": "../style/img/handinfo/43lupus/lupus1.jpg",
     "images": [
       "../style/img/handinfo/43lupus/lupus2.jpg",
@@ -391,6 +433,7 @@
   },
   {
     "id": "modal44",
+    "title": "L'Asthme",
     "thumbnail": "../style/img/handinfo/44asthme/asthme1.jpg",
     "images": [
       "../style/img/handinfo/44asthme/asthme2.jpg",
@@ -400,6 +443,7 @@
   },
   {
     "id": "modal45",
+    "title": "L'Amblyopie",
     "thumbnail": "../style/img/handinfo/45amblyopie/amblyopie1.jpg",
     "images": [
       "../style/img/handinfo/45amblyopie/amblyopie2.jpg",
@@ -409,6 +453,7 @@
   },
   {
     "id": "modal46",
+    "title": "La SLA (Maladie de Charcot)",
     "thumbnail": "../style/img/handinfo/46charcotsla/sla1.jpg",
     "images": [
       "../style/img/handinfo/46charcotsla/sla2.jpg",
@@ -418,6 +463,7 @@
   },
   {
     "id": "modal47",
+    "title": "L'Hépatite",
     "thumbnail": "../style/img/handinfo/47hepatite/hepatite1.jpg",
     "images": [
       "../style/img/handinfo/47hepatite/hepatite2.jpg",
@@ -427,6 +473,7 @@
   },
   {
     "id": "modal48",
+    "title": "La Surdité",
     "thumbnail": "../style/img/handinfo/48surdite/sourd1.jpg",
     "images": [
       "../style/img/handinfo/48surdite/sourd2.jpg",
@@ -436,6 +483,7 @@
   },
   {
     "id": "modal49",
+    "title": "Le lymphome de Hodgkins",
     "thumbnail": "../style/img/handinfo/49hodgkins/hodgkins1.jpg",
     "images": [
       "../style/img/handinfo/49hodgkins/hodgkins2.jpg",
@@ -445,6 +493,7 @@
   },
   {
     "id": "modal50",
+    "title": "La TMI",
     "thumbnail": "../style/img/handinfo/50tmi/tmi1.jpg",
     "images": [
       "../style/img/handinfo/50tmi/tmi2.jpg",
@@ -454,6 +503,7 @@
   },
   {
     "id": "modal51",
+    "title": "Le syndrome de Prader-Willi",
     "thumbnail": "../style/img/handinfo/51praderwilli/pw1.jpg",
     "images": [
       "../style/img/handinfo/51praderwilli/pw2.jpg",
@@ -462,7 +512,8 @@
     ]
   },
   {
-    "id": "modal52",
+    "id": "modal52", 
+    "title": "L'aphasie",
     "thumbnail": "../style/img/handinfo/52aphasie/aphasie1.jpg",
     "images": [
       "../style/img/handinfo/52aphasie/aphasie2.jpg",
@@ -472,6 +523,7 @@
   },
   {
     "id": "modal53",
+    "title": "La Maladie de Lyme",
     "thumbnail": "../style/img/handinfo/53mdlyme/lyme1.jpg",
     "images": [
       "../style/img/handinfo/53mdlyme/lyme2.jpg",
@@ -481,6 +533,7 @@
   },
   {
     "id": "modal54",
+    "title": "L'Obésité",
     "thumbnail": "../style/img/handinfo/54obesite/obesite1.jpg",
     "images": [
       "../style/img/handinfo/54obesite/obesite2.jpg",
@@ -490,6 +543,7 @@
   },
   {
     "id": "modal55",
+    "title": "La Poliomyelite",
     "thumbnail": "../style/img/handinfo/55poliomyelite/polio1.jpg",
     "images": [
       "../style/img/handinfo/55poliomyelite/polio2.jpg",
