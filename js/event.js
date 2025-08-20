@@ -60,7 +60,6 @@ modalText.style.color = '#ccc';
 modalText.style.marginBottom = '15px';
 modalText.style.textAlign = 'center';
 modalText.className = 'modal-text';
-modalText.innerHTML = 'Pour plus d\'infos, visitez <a href="https://example.com" target="_blank">notre site</a>.';
 modalContent.appendChild(modalText);
 
 
