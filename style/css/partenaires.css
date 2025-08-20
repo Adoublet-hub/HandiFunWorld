@@ -112,24 +112,26 @@
 
 /* Image descriptive */
 .card-back img {
-  width: 100%;                  /* occupe toute la largeur dispo */
-  height: calc(100% - 30px);    /* garde de la place pour le bouton */
-  object-fit: contain;          /* garde proportions sans rogner */
+  width: 100%;                  /* occupe toute la largeur disponible */
+  height: calc(100% - 50px);    /* laisse ~50px pour le bouton retour */
+  object-fit: contain;          /* garde les proportions sans déformation */
   border-radius: 10px;          /* coins arrondis */
+  margin-bottom: 5px;           /* petit espace entre image et bouton */
 }
 
 /* Bouton retour */
 .card-back button {
-  width: 50%;                   /* bouton occupe la moitié de la largeur */
-  padding: 10px;                /* taille interne */
-  border: none;                 /* pas de bordure */
-  background: #004AAD;          /* fond bleu */
-  color: white;                 /* texte blanc */
-  border-radius: 8px;           /* coins arrondis */
-  cursor: pointer;              /* pointeur main */
-  transition: background 0.3s;  /* transition fluide */
+  width: 80%;                   /* bouton un peu plus large */
+  padding: 8px;
+  border: none;
+  background: #000000;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
+
 .card-back button:hover {
-  background: #003080;          /* bleu foncé au survol */
+  background: #000000;          /* bleu foncé au survol */
 }
