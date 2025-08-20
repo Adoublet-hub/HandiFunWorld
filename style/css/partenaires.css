@@ -77,8 +77,8 @@
 }
 
 .card-front img {
-  max-width: 160px;              /* limite largeur du logo */
-  max-height: 1600px;             /* limite hauteur du logo */
+  max-width: 220px;              /* limite largeur du logo */
+  max-height: 1900px;             /* limite hauteur du logo */
   margin-bottom: 15px;          /* espace sous le logo */
 }
 
