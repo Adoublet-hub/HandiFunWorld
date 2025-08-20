@@ -1,16 +1,14 @@
-// Charge le JSON des événements
 fetch('/HandiFunWorld/json/event.json')
   .then(response => response.json())
   .then(data => {
-    data.reverse(); // <-- renverse l'ordre des événements
+    data.reverse(); // dernier événement en premier
     const container = document.getElementById('timelineContainer');
 
     data.forEach((eventData, index) => {
-
-      // Crée le conteneur de l'événement
+      // Conteneur de l'événement
       const eventBlock = document.createElement('div');
       eventBlock.className = 'event-block';
-      eventBlock.classList.add(index % 2 === 0 ? 'left' : 'right'); // quinconce
+      eventBlock.classList.add(index % 2 === 0 ? 'left' : 'right');
 
       // Image miniature
       const img = document.createElement('img');
@@ -31,7 +29,7 @@ fetch('/HandiFunWorld/json/event.json')
 
       container.appendChild(eventBlock);
 
-      // Crée la modale
+      // Modale
       const modal = document.createElement('div');
       modal.className = 'modal';
       modal.id = eventData.id;
@@ -44,19 +42,19 @@ fetch('/HandiFunWorld/json/event.json')
       close.innerHTML = '&times;';
       modalContent.appendChild(close);
 
-      // Titre de la modale
-const modalTitle = document.createElement('h2');
-modalTitle.textContent = eventData.title;
-modalContent.appendChild(modalTitle);
+      // Titre dans la modale
+      const modalTitle = document.createElement('h2');
+      modalTitle.textContent = eventData.title;
+      modalContent.appendChild(modalTitle);
 
-// Date de l'événement (plus petit texte)
-const modalDate = document.createElement('p');
-modalDate.textContent = eventData.date;
-modalDate.style.fontSize = '0.9rem';
-modalDate.style.color = '#555';
-modalContent.appendChild(modalDate);
+      // Date sous le titre
+      const modalDate = document.createElement('p');
+      modalDate.textContent = eventData.date;
+      modalDate.style.fontSize = '0.9rem';
+      modalDate.style.color = '#666';
+      modalContent.appendChild(modalDate);
 
-      // Ajoute toutes les images de l'événement
+      // Images
       eventData.images.forEach(imgSrc => {
         const modalImg = document.createElement('img');
         modalImg.src = imgSrc;
@@ -67,20 +65,9 @@ modalContent.appendChild(modalDate);
       modal.appendChild(modalContent);
       document.body.appendChild(modal);
 
-      // Ouvre la modale
-      button.addEventListener('click', () => {
-        modal.style.display = 'flex';
-      });
-
-      // Ferme la modale
-      close.addEventListener('click', () => {
-        modal.style.display = 'none';
-      });
-
-      window.addEventListener('click', e => {
-        if (e.target === modal) {
-          modal.style.display = 'none';
-        }
-      });
+      // Ouvrir/fermer modale
+      button.addEventListener('click', () => modal.style.display = 'flex');
+      close.addEventListener('click', () => modal.style.display = 'none');
+      window.addEventListener('click', e => { if (e.target === modal) modal.style.display = 'none'; });
     });
   });
