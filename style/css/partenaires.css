@@ -97,43 +97,45 @@
 .card-front button:hover {
   background: #003080;          /* bleu plus foncé au survol */
 }
+
 /* ===== FACE ARRIÈRE ===== */
 .card-back {
   transform: rotateY(180deg);   /* face arrière tournée de 180° */
   background: #000;             /* fond noir */
   display: flex;                /* flexbox interne */
   flex-direction: column;       /* contenu en colonne */
-  justify-content: flex-start;  /* aligne l’image en haut */
+  justify-content: space-between; /* espace entre image et bouton */
   align-items: center;          /* centré horizontalement */
-  padding: 0;                   /* supprime le padding qui bouffe de la place */
-  box-sizing: border-box;
+  padding: 15px;                /* marge interne */
+  box-sizing: border-box;       /* inclut le padding dans la taille totale */
 }
 
 /* Image descriptive */
 .card-back img {
-  flex: 1;                      /* occupe tout l’espace restant */
-  width: 100%;                  /* largeur max */
-  height: auto;                 /* hauteur auto proportionnelle */
-  object-fit: cover;            /* remplit la carte même si ça rogne un peu */
-  border-radius: 0;             /* pas de bord arrondi pour maximiser l’espace */
+  width: 100%;                  /* occupe toute la largeur disponible */
+  height: calc(100% - 50px);    /* laisse ~50px pour le bouton retour */
+  object-fit: contain;          /* garde les proportions sans déformation */
+  border-radius: 10px;          /* coins arrondis */
+  margin-bottom: 5px;           /* petit espace entre image et bouton */
 }
 
 /* Bouton retour */
 .card-back button {
-  width: 100%;                  /* bouton pleine largeur */
-  padding: 12px;
+  width: 80%;                   /* bouton un peu plus large */
+  padding: 8px;
   border: none;
-  background: #004AAD;
+  background: #003080;
   color: white;
-  font-size: 1rem;
-  border-radius: 0 0 10px 10px; /* arrondi en bas uniquement */
+  border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s;
 }
 
+
 .card-back button:hover {
-  background: #003080;
+  background: #003080;          /* bleu foncé au survol */
 }
+
 
 /* ===== POPUP IMAGE ===== */
 .img-popup {
@@ -165,3 +167,4 @@
   font-weight: bold;
   cursor: pointer;
 }
+
