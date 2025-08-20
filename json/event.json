@@ -60,11 +60,15 @@
     "id": "event5",
     "title": "Passage sur la chaîne Youtube de Océan_After_All_This_Time",
     "date": "Septembre 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/",
-    "description": "",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/2022_oceane.png",
+    "description":  "Nous avons eu la chance de passer sur la chaîne YouTube de notre partenaire Ocean.afterallthistime ! Passionnée de Harry Potter et suivie par plus de 100K Potterheads sur TikTok, elle a réalisé une vidéo où elle donne son avis sur les maisons de Poudlard auxquelles ses abonnés appartiennent, suite à un questionnaire Google Forms auquel ils ont répondu. HandiFunWorld a bien sûr participé au questionnaire… et son avis est sans appel !",
+   "link": {
+    "url": "https://www.facebook.com/watch/?ref=saved&v=1128226698103453",
+    "text": "Retrouvez l'extrait de sa vidéo ici"
+  },
     "images": [
-      "/HandiFunWorld/style/img/evenements/",
-      "/HandiFunWorld/style/img/evenements/"
+      "/HandiFunWorld/style/img/evenements/2022_oceane.png",
+      "/HandiFunWorld/style/img/evenements/2022_oceane2.png"
     ]
   },
   {

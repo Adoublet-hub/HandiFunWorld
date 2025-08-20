@@ -142,7 +142,7 @@
 }
 
 .modal-content img {
-  width: 70%;       /* l'image prendra 70% de la largeur de la modale */
+  width: 55%;       /* l'image prendra 70% de la largeur de la modale */
   height: auto;     /* garde le ratio original */
   margin-bottom: 15px;
   border-radius: 10px;

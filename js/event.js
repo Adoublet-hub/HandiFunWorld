@@ -62,6 +62,15 @@ modalText.style.textAlign = 'center';
 modalText.className = 'modal-text';
 modalContent.appendChild(modalText);
 
+// Ajouter un lien si présent
+if (eventData.link) {
+  const modalLink = document.createElement('p');
+  modalLink.innerHTML = `<a href="${eventData.link.url}" target="_blank">${eventData.link.text}</a>`;
+  modalLink.style.color = '#66ccff';
+  modalLink.style.marginBottom = '15px';
+  modalLink.style.textAlign = 'center';
+  modalContent.appendChild(modalLink);
+}
 
 // Ensuite les images
 eventData.images.forEach(imgSrc => {
