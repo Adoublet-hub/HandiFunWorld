@@ -159,17 +159,10 @@
   cursor: pointer;
 }
 
-.modal-title {
-  color: #fff;
-  margin-bottom: 5px;
-  font-size: 1.8rem;
-  text-align: center;
-}
-
-.modal-date {
+.modal-text {
   color: #ccc;
   margin-bottom: 15px;
-  font-size: 1rem;
-  font-style: italic;
   text-align: center;
+  font-size: 1.1rem; /* taille un peu plus grande */
+  line-height: 1.6;  /* pour que ça respire un peu */
 }
