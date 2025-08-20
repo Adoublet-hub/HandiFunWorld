@@ -107,7 +107,11 @@
     "title": "Annonce de Funny",
     "date": "Janvier 2023",
     "thumbnail": "/HandiFunWorld/style/img/equipe/funny.jpg",
-    "description": "Une date à marquer d’une pierre blanche ! C’est aujourd’hui que notre fidèle mascotte voit le jour : Funny.<br>Depuis ce moment, Funny nous accompagne partout et est devenu un vrai symbole de l’association (au point de donner une mise à jour au logo de l'association).<br><br>On dit qu’une image vaut mille mots… mais même mille mots ne suffiraient pas pour présenter Funny. Alors on vous laisse découvrir deux petites vidéos qui expliquent pourquoi Funny a été créé, et surtout comment il a pris vie !<br>Pour suivre les actualité de Funny vous pouvez aussi accéder à la rubrique 'Funny' de notre site <br> La <a href='https://www.facebook.com/watch/?ref=saved&v=1581875162234383' target='_blank'> Première parti de la vidéo</a> et la <a href='https://www.facebook.com/watch/?ref=saved&v=509089797777153' target='_blank'> Deuxième parti de la vidéo</a>",
+    "description": "Une date à marquer d’une pierre blanche ! C’est aujourd’hui que notre fidèle mascotte voit le jour : Funny.<br>Depuis ce moment, Funny nous accompagne partout et est devenu un vrai symbole de l’association (au point de donner une mise à jour au logo de l'association).On dit qu’une image vaut mille mots… mais même mille mots ne suffiraient pas pour présenter Funny. Alors on vous laisse découvrir deux petites vidéos qui expliquent pourquoi Funny a été créé, et surtout comment il a pris vie! Pour suivre les actualité de Funny vous pouvez aussi accéder à la rubrique 'Funny' de notre site!",
+     "links": [
+    { "url": "https://www.facebook.com/watch/?ref=saved&v=1581875162234383", "text": "Première parti de la viéo" },
+    { "url": "https://www.facebook.com/watch/?ref=saved&v=509089797777153", "text": "et ici la deuxième parti" }
+  ],
     "images": [
       "/HandiFunWorld/style/img/funny/Funny.jpg",
       "/HandiFunWorld/style/img/Logo.jpg",

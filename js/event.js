@@ -72,6 +72,20 @@ if (eventData.link) {
   modalContent.appendChild(modalLink);
 }
 
+if (Array.isArray(eventData.links) && eventData.links.length) {
+  const linksWrap = document.createElement('div');
+  linksWrap.className = 'modal-links';
+  eventData.links.forEach(l => {
+    const a = document.createElement('a');
+    a.href = l.url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = l.text || l.url;
+    linksWrap.appendChild(a);
+  });
+  modalContent.appendChild(linksWrap);
+}
+
 // Ensuite les images
 eventData.images.forEach(imgSrc => {
   const modalImg = document.createElement('img');
