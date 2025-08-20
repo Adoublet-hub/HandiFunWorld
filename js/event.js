@@ -53,13 +53,24 @@ fetch('/HandiFunWorld/json/event.json')
       modalTitle.textContent = eventData.title;
       modalContent.appendChild(modalTitle);
 
-      // Images
-      eventData.images.forEach(imgSrc => {
-        const modalImg = document.createElement('img');
-        modalImg.src = imgSrc;
-        modalImg.alt = eventData.title;
-        modalContent.appendChild(modalImg);
-      });
+      // Texte descriptif avant les images
+const modalText = document.createElement('p');
+modalText.textContent = eventData.description; // ou eventData.text si tu as un champ texte dans ton JSON
+modalText.style.color = '#ccc';
+modalText.style.marginBottom = '15px';
+modalText.style.textAlign = 'center';
+modalText.className = 'modal-text';
+modalText.innerHTML = 'Pour plus d\'infos, visitez <a href="https://example.com" target="_blank">notre site</a>.';
+modalContent.appendChild(modalText);
+
+
+// Ensuite les images
+eventData.images.forEach(imgSrc => {
+  const modalImg = document.createElement('img');
+  modalImg.src = imgSrc;
+  modalImg.alt = eventData.title;
+  modalContent.appendChild(modalImg);
+});
 
       modal.appendChild(modalContent);
       document.body.appendChild(modal);
