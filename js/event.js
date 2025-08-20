@@ -1,5 +1,5 @@
 // Charge le JSON des événements
-fetch('/HandiFunWorld/json/evenements.json')
+fetch('/HandiFunWorld/json/event.json')
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById('timelineContainer');
