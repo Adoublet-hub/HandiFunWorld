@@ -1,123 +1,133 @@
-/* Conteneur principal */
+/* ===== CONTENEUR GÉNÉRAL ===== */
 .partners-container {
   display: grid;
-  grid-template-areas:
-    "card1 card2"
-    "card3 card3"
-    "card4 card5";
-  gap: 30px;
+  grid-template-columns: repeat(3, 300px); /* 3 colonnes fixes */
+  grid-template-rows: auto;
   justify-content: center;
-  align-items: center;
-  margin: 50px auto;
-  max-width: 1200px;
+  gap: 40px 60px; /* espace vertical et horizontal */
 }
 
-/* Chaque carte */
+/* place les cartes dans la grille */
+.partner-card:nth-child(1) { grid-column: 1; grid-row: 1; }
+.partner-card:nth-child(2) { grid-column: 3; grid-row: 1; }
+.partner-card:nth-child(3) { grid-column: 2; grid-row: 2; }
+.partner-card:nth-child(4) { grid-column: 1; grid-row: 3; }
+.partner-card:nth-child(5) { grid-column: 3; grid-row: 3; }
+
+
+/* ===== POSITIONNEMENT SPÉCIFIQUE POUR LE LOSANGE ===== */
+.partner-card:nth-child(1),
+.partner-card:nth-child(2) {
+  margin-top: 0;                /* les deux premières cartes en haut */
+}
+
+.partner-card:nth-child(3) {
+  width: 300px;                 /* carte centrale légèrement plus large */
+  margin: 0 auto 0 auto;        /* centrée horizontalement */
+}
+
+.partner-card:nth-child(4),
+.partner-card:nth-child(5) {
+  margin-top: 30px;             /* deux cartes placées plus bas */
+}
+
+/* ===== STYLE DES CARTES ===== */
 .partner-card {
-  width: 350px;      /* plus grand */
-  height: 450px;     /* plus grand */
-  perspective: 1000px;
+  perspective: 1000px;          /* donne un effet 3D pour l’animation flip */
+  width: 300px;                 /* largeur standard des cartes */
+  height: 400px;                /* hauteur standard des cartes */
 }
 
-/* Intérieur de la carte */
+/* ===== ANIMATION FLIP ===== */
 .card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  position: relative;           /* permet aux faces avant/arrière de se superposer */
+  width: 100%;                  /* prend toute la largeur */
+  height: 100%;                 /* prend toute la hauteur */
+  transition: transform 0.8s;   /* animation fluide lors du flip */
+  transform-style: preserve-3d; /* garde l’effet 3D pendant la rotation */
 }
 
-/* Faces de la carte */
-.card-front,
-.card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.partner-card.flipped .card-inner {
+  transform: rotateY(180deg);   /* rotation horizontale à 180° pour montrer l’arrière */
 }
 
-/* Face avant */
-.card-front img {
-  max-width: 90%;
-  max-height: 220px;   /* logo plus gros */
-  object-fit: contain;
-  margin-bottom: 15px;
+/* ===== FACES AVANT & ARRIÈRE ===== */
+.card-front, .card-back {
+  position: absolute;           /* superposées l’une sur l’autre */
+  width: 100%;                  /* même taille que la carte */
+  height: 100%;                 /* même taille que la carte */
+  backface-visibility: hidden;  /* masque la face arrière quand on regarde l’avant */
+  border-radius: 15px;          /* coins arrondis */
+  overflow: hidden;             /* coupe ce qui dépasse */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* ombre douce */
+  display: flex;                /* flexbox interne */
+  flex-direction: column;       /* contenu organisé en colonne */
+  justify-content: center;      /* centre verticalement */
+  align-items: center;          /* centre horizontalement */
+  background: white;            /* fond blanc par défaut */
 }
+
+/* ===== FACE AVANT ===== */
 
 .card-front h2 {
-  font-size: 1.8rem;
-  margin: 10px 0;
+  margin: 10px 0;               /* espace haut et bas autour du titre */
+  color: #000000;               /* couleur bleue */
 }
 
-.card-front p {
-  font-size: 1rem;
-  margin: 10px;
-  text-align: center;
+.card-front img {
+  max-width: 160px;              /* limite largeur du logo */
+  max-height: 1600px;             /* limite hauteur du logo */
+  margin-bottom: 15px;          /* espace sous le logo */
 }
 
-.card-front .flip-btn {
-  margin-top: auto;
-  padding: 12px 20px;
-  border: none;
-  background: #2a7ae4;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.3s;
+
+.card-front button {
+  margin-top: 20px;             /* espace au-dessus du bouton */
+  padding: 8px 16px;            /* taille interne du bouton */
+  border: none;                 /* pas de bordure */
+  background: #004AAD;          /* fond bleu */
+  color: white;                 /* texte blanc */
+  border-radius: 8px;           /* coins arrondis */
+  cursor: pointer;              /* pointeur main au survol */
+  transition: background 0.3s;  /* transition fluide de couleur */
 }
 
-.card-front .flip-btn:hover {
-  background: #1b5cb8;
+.card-front button:hover {
+  background: #003080;          /* bleu plus foncé au survol */
 }
 
-/* Face arrière */
+/* ===== FACE ARRIÈRE ===== */
 .card-back {
-  transform: rotateY(180deg);
-  padding: 15px;
-  background: #fafafa;
+  transform: rotateY(180deg);   /* face arrière tournée de 180° */
+  background: #000;             /* fond noir */
+  display: flex;                /* flexbox interne */
+  flex-direction: column;       /* contenu en colonne */
+  justify-content: space-between; /* espace entre image et bouton */
+  align-items: center;          /* centré horizontalement */
+  padding: 15px;                /* marge interne */
+  box-sizing: border-box;       /* inclut le padding dans la taille totale */
 }
 
+/* Image descriptive */
 .card-back img {
-  width: 100%;
-  height: calc(100% - 60px);  /* laisse la place pour le bouton */
-  object-fit: cover;          /* s'adapte bien */
-  border-radius: 10px;
-  margin-bottom: 10px;
+  width: 100%;                  /* occupe toute la largeur dispo */
+  height: calc(100% - 60px);    /* garde de la place pour le bouton */
+  object-fit: contain;          /* garde proportions sans rogner */
+  border-radius: 10px;          /* coins arrondis */
 }
 
-.card-back .flip-btn {
-  padding: 12px 20px;
-  border: none;
-  background: #2a7ae4;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.3s;
+/* Bouton retour */
+.card-back button {
+  width: 50%;                   /* bouton occupe la moitié de la largeur */
+  padding: 10px;                /* taille interne */
+  border: none;                 /* pas de bordure */
+  background: #004AAD;          /* fond bleu */
+  color: white;                 /* texte blanc */
+  border-radius: 8px;           /* coins arrondis */
+  cursor: pointer;              /* pointeur main */
+  transition: background 0.3s;  /* transition fluide */
 }
 
-.card-back .flip-btn:hover {
-  background: #1b5cb8;
-}
-
-/* Positionnement */
-.partners-container .partner-card:nth-child(1) { grid-area: card1; }
-.partners-container .partner-card:nth-child(2) { grid-area: card2; }
-.partners-container .partner-card:nth-child(3) { grid-area: card3; }
-.partners-container .partner-card:nth-child(4) { grid-area: card4; }
-.partners-container .partner-card:nth-child(5) { grid-area: card5; }
-
-/* Effet flip */
-.partner-card.flipped .card-inner {
-  transform: rotateY(180deg);
+.card-back button:hover {
+  background: #003080;          /* bleu foncé au survol */
 }
