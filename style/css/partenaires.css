@@ -1,3 +1,33 @@
+/* ===== STYLE EN-TÊTE PARTENAIRES ===== */
+.partners-intro {
+  text-align: center;
+  max-width: 900px;
+  margin: 50px auto 30px auto;
+  padding: 20px;
+  background: #f0f4ff; /* fond doux */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.partners-intro h1 {
+  color: #004AAD;
+  margin-bottom: 15px;
+}
+
+.partners-intro p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.partners-intro .note {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
 /* ===== CONTENEUR GÉNÉRAL ===== */
 .partners-container {
   display: grid;
