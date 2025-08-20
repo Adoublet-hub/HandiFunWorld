@@ -1,0 +1,29 @@
+[
+  {
+    "id": "event1",
+    "title": "Kermesse Solidaire",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event2",
+    "title": "Tournoi Amical",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event3",
+    "title": "Journée Découverte",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  }
+]
