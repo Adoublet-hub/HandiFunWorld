@@ -1,38 +1,25 @@
-/* Conteneur général des partenaires */
+/* Conteneur principal */
 .partners-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-areas:
+    "card1 card2"
+    "card3 card3"
+    "card4 card5";
+  gap: 30px;
   justify-content: center;
   align-items: center;
-  gap: 30px; /* espace entre les cartes */
-  margin: 50px 0;
-  position: relative;
+  margin: 50px auto;
+  max-width: 1200px;
 }
 
-/* Position spécifique des cartes pour former un losange */
-.partner-card:nth-child(1),
-.partner-card:nth-child(2) {
-  margin-top: 0; /* deux en haut */
-}
-
-.partner-card:nth-child(3) {
-  width: 300px; /* légèrement plus large pour le centre */
-  margin: 0 auto 0 auto; /* centrage horizontal */
-}
-
-.partner-card:nth-child(4),
-.partner-card:nth-child(5) {
-  margin-top: 30px; /* deux en bas */
-}
-
-/* Cartes partenaires */
+/* Chaque carte */
 .partner-card {
+  width: 350px;      /* plus grand */
+  height: 450px;     /* plus grand */
   perspective: 1000px;
-  width: 300px; 
-  height: 400px;
 }
 
-/* Flip des cartes */
+/* Intérieur de la carte */
 .card-inner {
   position: relative;
   width: 100%;
@@ -41,85 +28,96 @@
   transform-style: preserve-3d;
 }
 
-.partner-card.flipped .card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Faces avant et arrière */
-.card-front, .card-back {
+/* Faces de la carte */
+.card-front,
+.card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  background: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background: white;
+  justify-content: center;
 }
 
 /* Face avant */
 .card-front img {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 90%;
+  max-height: 220px;   /* logo plus gros */
+  object-fit: contain;
   margin-bottom: 15px;
 }
 
 .card-front h2 {
+  font-size: 1.8rem;
   margin: 10px 0;
-  color: #004AAD;
 }
 
-.card-front button {
-  margin-top: 20px;
-  padding: 8px 16px;
+.card-front p {
+  font-size: 1rem;
+  margin: 10px;
+  text-align: center;
+}
+
+.card-front .flip-btn {
+  margin-top: auto;
+  padding: 12px 20px;
   border: none;
-  background: #004AAD;
-  color: white;
-  border-radius: 8px;
+  background: #2a7ae4;
+  color: #fff;
+  border-radius: 10px;
   cursor: pointer;
+  font-size: 1rem;
   transition: background 0.3s;
 }
 
-.card-front button:hover {
-  background: #003080;
+.card-front .flip-btn:hover {
+  background: #1b5cb8;
 }
 
 /* Face arrière */
 .card-back {
   transform: rotateY(180deg);
-  background: #000;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* espace entre image et bouton */
-  align-items: center;
-  padding: 15px; /* espace autour de l'image et du bouton */
-  box-sizing: border-box;
+  padding: 15px;
+  background: #fafafa;
 }
 
-/* Image description adaptée */
 .card-back img {
   width: 100%;
-  height: calc(100% - 60px); /* prend tout l'espace sauf celui du bouton */
-  object-fit: contain; /* l'image garde ses proportions */
+  height: calc(100% - 60px);  /* laisse la place pour le bouton */
+  object-fit: cover;          /* s'adapte bien */
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-/* Bouton retour */
-.card-back button {
-  width: 50%; /* bouton plus visible */
-  padding: 10px;
+.card-back .flip-btn {
+  padding: 12px 20px;
   border: none;
-  background: #004AAD;
-  color: white;
-  border-radius: 8px;
+  background: #2a7ae4;
+  color: #fff;
+  border-radius: 10px;
   cursor: pointer;
+  font-size: 1rem;
   transition: background 0.3s;
 }
 
-.card-back button:hover {
-  background: #003080;
+.card-back .flip-btn:hover {
+  background: #1b5cb8;
+}
+
+/* Positionnement */
+.partners-container .partner-card:nth-child(1) { grid-area: card1; }
+.partners-container .partner-card:nth-child(2) { grid-area: card2; }
+.partners-container .partner-card:nth-child(3) { grid-area: card3; }
+.partners-container .partner-card:nth-child(4) { grid-area: card4; }
+.partners-container .partner-card:nth-child(5) { grid-area: card5; }
+
+/* Effet flip */
+.partner-card.flipped .card-inner {
+  transform: rotateY(180deg);
 }
