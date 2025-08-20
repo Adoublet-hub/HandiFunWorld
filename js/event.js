@@ -21,6 +21,12 @@ fetch('/HandiFunWorld/json/event.json')
       title.textContent = eventData.title;
       eventBlock.appendChild(title);
 
+      // **Date sous le titre**
+      const eventDate = document.createElement('p');
+      eventDate.textContent = eventData.date;
+      eventDate.className = 'event-date'; // classe pour le CSS
+      eventBlock.appendChild(eventDate);
+
       // Bouton "Plus d'infos"
       const button = document.createElement('button');
       button.textContent = "Plus d'infos";
@@ -46,13 +52,6 @@ fetch('/HandiFunWorld/json/event.json')
       const modalTitle = document.createElement('h2');
       modalTitle.textContent = eventData.title;
       modalContent.appendChild(modalTitle);
-
-      // Date sous le titre
-      const modalDate = document.createElement('p');
-      modalDate.textContent = eventData.date;
-      modalDate.style.fontSize = '0.9rem';
-      modalDate.style.color = '#666';
-      modalContent.appendChild(modalDate);
 
       // Images
       eventData.images.forEach(imgSrc => {
