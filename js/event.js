@@ -2,9 +2,11 @@
 fetch('/HandiFunWorld/json/event.json')
   .then(response => response.json())
   .then(data => {
+    data.reverse(); // <-- renverse l'ordre des événements
     const container = document.getElementById('timelineContainer');
 
     data.forEach((eventData, index) => {
+
       // Crée le conteneur de l'événement
       const eventBlock = document.createElement('div');
       eventBlock.className = 'event-block';
@@ -41,6 +43,18 @@ fetch('/HandiFunWorld/json/event.json')
       close.className = 'close';
       close.innerHTML = '&times;';
       modalContent.appendChild(close);
+
+      // Titre de la modale
+const modalTitle = document.createElement('h2');
+modalTitle.textContent = eventData.title;
+modalContent.appendChild(modalTitle);
+
+// Date de l'événement (plus petit texte)
+const modalDate = document.createElement('p');
+modalDate.textContent = eventData.date;
+modalDate.style.fontSize = '0.9rem';
+modalDate.style.color = '#555';
+modalContent.appendChild(modalDate);
 
       // Ajoute toutes les images de l'événement
       eventData.images.forEach(imgSrc => {

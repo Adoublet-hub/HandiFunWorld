@@ -1,7 +1,8 @@
 [
   {
     "id": "event1",
-    "title": "Kermesse Solidaire",
+    "title": "Deuxième Kermesse à Ambbrumesnil",
+    "date": "Juin 2025",
     "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
     "images": [
       "/HandiFunWorld/style/img/photo_test.png",
@@ -10,7 +11,8 @@
   },
   {
     "id": "event2",
-    "title": "Tournoi Amical",
+    "title": "Kermesse à Luneray",
+    "date": "Octobre 2024",
     "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
     "images": [
       "/HandiFunWorld/style/img/photo_test.png",
@@ -19,7 +21,108 @@
   },
   {
     "id": "event3",
-    "title": "Journée Découverte",
+    "title": "Passage dans de nombreux journeaux",
+    "date": "Octobre 2024",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event4",
+    "title": "Kermesse à Greville",
+    "date": "Septembre 2024",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event5",
+    "title": "Passage de Funny à la Mission Local de Dieppe",
+    "date": "Septembre 2024",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event6",
+    "title": "Première Kermesse à Ambrumesnil",
+    "date": "Juin 2024",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event7",
+    "title": "Passage dans de nombreux journeaux",
+    "date": "Octobre 2025",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event3",
+    "title": "Passage dans de nombreux journeaux",
+    "date": "Octobre 2025",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event3",
+    "title": "Passage dans de nombreux journeaux",
+    "date": "Octobre 2025",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event3",
+    "title": "Passage dans de nombreux journeaux",
+    "date": "Octobre 2025",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event3",
+    "title": "Passage dans de nombreux journeaux",
+    "date": "Octobre 2025",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event3",
+    "title": "Passage dans de nombreux journeaux",
+    "date": "Octobre 2025",
+    "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
+    "images": [
+      "/HandiFunWorld/style/img/photo_test.png",
+      "/HandiFunWorld/style/img/photo_test.png"
+    ]
+  },
+  {
+    "id": "event3",
+    "title": "Passage dans de nombreux journeaux",
+    "date": "Octobre 2025",
     "thumbnail": "/HandiFunWorld/style/img/photo_test.png",
     "images": [
       "/HandiFunWorld/style/img/photo_test.png",
