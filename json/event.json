@@ -4,7 +4,7 @@
     "title": "Premier post de l'association",
     "date": "Avril 2022",
     "thumbnail": "/HandiFunWorld/style/img/evenements/2022_avril.png",
-    "description": "Les débuts de notre association. Tout commence avec un premier post sur Facebook en avril 2022. À ce moment, rien n’était encore officiel, mais très vite, les publications se sont enchaînées, et nos autres réseaux sociaux (Instagram et TikTok) ont été lancés dès le mois suivant.",
+    "description": "Les débuts de notre association. Tout commence avec un premier post sur Facebook en avril 2022. À ce moment, rien n’était encore officiel, mais très vite, les publications se sont enchaînées, et nos autres réseaux sociaux (Instagram, TikTok et Discord) ont été lancés dès le mois suivant.",
     "images": [
       "/HandiFunWorld/style/img/evenements/2022_avril.png",
       "/HandiFunWorld/style/img/evenements/2022_mai.png"
@@ -75,33 +75,43 @@
     "id": "event6",
     "title": "Concour d'Hallowenn",
     "date": "Octobre 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/",
-    "description": "",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/2022_halloween/annonce1.png",
+    "description": "Tout au long du mois d’octobre, vous pouviez immortaliser une photo d’une personne, d’un animal, d’une peluche ou même d’une figurine, placée au cœur d’un décor sur les thèmes Harry Potter, Marvel ou Disney. À gagner : 3 magnifiques bougies offertes par notre partenaire Zazapandemonium !",
     "images": [
-      "/HandiFunWorld/style/img/evenements/",
-      "/HandiFunWorld/style/img/evenements/"
+      "/HandiFunWorld/style/img/evenements/2022_halloween/annonce1.png",
+      "/HandiFunWorld/style/img/evenements/2022_halloween/annonce2.png",
+      "/HandiFunWorld/style/img/evenements/2022_halloween/annonce3.png",
+      "/HandiFunWorld/style/img/evenements/2022_halloween/vainqueur1.png",
+      "/HandiFunWorld/style/img/evenements/2022_halloween/vainqueur2.png",
+      "/HandiFunWorld/style/img/evenements/2022_halloween/vainqueur3.png"
     ]
   },
   {
     "id": "event7",
     "title": "Concours de Noël",
     "date": "Décembre 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/",
-    "description": "",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/2022_noel/annonce1.jpg",
+    "description": "Du 2 au 22 décembre 2022, partez à l’aventure avec notre jeu de piste et d’énigmes ! Les indices se trouvent dans nos publications sur les réseaux sociaux pendant cette période. Trois cadeaux à gagner, tirés au sort parmi tous ceux qui auront été jusqu’au bout de l’énigme : un kit de lecture, un kit de chocolat chaud et un kit de bain, offerts par l’Handi Fun World et leurs partenaires.",
     "images": [
-      "/HandiFunWorld/style/img/evenements/",
-      "/HandiFunWorld/style/img/evenements/"
+      "/HandiFunWorld/style/img/evenements/2022_noel/annonce1.jpg",
+      "/HandiFunWorld/style/img/evenements/2022_noel/annonce2.png",
+      "/HandiFunWorld/style/img/evenements/2022_noel/annonce3.jpg",
+      "/HandiFunWorld/style/img/evenements/2022_noel/cadeau1.jpg",
+      "/HandiFunWorld/style/img/evenements/2022_noel/cadeau2.jpg",
+      "/HandiFunWorld/style/img/evenements/2022_noel/cadeau3.jpg",
+      "/HandiFunWorld/style/img/evenements/2022_noel/final.jpg"
     ]
   },
   {
     "id": "event8",
     "title": "Annonce de Funny",
     "date": "Janvier 2023",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/",
-    "description": "",
+    "thumbnail": "/HandiFunWorld/style/img/equipe/funny.jpg",
+    "description": "Une date à marquer d’une pierre blanche ! C’est aujourd’hui que notre fidèle mascotte voit le jour : Funny.<br>Depuis ce moment, Funny nous accompagne partout et est devenu un vrai symbole de l’association (au point de donner une mise à jour au logo de l'association).<br><br>On dit qu’une image vaut mille mots… mais même mille mots ne suffiraient pas pour présenter Funny. Alors on vous laisse découvrir deux petites vidéos qui expliquent pourquoi Funny a été créé, et surtout comment il a pris vie !<br>Pour suivre les actualité de Funny vous pouvez aussi accéder à la rubrique 'Funny' de notre site <br> La <a href='https://www.facebook.com/watch/?ref=saved&v=1581875162234383' target='_blank'> Première parti de la vidéo</a> et la <a href='https://www.facebook.com/watch/?ref=saved&v=509089797777153' target='_blank'> Deuxième parti de la vidéo</a>",
     "images": [
-      "/HandiFunWorld/style/img/evenements/",
-      "/HandiFunWorld/style/img/evenements/"
+      "/HandiFunWorld/style/img/funny/Funny.jpg",
+      "/HandiFunWorld/style/img/Logo.jpg",
+      "/HandiFunWorld/style/img/equipe/funny.jpg"
     ]
   },
   {
