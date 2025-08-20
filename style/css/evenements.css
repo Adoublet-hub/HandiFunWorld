@@ -142,12 +142,11 @@
 }
 
 .modal-content img {
-  width: 80%;          /* réduit la largeur par rapport à 100% */
-  max-height: 400px;   /* limite la hauteur des images */
+  width: 70%;       /* l'image prendra 70% de la largeur de la modale */
+  height: auto;     /* garde le ratio original */
   margin-bottom: 15px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
-  object-fit: cover;   /* garde les proportions */
 }
 
 .modal .close {
