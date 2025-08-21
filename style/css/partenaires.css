@@ -4,7 +4,7 @@
   max-width: 900px;
   margin: 50px auto 30px auto;
   padding: 20px;
-  background: #f0f4ff; /* fond doux */
+  background: #f0f4ff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
@@ -27,131 +27,124 @@
   font-style: italic;
 }
 
-
 /* ===== CONTENEUR GÉNÉRAL ===== */
 .partners-container {
   display: grid;
-  grid-template-columns: repeat(3, 300px); /* 3 colonnes fixes */
+  grid-template-columns: repeat(3, 300px);
   grid-template-rows: auto;
   justify-content: center;
-  gap: 40px 60px; /* espace vertical et horizontal */
+  gap: 40px 60px;
 }
 
-/* place les cartes dans la grille */
+/* position spécifique des cartes en losange */
 .partner-card:nth-child(1) { grid-column: 1; grid-row: 1; }
 .partner-card:nth-child(2) { grid-column: 3; grid-row: 1; }
 .partner-card:nth-child(3) { grid-column: 2; grid-row: 2; }
 .partner-card:nth-child(4) { grid-column: 1; grid-row: 3; }
 .partner-card:nth-child(5) { grid-column: 3; grid-row: 3; }
 
-
 /* ===== POSITIONNEMENT SPÉCIFIQUE POUR LE LOSANGE ===== */
 .partner-card:nth-child(1),
 .partner-card:nth-child(2) {
-  margin-top: 40px;   /* espace entre header et les deux premières cartes */
+  margin-top: 40px;
 }
 
 .partner-card:nth-child(3) {
-  width: 300px;       /* carte centrale légèrement plus large */
-  margin: 0 auto;     /* centrée horizontalement */
+  width: 300px;
+  margin: 0 auto;
 }
 
 .partner-card:nth-child(4),
 .partner-card:nth-child(5) {
-  margin-top: 30px;   /* deux cartes placées plus bas */
-  margin-bottom: 40px; /* espace avant le bas de la page */
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
-
 
 /* ===== STYLE DES CARTES ===== */
 .partner-card {
-  perspective: 1000px;          /* donne un effet 3D pour l’animation flip */
-  width: 300px;                 /* largeur standard des cartes */
-  height: 400px;                /* hauteur standard des cartes */
+  perspective: 1000px;  /* effet 3D pour flip */
+  width: 300px;
+  height: 400px;
 }
 
 /* ===== ANIMATION FLIP ===== */
 .card-inner {
-  position: relative;           /* permet aux faces avant/arrière de se superposer */
-  width: 100%;                  /* prend toute la largeur */
-  height: 100%;                 /* prend toute la hauteur */
-  transition: transform 0.8s;   /* animation fluide lors du flip */
-  transform-style: preserve-3d; /* garde l’effet 3D pendant la rotation */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
 .partner-card.flipped .card-inner {
-  transform: rotateY(180deg);   /* rotation horizontale à 180° pour montrer l’arrière */
+  transform: rotateY(180deg);
 }
 
 /* ===== FACES AVANT & ARRIÈRE ===== */
 .card-front, .card-back {
-  position: absolute;           /* superposées l’une sur l’autre */
-  width: 100%;                  /* même taille que la carte */
-  height: 100%;                 /* même taille que la carte */
-  backface-visibility: hidden;  /* masque la face arrière quand on regarde l’avant */
-  border-radius: 15px;          /* coins arrondis */
-  overflow: hidden;             /* coupe ce qui dépasse */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* ombre douce */
-  display: flex;                /* flexbox interne */
-  flex-direction: column;       /* contenu organisé en colonne */
-  justify-content: center;      /* centre verticalement */
-  align-items: center;          /* centre horizontalement */
-  background: white;            /* fond blanc par défaut */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
 }
 
 /* ===== FACE AVANT ===== */
-
 .card-front h2 {
-  margin: 10px 0;               /* espace haut et bas autour du titre */
-  color: #000000;               /* couleur bleue */
+  margin: 10px 0;
+  color: #000;
 }
 
 .card-front img {
-  max-width: 220px;              /* limite largeur du logo */
-  max-height: 1900px;             /* limite hauteur du logo */
-  margin-bottom: 15px;          /* espace sous le logo */
+  max-width: 220px;
+  max-height: 1900px;
+  margin-bottom: 15px;
 }
 
-
 .card-front button {
-  margin-top: 20px;             /* espace au-dessus du bouton */
-  padding: 8px 16px;            /* taille interne du bouton */
-  border: none;                 /* pas de bordure */
-  background: #004AAD;          /* fond bleu */
-  color: white;                 /* texte blanc */
-  border-radius: 8px;           /* coins arrondis */
-  cursor: pointer;              /* pointeur main au survol */
-  transition: background 0.3s;  /* transition fluide de couleur */
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: none;
+  background: #004AAD;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
 .card-front button:hover {
-  background: #003080;          /* bleu plus foncé au survol */
+  background: #003080;
 }
 
 /* ===== FACE ARRIÈRE ===== */
 .card-back {
-  transform: rotateY(180deg);   /* face arrière tournée de 180° */
-  background: #000;             /* fond noir */
-  display: flex;                /* flexbox interne */
-  flex-direction: column;       /* contenu en colonne */
-  justify-content: space-between; /* espace entre image et bouton */
-  align-items: center;          /* centré horizontalement */
-  padding: 15px;                /* marge interne */
-  box-sizing: border-box;       /* inclut le padding dans la taille totale */
+  transform: rotateY(180deg);
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
-/* Image descriptive */
 .card-back img {
-  width: 100%;                  /* occupe toute la largeur disponible */
-  height: calc(100% - 50px);    /* laisse ~50px pour le bouton retour */
-  object-fit: contain;          /* garde les proportions sans déformation */
-  border-radius: 10px;          /* coins arrondis */
-  margin-bottom: 5px;           /* petit espace entre image et bouton */
+  width: 100%;
+  height: calc(100% - 50px);
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 
-/* Bouton retour */
 .card-back button {
-  width: 80%;                   /* bouton un peu plus large */
+  width: 80%;
   padding: 8px;
   border: none;
   background: #003080;
@@ -161,22 +154,20 @@
   transition: background 0.3s;
 }
 
-
 .card-back button:hover {
-  background: #003080;          /* bleu foncé au survol */
+  background: #003080;
 }
-
 
 /* ===== POPUP IMAGE ===== */
 .img-popup {
-  display: none;                /* caché par défaut */
-  position: fixed;              /* reste fixe à l'écran */
-  z-index: 1000;                /* au-dessus de tout */
+  display: none;
+  position: fixed;
+  z-index: 1000;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.9);  /* fond sombre semi-transparent */
+  background: rgba(0,0,0,0.9);
   justify-content: center;
   align-items: center;
 }
