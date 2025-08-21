@@ -48,4 +48,42 @@
     color: #333;
     border-radius: 8px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.accueil-texte {
+    margin: 40px auto;
+    width: 75%;
+    padding: 30px 25px;
+    background: #ffffff;
+    border: 2px solid #004AAD;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.accueil-texte h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #004AAD;
+}
+
+.accueil-texte p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.accueil-texte strong {
+    color: #004AAD;
+    font-weight: 600;
+}
+
+.accueil-sous-texte {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
 }
