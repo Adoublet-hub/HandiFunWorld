@@ -222,6 +222,7 @@
     height: auto;
     margin: 10px auto;
     display: block;
+     transform: rotateY(0deg);
   }
 
   .card-front button,
@@ -242,5 +243,16 @@
 
   .card-front h2 {
     font-size: 16px;
+  }
+
+  .partner-card {
+    width: 95%;       /* carte presque pleine largeur du téléphone */
+    max-width: none;  /* supprime la limite max pour très petit écran */
+  }
+
+  .card-front img,
+  .card-back img {
+    max-width: 95%;   /* images plus grandes, respect du format */
+    height: auto;
   }
 }
