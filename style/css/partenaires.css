@@ -215,7 +215,7 @@
   }
 
   .card-inner {
-    transform: none !important;  /* pas de rotation */
+    transform: none;
   }
 
   .card-front, .card-back {
