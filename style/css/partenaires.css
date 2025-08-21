@@ -189,42 +189,42 @@
   cursor: pointer;
 }
 
-
 /* ===== TABLETTES ET SMARTPHONES ===== */
 @media (max-width: 1024px) {
   .partners-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;  /* espace entre les cartes */
+    gap: 20px;
   }
 
   .partner-card {
-    width: 90%;
-    max-width: 350px;
+    width: 80%;       /* moins large que 90%, donc moins d'espace blanc */
+    max-width: 300px; /* limite pour rester proportionné */
     height: auto;
   }
 
-  .card-front, .card-back {
-    position: relative;
+  .card-front,
+  .card-back {
+    position: relative;          /* plus besoin d'absolu */
     width: 100%;
     height: auto;
-    backface-visibility: visible; /* les deux faces sont visibles */
+    backface-visibility: visible; /* les deux faces visibles */
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     border-radius: 15px;
     overflow: hidden;
-    background: white; /* supprime le fond noir de l’arrière */
+    background: white;
+    transform: none;              /* désactive le flip */
   }
 
   .card-front img,
   .card-back img {
-    max-width: 180px;
+    max-width: 90%;   /* image un peu plus grande pour occuper l'espace */
     height: auto;
     margin: 10px auto;
     display: block;
   }
 
-  /* supprime complètement les boutons */
   .card-front button,
   .card-back button {
     display: none;
@@ -243,5 +243,16 @@
 
   .card-front h2 {
     font-size: 16px;
+  }
+
+  .partner-card {
+    width: 95%;       /* carte presque pleine largeur du téléphone */
+    max-width: none;  /* supprime la limite max pour très petit écran */
+  }
+
+  .card-front img,
+  .card-back img {
+    max-width: 95%;   /* images plus grandes, respect du format */
+    height: auto;
   }
 }
