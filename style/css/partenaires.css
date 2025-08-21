@@ -211,11 +211,6 @@
     width: 90%;
     max-width: 350px;
     height: auto;
-    perspective: none;  /* supprime l’effet 3D */
-  }
-
-  .card-inner {
-    transform: none;
   }
 
   .card-front, .card-back {
@@ -226,11 +221,7 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     border-radius: 15px;
     overflow: hidden;
-  }
-
-  .card-back {
-    transform: none;   /* assure que l’arrière est visible */
-    background: white; /* supprime le fond noir */
+    background: white; /* supprime le fond noir de l’arrière */
   }
 
   .card-front img,
