@@ -1,12 +1,28 @@
 .center {
-    margin: 20px auto;
-    width: 35%;
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
+    margin: 30px auto;
+    width: 60%;
+    padding: 40px 30px;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+
+    /* Style visuel */
+    background: linear-gradient(135deg, #f0f6ff, #ffffff);
+    border: 2px solid #004AAD;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+
+    /* Animation douce */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.center:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+
 
 .zoneLogo {
     margin: 20px auto;
