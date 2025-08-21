@@ -196,12 +196,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 20px;  /* espace entre les cartes */
   }
 
   .partner-card {
-    width: 80%;       /* moins large que 90%, donc moins d'espace blanc */
-    max-width: 300px; /* limite pour rester proportionné */
+    width: 90%;
+    max-width: 350px;
     height: auto;
   }
 
@@ -209,22 +209,22 @@
     position: relative;
     width: 100%;
     height: auto;
-    backface-visibility: visible;
+    backface-visibility: visible; /* les deux faces sont visibles */
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     border-radius: 15px;
     overflow: hidden;
-    background: white;
+    background: white; /* supprime le fond noir de l’arrière */
   }
 
   .card-front img,
   .card-back img {
-    max-width: 90%;   /* image un peu plus grande pour occuper l'espace */
+    max-width: 180px;
     height: auto;
     margin: 10px auto;
     display: block;
-     transform: rotateY(0deg);
   }
 
+  /* supprime complètement les boutons */
   .card-front button,
   .card-back button {
     display: none;
@@ -243,16 +243,5 @@
 
   .card-front h2 {
     font-size: 16px;
-  }
-
-  .partner-card {
-    width: 95%;       /* carte presque pleine largeur du téléphone */
-    max-width: none;  /* supprime la limite max pour très petit écran */
-  }
-
-  .card-front img,
-  .card-back img {
-    max-width: 95%;   /* images plus grandes, respect du format */
-    height: auto;
   }
 }
