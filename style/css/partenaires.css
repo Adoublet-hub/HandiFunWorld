@@ -202,12 +202,12 @@
 @media (max-width: 1024px) {
   .partners-container {
     display: grid;
-    grid-template-columns: 1fr; /* 1 colonne */
-    gap: 30px;                  /* espace vertical uniquement */
-    justify-items: center;       /* centre horizontalement les cartes */
+    grid-template-columns: 1fr; /* 1 colonne verticale */
+    gap: 30px;
+    justify-items: center;
   }
 
-  /* Supprime le positionnement en losange */
+  /* Annule le positionnement losange */
   .partner-card:nth-child(1),
   .partner-card:nth-child(2),
   .partner-card:nth-child(3),
@@ -219,15 +219,20 @@
   }
 
   .partner-card {
-    width: 90%;
-    max-width: 350px;
-    height: 400px;        /* fixe pour que le flip fonctionne */
-    perspective: 1000px;  /* garde l’effet 3D */
+    width: 90%;      /* occupe presque toute la largeur */
+    height: 300px;   /* hauteur fixe pour conserver le flip */
+    perspective: 1000px; /* nécessaire pour 3D flip */
   }
 
   .card-inner {
-    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
     transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .partner-card.flipped .card-inner {
+    transform: rotateY(180deg);
   }
 
   .card-front, .card-back {
@@ -236,32 +241,35 @@
     backface-visibility: hidden;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .card-back {
     transform: rotateY(180deg);
   }
 
-  .card-front img,
-  .card-back img {
+  .card-front img, .card-back img {
     max-width: 180px;
     max-height: 160px;
     object-fit: contain;
+  }
+
+  .card-front button {
+    margin-top: 15px;
   }
 }
 
 /* ===== TRÈS PETITS ÉCRANS ===== */
 @media (max-width: 480px) {
-  .partners-intro h1 {
-    font-size: 20px;
-  }
-
-  .partners-intro p {
-    font-size: 14px;
+  .partner-card {
+    height: 280px;
   }
 
   .card-front h2 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .card-front button,
