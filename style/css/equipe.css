@@ -95,12 +95,16 @@
   #team-container {
     grid-template-columns: 1fr; /* 1 colonne */
     gap: 20px;
+    width: 100%;       /* Assure que le container prend toute la largeur */
+    max-width: 400px;  /* limite maximale pour ne pas exploser l’écran */
+    margin: 0 auto;    /* centre le container */
   }
 
   .member {
     flex-direction: column;
     text-align: center;
-    max-width: 95%;
+    width: 100%;       /* occupe toute la largeur disponible du container */
+    max-width: none;   /* annule le max-width précédent */
     padding: 20px;
   }
 
@@ -124,20 +128,8 @@
 
 /* Très petits téléphones */
 @media (max-width: 480px) {
-  .team-intro {
-    padding: 15px;
-  }
-
-  .team-intro h1 {
-    font-size: 1.6rem;
-  }
-
-  .team-intro p {
-    font-size: 0.9rem;
-  }
-
-  .member {
-    padding: 15px;
+  #team-container {
+    max-width: 300px;  /* encore plus petit pour les très petits écrans */
   }
 
   .member img {
