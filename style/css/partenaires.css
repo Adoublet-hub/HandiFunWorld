@@ -197,42 +197,56 @@
   font-weight: bold;
   cursor: pointer;
 }
+
 /* ===== TABLETTES ET SMARTPHONES ===== */
 @media (max-width: 1024px) {
   .partners-container {
-    display: flex;             /* flex vertical */
-    flex-direction: column;
-    align-items: center;       /* centre les cartes */
-    gap: 20px;                 /* espace entre les cartes */
+    display: grid;
+    grid-template-columns: 1fr; /* 1 colonne */
+    gap: 30px;                  /* espace vertical uniquement */
+    justify-items: center;       /* centre horizontalement les cartes */
+  }
+
+  /* Supprime le positionnement en losange */
+  .partner-card:nth-child(1),
+  .partner-card:nth-child(2),
+  .partner-card:nth-child(3),
+  .partner-card:nth-child(4),
+  .partner-card:nth-child(5) {
+    grid-column: auto;
+    grid-row: auto;
+    margin: 20px 0;
   }
 
   .partner-card {
-    width: 90%;                /* occupe presque toute la largeur */
-    max-width: 350px;          /* limite la largeur pour ne pas exploser */
-    height: auto;              /* hauteur automatique */
-    perspective: none;         /* supprime l’effet 3D pour simplifier */
+    width: 90%;
+    max-width: 350px;
+    height: 400px;        /* fixe pour que le flip fonctionne */
+    perspective: 1000px;  /* garde l’effet 3D */
   }
 
   .card-inner {
-    transform: none !important; /* supprime toute rotation sur petits écrans */
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
   }
 
   .card-front, .card-back {
-    position: relative;
     width: 100%;
-    height: auto;
-    backface-visibility: visible;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    overflow: hidden;
   }
 
   .card-back {
-    transform: none;           /* assure que l’arrière est visible */
+    transform: rotateY(180deg);
   }
 
   .card-front img,
   .card-back img {
     max-width: 180px;
-    height: auto;
+    max-height: 160px;
+    object-fit: contain;
   }
 }
 
