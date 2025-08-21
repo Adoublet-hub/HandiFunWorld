@@ -201,79 +201,64 @@
 /* ===== TABLETTES ET SMARTPHONES ===== */
 @media (max-width: 1024px) {
   .partners-container {
-    display: grid;
-    grid-template-columns: 1fr; /* 1 colonne verticale */
-    gap: 30px;
-    justify-items: center;
-  }
-
-  /* Annule le positionnement losange */
-  .partner-card:nth-child(1),
-  .partner-card:nth-child(2),
-  .partner-card:nth-child(3),
-  .partner-card:nth-child(4),
-  .partner-card:nth-child(5) {
-    grid-column: auto;
-    grid-row: auto;
-    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;  /* espace entre les cartes */
   }
 
   .partner-card {
-    width: 90%;      /* occupe presque toute la largeur */
-    height: 300px;   /* hauteur fixe pour conserver le flip */
-    perspective: 1000px; /* nécessaire pour 3D flip */
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    perspective: none;  /* supprime l’effet 3D */
   }
 
   .card-inner {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-
-  .partner-card.flipped .card-inner {
-    transform: rotateY(180deg);
+    transform: none !important;  /* pas de rotation */
   }
 
   .card-front, .card-back {
+    position: relative;
     width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
+    height: auto;
+    backface-visibility: visible; /* les deux faces sont visibles */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     border-radius: 15px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .card-back {
-    transform: rotateY(180deg);
+    transform: none;   /* assure que l’arrière est visible */
+    background: white; /* supprime le fond noir */
   }
 
-  .card-front img, .card-back img {
+  .card-front img,
+  .card-back img {
     max-width: 180px;
-    max-height: 160px;
-    object-fit: contain;
+    height: auto;
+    margin: 10px auto;
+    display: block;
   }
 
-  .card-front button {
-    margin-top: 15px;
+  /* supprime complètement les boutons */
+  .card-front button,
+  .card-back button {
+    display: none;
   }
 }
 
 /* ===== TRÈS PETITS ÉCRANS ===== */
 @media (max-width: 480px) {
-  .partner-card {
-    height: 280px;
+  .partners-intro h1 {
+    font-size: 20px;
+  }
+
+  .partners-intro p {
+    font-size: 14px;
   }
 
   .card-front h2 {
-    font-size: 18px;
-  }
-
-  .card-front button,
-  .card-back button {
-    padding: 6px 12px;
+    font-size: 16px;
   }
 }
