@@ -197,38 +197,41 @@
   font-weight: bold;
   cursor: pointer;
 }
-
 /* ===== TABLETTES ET SMARTPHONES ===== */
 @media (max-width: 1024px) {
   .partners-container {
-    grid-template-columns: 1fr; /* une seule colonne */
-    gap: 30px 0; /* espace vertical uniquement */
-    justify-items: center; /* centre horizontalement les cartes */
-  }
-
-  /* On annule le positionnement spécifique du losange */
-  .partner-card:nth-child(1),
-  .partner-card:nth-child(2),
-  .partner-card:nth-child(3),
-  .partner-card:nth-child(4),
-  .partner-card:nth-child(5) {
-    grid-column: auto;
-    grid-row: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    display: flex;             /* flex vertical */
+    flex-direction: column;
+    align-items: center;       /* centre les cartes */
+    gap: 20px;                 /* espace entre les cartes */
   }
 
   .partner-card {
-    width: 90%;   /* occupe presque toute la largeur */
-    height: auto; /* hauteur automatique pour s’adapter au contenu */
+    width: 90%;                /* occupe presque toute la largeur */
+    max-width: 350px;          /* limite la largeur pour ne pas exploser */
+    height: auto;              /* hauteur automatique */
+    perspective: none;         /* supprime l’effet 3D pour simplifier */
   }
 
-  .card-front img {
-    max-width: 180px;
-    max-height: 160px;
+  .card-inner {
+    transform: none !important; /* supprime toute rotation sur petits écrans */
   }
 
+  .card-front, .card-back {
+    position: relative;
+    width: 100%;
+    height: auto;
+    backface-visibility: visible;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .card-back {
+    transform: none;           /* assure que l’arrière est visible */
+  }
+
+  .card-front img,
   .card-back img {
+    max-width: 180px;
     height: auto;
   }
 }
@@ -236,7 +239,7 @@
 /* ===== TRÈS PETITS ÉCRANS ===== */
 @media (max-width: 480px) {
   .partners-intro h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .partners-intro p {
@@ -244,7 +247,7 @@
   }
 
   .card-front h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .card-front button,
