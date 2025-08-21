@@ -67,9 +67,93 @@
     color: #555;
 }
 
-/* Ajustement pour mobile (1 colonne) */
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablettes */
+@media (max-width: 1024px) {
+  #team-container {
+    grid-template-columns: 1fr 1fr; /* Toujours 2 colonnes mais plus souples */
+    gap: 20px;
+  }
+
+  .member {
+    flex-direction: column;
+    text-align: center;
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .member img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Smartphones */
 @media (max-width: 768px) {
-    #team-container {
-        grid-template-columns: 1fr; /* 1 seule colonne */
-    }
+  #team-container {
+    grid-template-columns: 1fr; /* 1 colonne */
+    gap: 20px;
+  }
+
+  .member {
+    flex-direction: column;
+    text-align: center;
+    max-width: 95%;
+    padding: 20px;
+  }
+
+  .member img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .member h2 {
+    font-size: 1.3rem;
+  }
+
+  .member h3 {
+    font-size: 1rem;
+  }
+
+  .member p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Très petits téléphones */
+@media (max-width: 480px) {
+  .team-intro {
+    padding: 15px;
+  }
+
+  .team-intro h1 {
+    font-size: 1.6rem;
+  }
+
+  .team-intro p {
+    font-size: 0.9rem;
+  }
+
+  .member {
+    padding: 15px;
+  }
+
+  .member img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .member h2 {
+    font-size: 1.1rem;
+  }
+
+  .member h3 {
+    font-size: 0.9rem;
+  }
+
+  .member p {
+    font-size: 0.85rem;
+  }
 }

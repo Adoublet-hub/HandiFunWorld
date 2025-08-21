@@ -103,3 +103,106 @@
     color: #333;
     margin-top: 20px;
 }
+
+/* 📱 Tablettes (jusqu'à 1024px) */
+@media (max-width: 1024px) {
+    .center, 
+    .zoneLogo, 
+    .zoneHashtag, 
+    .joliTexte, 
+    .accueil-texte {
+        width: 85%;
+    }
+
+    .center {
+        font-size: 1.3rem;
+        padding: 30px 20px;
+    }
+
+    .zoneHashtag {
+        font-size: 2rem;
+    }
+
+    .accueil-texte h2 {
+        font-size: 1.5rem;
+    }
+
+    .accueil-texte p {
+        font-size: 1rem;
+    }
+}
+
+/* 📲 Smartphones (jusqu'à 768px) */
+@media (max-width: 768px) {
+    .center, 
+    .zoneLogo, 
+    .zoneHashtag, 
+    .joliTexte, 
+    .accueil-texte {
+        width: 95%;
+    }
+
+    .center {
+        font-size: 1.1rem;
+        padding: 25px 15px;
+    }
+
+    .zoneLogo {
+        height: 80px;
+    }
+
+    .zoneHashtag {
+        font-size: 1.6rem;
+        padding: 10px;
+    }
+
+    .joliTexte {
+        font-size: 0.9rem;
+        padding: 12px 15px;
+    }
+
+    .accueil-texte h2 {
+        font-size: 1.3rem;
+    }
+
+    .accueil-texte p {
+        font-size: 0.95rem;
+    }
+
+    .accueil-sous-texte {
+        font-size: 1rem;
+    }
+}
+
+/* 📱 Petits smartphones (jusqu'à 480px) */
+@media (max-width: 480px) {
+    .center {
+        font-size: 1rem;
+        line-height: 1.5;
+        padding: 20px 12px;
+    }
+
+    .zoneLogo {
+        height: 60px;
+    }
+
+    .zoneHashtag {
+        font-size: 1.4rem;
+    }
+
+    .joliTexte {
+        font-size: 0.85rem;
+    }
+
+    .accueil-texte h2 {
+        font-size: 1.1rem;
+    }
+
+    .accueil-texte p {
+        font-size: 0.9rem;
+    }
+
+    .accueil-sous-texte {
+        font-size: 0.95rem;
+    }
+}
