@@ -1,0 +1,43 @@
+.story-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.story-card {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.story-header {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  text-align: left;
+  background: #004AAD;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.story-header:hover {
+  background: #003080;
+}
+
+.story-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 15px;
+}
+
+.story-content p {
+  margin: 15px 0;
+  line-height: 1.6;
+  color: #333;
+}
