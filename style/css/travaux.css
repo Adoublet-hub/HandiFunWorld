@@ -1,0 +1,18 @@
+.zone-travaux {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.zone-travaux img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.zone-travaux p {
+  font-size: 18px;
+  color: #004AAD;
+  margin-top: 15px;
+  font-weight: bold;
+}
