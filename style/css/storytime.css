@@ -5,27 +5,33 @@
 }
 
 .story-card {
-  margin-bottom: 15px;
-  border-radius: 10px;
+  margin-bottom: 20px;
+  border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   background: #fff;
+  text-align: center;
 }
 
-.story-header {
+.story-img {
   width: 100%;
-  padding: 15px;
-  font-size: 16px;
-  text-align: left;
+  display: block;
+  border-bottom: 2px solid #eee;
+}
+
+.story-toggle {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 14px;
   background: #004AAD;
-  color: #fff;
+  color: white;
   border: none;
-  outline: none;
+  border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s;
 }
 
-.story-header:hover {
+.story-toggle:hover {
   background: #003080;
 }
 
@@ -40,4 +46,5 @@
   margin: 15px 0;
   line-height: 1.6;
   color: #333;
+  text-align: justify;
 }
