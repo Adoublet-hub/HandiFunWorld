@@ -111,22 +111,22 @@
 
 /* Bouton de fermeture */
 .close {
-     position: sticky;
+    position: sticky;
     top: 10px;
-    right: 10px;       /* place bien à droite */
-    float: none;
-    font-size: 30px;
+    right: 10px;
+    font-size: 15px;
     font-weight: bold;
     color: #333;
     cursor: pointer;
     z-index: 10;
-    color: #333;
     padding: 2px 8px;
     border-radius: 5px;
+    background: #ffffff; /* reste discret tant qu'on ne survole pas */
+    border: none;
 }
 
 .close:hover {
-    background: #004AAD;   /* ton bleu d’accent */
+    background: #004AAD;
     color: #fff;
 }
 
