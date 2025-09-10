@@ -24,6 +24,12 @@ body {
     margin-bottom: 20px; /* Ajoute un espace entre le titre et la navigation */
 }
 
+a {
+  text-decoration: none; /* supprime le soulignement */
+  color: inherit;        /* garde la couleur du h1 */
+}
+
+
 .content_center ul {
     list-style-type: none; /* Enlève les puces */
     padding: 0;
