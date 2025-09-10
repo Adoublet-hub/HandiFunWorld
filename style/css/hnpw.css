@@ -110,14 +110,23 @@
 
 /* Bouton de fermeture */
 .close {
-     position: fixed;
-    top: 15px;
-    right: 20px;
-    font-size: 30px;
+    position: sticky;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
     font-weight: bold;
     color: #333;
     cursor: pointer;
-    z-index: 2000;
+    z-index: 10;
+    padding: 2px 8px;
+    border-radius: 5px;
+    background: #ffffff; /* reste discret tant qu'on ne survole pas */
+    border: none;
+}
+
+.close:hover {
+    background: #004AAD;
+    color: #fff;
 }
 
 .modal-content h2 {
