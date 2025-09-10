@@ -191,6 +191,7 @@
     "thumbnail": "/HandiFunWorld/style/img/evenements/15.2024_avril/annonce.jpg",
     "description": "",
     "images": [
+      "/HandiFunWorld/style/img/evenements/15.2024_avril/annonce.jpg",
       "/HandiFunWorld/style/img/evenements/15.2024_avril/stand1.jpg"
     ]
   },
@@ -202,68 +203,74 @@
     "description": "",
     "images": [
       "/HandiFunWorld/style/img/evenements/16.2024_mai/annonce.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/annonce_village.jpg"
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/annonce_village.jpg",
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/presentation.jpg",
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/canard.jpg",
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/dessin.jpg",
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/jeux_libre.jpg",
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/makeup1.jpg",
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/makeup2.jpg",
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/pokemon.jpg",
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/remerciement.jpg"
     ]
   },
   {
     "id": "event16",
     "title": "Passage de Funny a la mission local",
     "date": "Septembre 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/17.2024_juin/presentation.jpg",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/17.2024_juin/mission_local.jpg",
     "description": "",
     "images": [
-      "/HandiFunWorld/style/img/evenements/17.2024_juin/presentation.jpg",
-      "/HandiFunWorld/style/img/evenements/17.2024_juin/canard.jpg",
-      "/HandiFunWorld/style/img/evenements/17.2024_juin/dessin.jpg",
-      "/HandiFunWorld/style/img/evenements/17.2024_juin/jeux_libre.jpg",
-      "/HandiFunWorld/style/img/evenements/17.2024_juin/makeup1.jpg",
-      "/HandiFunWorld/style/img/evenements/17.2024_juin/makeup2.jpg",
-      "/HandiFunWorld/style/img/evenements/17.2024_juin/pokemon.jpg",
-      "/HandiFunWorld/style/img/evenements/17.2024_juin/remerciement.jpg"
+      "/HandiFunWorld/style/img/evenements/17.2024_juin/mission_local.jpg"
     ]
   },
   {
     "id": "event17",
     "title": "Kermess à Greville",
     "date": "Septembre 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/18.2024_septembre/annonce.jpg",
     "description": "",
     "images": [
-      "/HandiFunWorld/style/img/evenements/",
-      "/HandiFunWorld/style/img/evenements/"
+      "/HandiFunWorld/style/img/evenements/18.2024_septembre/annonce.jpg",
+      "/HandiFunWorld/style/img/evenements/18.2024_septembre/stand.jpg",
+      "/HandiFunWorld/style/img/evenements/18.2024_septembre/stand2.jpg",
+      "/HandiFunWorld/style/img/evenements/18.2024_septembre/village.jpg",
+      "/HandiFunWorld/style/img/evenements/18.2024_septembre/remerciement.png"
     ]
   },
   {
     "id": "event18",
     "title": "Passage dans de nombreux journeaux",
     "date": "Octobre 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/19.2024_octobre/article.jpg",
     "description": "",
     "images": [
-      "/HandiFunWorld/style/img/evenements/",
-      "/HandiFunWorld/style/img/evenements/"
+      "/HandiFunWorld/style/img/evenements/19.2024_octobre/article.jpg"
     ]
   },
   {
     "id": "event19",
     "title": "Kermess à Luneray",
     "date": "Octobre 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/20.2024_octobre/annonce.jpg",
     "description": "",
     "images": [
-      "/HandiFunWorld/style/img/evenements/",
-      "/HandiFunWorld/style/img/evenements/"
+      "/HandiFunWorld/style/img/evenements/20.2024_octobre/annonce.jpg"
     ]
   },
   {
     "id": "event20",
     "title": "2nd Kermess à Ambrumesnil",
     "date": "Juin 2025",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/21.2025_juin/annonce.jpg",
     "description": "",
     "images": [
-      "/HandiFunWorld/style/img/evenements/",
-      "/HandiFunWorld/style/img/evenements/"
+      "/HandiFunWorld/style/img/evenements/21.2025_juin/annonce.jpg",
+      "/HandiFunWorld/style/img/evenements/21.2025_juin/goodies.jpg",
+      "/HandiFunWorld/style/img/evenements/21.2025_juin/presentation.png",
+      "/HandiFunWorld/style/img/evenements/21.2025_juin/stand.png",
+      "/HandiFunWorld/style/img/evenements/21.2025_juin/dessin.png",
+      "/HandiFunWorld/style/img/evenements/21.2025_juin/makeup.png"
     ]
   }
 ]
