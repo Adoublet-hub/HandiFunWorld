@@ -113,7 +113,8 @@
 .close {
      position: sticky;
     top: 10px;
-    float: right;
+    right: 10px;       /* place bien à droite */
+    float: none;
     font-size: 30px;
     font-weight: bold;
     color: #333;
