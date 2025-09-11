@@ -3,7 +3,7 @@
     "id": "event1",
     "title": "Premier post de l'association",
     "date": "Avril 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/2022_avril.png",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/1.2022_avril.png",
     "description": "Les débuts de notre association. Tout commence avec un premier post sur Facebook en avril 2022. À ce moment, rien n’était encore officiel, mais très vite, les publications se sont enchaînées, et nos autres réseaux sociaux (Instagram, TikTok et Discord) ont été lancés dès le mois suivant.",
     "images": [
       "/HandiFunWorld/style/img/evenements/1.2022_avril.png",
@@ -51,7 +51,7 @@
       "/HandiFunWorld/style/img/evenements/5.2022_aout/moyen_5.png",
       "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_1.png",
       "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_2.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_.png",
+      "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_3.png",
       "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_4.png",
       "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_5.png"
     ]
@@ -81,9 +81,9 @@
       "/HandiFunWorld/style/img/evenements/7.2022_octobre/annonce1.png",
       "/HandiFunWorld/style/img/evenements/7.2022_octobre/annonce2.png",
       "/HandiFunWorld/style/img/evenements/7.2022_octobre/annonce3.png",
-      "/HandiFunWorld/style/img/evenements/7.2022_octobre/vainqueur1.png",
-      "/HandiFunWorld/style/img/evenements/7.2022_octobre/vainqueur2.png",
-      "/HandiFunWorld/style/img/evenements/7.2022_octobre/vainqueur3.png"
+      "/HandiFunWorld/style/img/evenements/7.2022_octobre/vainqueur1.jpg",
+      "/HandiFunWorld/style/img/evenements/7.2022_octobre/vainqueur2.jpg",
+      "/HandiFunWorld/style/img/evenements/7.2022_octobre/vainqueur3.jpg"
     ]
   },
   {
@@ -127,7 +127,7 @@
     "images": [
       "/HandiFunWorld/style/img/evenements/10.2023_fevrier/oceane1.jpg",
       "/HandiFunWorld/style/img/evenements/10.2023_fevrier/oceane2.jpg",
-      "/HandiFunWorld/style/img/evenements/10.2023_fevrier/oceane3.jpg"
+      "/HandiFunWorld/style/img/evenements/10.2023_fevrier/oceane3.png"
     ]
   },
   {
@@ -211,7 +211,7 @@
       "/HandiFunWorld/style/img/evenements/16.2024_mai/makeup1.jpg",
       "/HandiFunWorld/style/img/evenements/16.2024_mai/makeup2.jpg",
       "/HandiFunWorld/style/img/evenements/16.2024_mai/pokemon.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/remerciement.jpg"
+      "/HandiFunWorld/style/img/evenements/16.2024_mai/remerciement.png"
     ]
   },
   {
@@ -271,6 +271,16 @@
       "/HandiFunWorld/style/img/evenements/21.2025_juin/stand.png",
       "/HandiFunWorld/style/img/evenements/21.2025_juin/dessin.png",
       "/HandiFunWorld/style/img/evenements/21.2025_juin/makeup.png"
+    ]
+  },
+  {
+    "id": "event21",
+    "title": "2nd Kermess à Greville",
+    "date": "Juin 2025",
+    "thumbnail": "/HandiFunWorld/style/img/evenements/21.2025_juin/annonce.jpg",
+    "description": "Nous revoilà pour notre 5ᵉ kermesse, et devinez quoi… on revient pour la 2ᵉ fois à Gréville ! 🎉 Rendez-vous le dimanche 28 septembre 2024 pour une journée pleine de rires et de bonne humeur avec nos incontournables animations : jeux libres (cube de construction géant, chamboule-tout, marelle), maquillage, ateliers créatifs, pêche au canard et initiation Pokémon… sans oublier nos super goodies ! 😍 Réservez la date, ça va être fun, coloré et inoubliable ! 🌟",
+    "images": [
+      "/HandiFunWorld/style/img/evenements/22.2025_septembre/annonce.jpg"
     ]
   }
 ]
