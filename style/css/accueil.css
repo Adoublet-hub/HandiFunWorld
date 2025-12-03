@@ -132,8 +132,8 @@
     }
 }
 
-/* 📲 Smartphones (jusqu'à 768px) */
-@media (max-width: 768px) {
+/* 📲 Smartphones (jusqu'à 15vh) */
+@media (max-width: 15vh) {
     .center, 
     .zoneLogo, 
     .zoneHashtag, 
