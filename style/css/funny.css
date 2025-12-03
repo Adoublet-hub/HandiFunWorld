@@ -6,15 +6,19 @@
 }
 
 .book {
-  width: 320px;
-  height: 450px;
+    position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: 500px; /* ✅ hauteur fixe */
+  margin: auto;
+  overflow: hidden;
   perspective: 1200px;
-  position: relative;
 }
 
 .page {
   width: 100%;
   height: 100%;
+   inset: 0; 
   opacity: 0;
   pointer-events: none;
   background: #fff;
