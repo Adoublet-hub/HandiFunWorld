@@ -8,7 +8,7 @@
 .book {
     position: relative;
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
   height: 500px; /* ✅ hauteur fixe */
   margin: auto;
   overflow: hidden;
@@ -42,7 +42,7 @@
   align-items: center;
 
   font-family: 'Segoe UI', sans-serif;
-  padding: 0px;
+  padding: 20px;
   box-sizing: border-box;
   backface-visibility: hidden;
 }
@@ -53,11 +53,10 @@
 }
 
 .page img {
-  width: 100%;
+  width: 150%;
   height: 100%;
   object-fit: contain;
   background: white;
-  display: block;
 }
 
 
