@@ -1,4 +1,4 @@
-  fetch('/HandiFunWorld/json/team.json')
+  fetch('/json/team.json')
             .then(response => response.json())
             .then(data => {
                 const teamContainer = document.getElementById('team-container');

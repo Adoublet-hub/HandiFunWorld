@@ -3,264 +3,264 @@
     "id": "event1",
     "title": "Premier post de l'association",
     "date": "Avril 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/1.2022_avril.png",
+    "thumbnail": "/style/img/evenements/1.2022_avril.png",
     "description": "Les débuts de notre association. Tout commence avec un premier post sur Facebook en avril 2022. À ce moment, rien n’était encore officiel, mais très vite, les publications se sont enchaînées, et nos autres réseaux sociaux (Instagram, TikTok et Discord) ont été lancés dès le mois suivant.",
     "images": [
-      "/HandiFunWorld/style/img/evenements/1.2022_avril.png",
-      "/HandiFunWorld/style/img/evenements/2.2022_mai.png"
+      "/style/img/evenements/1.2022_avril.png",
+      "/style/img/evenements/2.2022_mai.png"
     ]
   },
   {
     "id": "event2",
     "title": "Officiellement enregistré en tant qu'association",
     "date": "Juin 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/3.2022_juin.png",
+    "thumbnail": "/style/img/evenements/3.2022_juin.png",
     "description": "En juin 2022, nous sommes officiellement inscrits en tant qu’association (à l’époque basée dans le Médoc), marquant le début d’une grande aventure !",
     "images": [
-      "/HandiFunWorld/style/img/evenements/3.2022_juin.png"
+      "/style/img/evenements/3.2022_juin.png"
     ]
   },
   {
     "id": "event3",
     "title": "Tombola de l'été",
     "date": "Juillet 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/4.2022_juillet/gagnant.jpg",
+    "thumbnail": "/style/img/evenements/4.2022_juillet/gagnant.jpg",
     "description": "Tout au long du mois de juillet jusqu’au 7 août, vous avez pu tenter votre chance en achetant des tickets pour gagner des lots géniaux: des masques de beauté et bombes de bain de La Petite Écolo du Médoc, des bougies parfumées de Zazapandemonium, et des articles de la boutique de Crazy Poppins, tout trois partenaires de l’association.",
     "images": [
-      "/HandiFunWorld/style/img/evenements/4.2022_juillet/lot1.jpg",
-      "/HandiFunWorld/style/img/evenements/4.2022_juillet/lot2.jpg",
-      "/HandiFunWorld/style/img/evenements/4.2022_juillet/lot3.jpg",
-      "/HandiFunWorld/style/img/evenements/4.2022_juillet/gagnant.jpg"
+      "/style/img/evenements/4.2022_juillet/lot1.jpg",
+      "/style/img/evenements/4.2022_juillet/lot2.jpg",
+      "/style/img/evenements/4.2022_juillet/lot3.jpg",
+      "/style/img/evenements/4.2022_juillet/gagnant.jpg"
     ]
   },
   {
     "id": "event4",
     "title": "1er Cahier de Vacance",
     "date": "Août 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/5.2022_aout/petit_1.png",
+    "thumbnail": "/style/img/evenements/5.2022_aout/petit_1.png",
     "description": "3 cahiers de 5 pages chacun, remplis de jeux amusants et ludiques pour occuper les enfants tout en s’amusant ! Ils pourront retrouver leurs personnages préférés des univers Disney, Marvel et Harry Potter. Chaque cahier correspond à un niveau de difficulté : petit (5‑7 ans), moyen (8‑10 ans) et grand (11‑12 ans), pour que tous puissent relever le défi et s’amuser à leur rythme.",
     "images": [
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/petit_2.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/petit_3.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/petit_4.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/petit_5.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/moyen_1.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/moyen_2.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/moyen_3.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/moyen_4.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/moyen_5.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_1.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_2.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_3.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_4.png",
-      "/HandiFunWorld/style/img/evenements/5.2022_aout/grand_5.png"
+      "/style/img/evenements/5.2022_aout/petit_2.png",
+      "/style/img/evenements/5.2022_aout/petit_3.png",
+      "/style/img/evenements/5.2022_aout/petit_4.png",
+      "/style/img/evenements/5.2022_aout/petit_5.png",
+      "/style/img/evenements/5.2022_aout/moyen_1.png",
+      "/style/img/evenements/5.2022_aout/moyen_2.png",
+      "/style/img/evenements/5.2022_aout/moyen_3.png",
+      "/style/img/evenements/5.2022_aout/moyen_4.png",
+      "/style/img/evenements/5.2022_aout/moyen_5.png",
+      "/style/img/evenements/5.2022_aout/grand_1.png",
+      "/style/img/evenements/5.2022_aout/grand_2.png",
+      "/style/img/evenements/5.2022_aout/grand_3.png",
+      "/style/img/evenements/5.2022_aout/grand_4.png",
+      "/style/img/evenements/5.2022_aout/grand_5.png"
     ]
   },
   {
     "id": "event5",
     "title": "Passage sur la chaîne Youtube de Océan_After_All_This_Time",
     "date": "Septembre 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/6.2022_septembre/oceane.png",
+    "thumbnail": "/style/img/evenements/6.2022_septembre/oceane.png",
     "description":  "Nous avons eu la chance de passer sur la chaîne YouTube de notre partenaire Ocean.afterallthistime ! Passionnée de Harry Potter et suivie par plus de 100K Potterheads sur TikTok, elle a réalisé une vidéo où elle donne son avis sur les maisons de Poudlard auxquelles ses abonnés appartiennent, suite à un questionnaire Google Forms auquel ils ont répondu. HandiFunWorld a bien sûr participé au questionnaire… et son avis est sans appel !",
    "link": {
     "url": "https://www.facebook.com/watch/?ref=saved&v=1128226698103453",
     "text": "Retrouvez l'extrait de sa vidéo ici"
   },
     "images": [
-      "/HandiFunWorld/style/img/evenements/6.2022_septembre/oceane.png",
-      "/HandiFunWorld/style/img/evenements/6.2022_septembre/oceane2.png"
+      "/style/img/evenements/6.2022_septembre/oceane.png",
+      "/style/img/evenements/6.2022_septembre/oceane2.png"
     ]
   },
   {
     "id": "event6",
     "title": "Concour d'Hallowenn",
     "date": "Octobre 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/7.2022_octobre/annonce1.png",
+    "thumbnail": "/style/img/evenements/7.2022_octobre/annonce1.png",
     "description": "Tout au long du mois d’octobre, vous pouviez immortaliser une photo d’une personne, d’un animal, d’une peluche ou même d’une figurine, placée au cœur d’un décor sur les thèmes Harry Potter, Marvel ou Disney. À gagner : 3 magnifiques bougies offertes par notre partenaire Zazapandemonium !",
     "images": [
-      "/HandiFunWorld/style/img/evenements/7.2022_octobre/annonce1.png",
-      "/HandiFunWorld/style/img/evenements/7.2022_octobre/annonce2.png",
-      "/HandiFunWorld/style/img/evenements/7.2022_octobre/annonce3.png",
-      "/HandiFunWorld/style/img/evenements/7.2022_octobre/vainqueur1.jpg",
-      "/HandiFunWorld/style/img/evenements/7.2022_octobre/vainqueur2.jpg",
-      "/HandiFunWorld/style/img/evenements/7.2022_octobre/vainqueur3.jpg"
+      "/style/img/evenements/7.2022_octobre/annonce1.png",
+      "/style/img/evenements/7.2022_octobre/annonce2.png",
+      "/style/img/evenements/7.2022_octobre/annonce3.png",
+      "/style/img/evenements/7.2022_octobre/vainqueur1.jpg",
+      "/style/img/evenements/7.2022_octobre/vainqueur2.jpg",
+      "/style/img/evenements/7.2022_octobre/vainqueur3.jpg"
     ]
   },
   {
     "id": "event7",
     "title": "Concours de Noël",
     "date": "Décembre 2022",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/8.2022_decembre/annonce1.jpg",
+    "thumbnail": "/style/img/evenements/8.2022_decembre/annonce1.jpg",
     "description": "Du 2 au 22 décembre 2022, partez à l’aventure avec notre jeu de piste et d’énigmes ! Les indices se trouvent dans nos publications sur les réseaux sociaux pendant cette période. Trois cadeaux à gagner, tirés au sort parmi tous ceux qui auront été jusqu’au bout de l’énigme : un kit de lecture, un kit de chocolat chaud et un kit de bain, offerts par l’Handi Fun World et leurs partenaires.",
     "images": [
-      "/HandiFunWorld/style/img/evenements/8.2022_decembre/annonce1.jpg",
-      "/HandiFunWorld/style/img/evenements/8.2022_decembre/annonce2.png",
-      "/HandiFunWorld/style/img/evenements/8.2022_decembre/annonce3.jpg",
-      "/HandiFunWorld/style/img/evenements/8.2022_decembre/cadeau1.jpg",
-      "/HandiFunWorld/style/img/evenements/8.2022_decembre/cadeau2.jpg",
-      "/HandiFunWorld/style/img/evenements/8.2022_decembre/cadeau3.jpg",
-      "/HandiFunWorld/style/img/evenements/8.2022_decembre/final.jpg"
+      "/style/img/evenements/8.2022_decembre/annonce1.jpg",
+      "/style/img/evenements/8.2022_decembre/annonce2.png",
+      "/style/img/evenements/8.2022_decembre/annonce3.jpg",
+      "/style/img/evenements/8.2022_decembre/cadeau1.jpg",
+      "/style/img/evenements/8.2022_decembre/cadeau2.jpg",
+      "/style/img/evenements/8.2022_decembre/cadeau3.jpg",
+      "/style/img/evenements/8.2022_decembre/final.jpg"
     ]
   },
   {
     "id": "event8",
     "title": "Annonce de Funny",
     "date": "Janvier 2023",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/9.2023_janvier/funny.jpg",
+    "thumbnail": "/style/img/evenements/9.2023_janvier/funny.jpg",
     "description": "Une date à marquer d’une pierre blanche ! C’est aujourd’hui que notre fidèle mascotte voit le jour : Funny.Depuis ce moment, Funny nous accompagne partout et est devenu un vrai symbole de l’association (au point de donner une mise à jour au logo de l'association).On dit qu’une image vaut mille mots… mais même mille mots ne suffiraient pas pour présenter Funny. Alors on vous laisse découvrir deux petites vidéos qui expliquent pourquoi Funny a été créé, et surtout comment il a pris vie! Pour suivre les actualité de Funny vous pouvez aussi accéder à la rubrique 'Funny' de notre site!",
      "links": [
     { "url": "https://www.facebook.com/watch/?ref=saved&v=1581875162234383", "text": "1er VIDEO" },
     { "url": "https://www.facebook.com/watch/?ref=saved&v=509089797777153", "text": "2eme VIDEO" }
   ],
     "images": [
-      "/HandiFunWorld/style/img/evenements/9.2023_janvier/funny.jpg",
-      "/HandiFunWorld/style/img/evenements/9.2023_janvier/Logo.jpg",
-      "/HandiFunWorld/style/img/evenements/9.2023_janvier/funny2.jpg"
+      "/style/img/evenements/9.2023_janvier/funny.jpg",
+      "/style/img/evenements/9.2023_janvier/Logo.jpg",
+      "/style/img/evenements/9.2023_janvier/funny2.jpg"
     ]
   },
   {
     "id": "event9",
     "title": "Les premiers voyages de Funny",
     "date": "Février 2023",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/10.2023_fevrier/oceane1.jpg",
+    "thumbnail": "/style/img/evenements/10.2023_fevrier/oceane1.jpg",
     "description": "Les débuts du voyage de Funny ! 🐻✈️ Notre mascotte, Funny, a décidé de partir à l’aventure à travers la France pour rendre visite à nos partenaires ! Pour son premier arrêt, direction Cannes, chez Océane, du compte TikTok Océan_after_all_this_time. Pendant toute une semaine, Funny a séjourné dans la boutique “Elixir et Sorcellerie”, un salon de thé magique sur le thème d’Harry Potter. Entre deux bières au beurre, notre peluche a appris plein de sorts et rencontré plein de personnes pour échanger autour du handicap… toujours dans la bonne humeur et avec un brin de magie !",
     "images": [
-      "/HandiFunWorld/style/img/evenements/10.2023_fevrier/oceane1.jpg",
-      "/HandiFunWorld/style/img/evenements/10.2023_fevrier/oceane2.jpg",
-      "/HandiFunWorld/style/img/evenements/10.2023_fevrier/oceane3.png"
+      "/style/img/evenements/10.2023_fevrier/oceane1.jpg",
+      "/style/img/evenements/10.2023_fevrier/oceane2.jpg",
+      "/style/img/evenements/10.2023_fevrier/oceane3.png"
     ]
   },
   {
     "id": "event10",
     "title": "1er Foire à tout",
     "date": "Avril 2023",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/11.2023_avril/annonce.jpg",
+    "thumbnail": "/style/img/evenements/11.2023_avril/annonce.jpg",
     "description": "Notre premier gros événement : la brocante Handi Fun World ! 🎉 Le 29 avril 2023, l’Handi Fun World a organisé sa toute première brocante à Ambrumesnil, dans le but de récolter des fonds pour nos futurs événements. Dans ce charmant village de Seine-Maritime, une quinzaine de brocanteurs se sont réunis pour partager cette journée conviviale. Nos partenaires étaient également au rendez-vous : Dragaura (spécialiste du bois et du cuir) et BMJ Couture (experte en cosplay) qui ont toutes deux contribué à l'habillement de notre mascotte Funny. Pour rendre l’après-midi encore plus festif, le groupe de majorettes Les Dynamiques de Dieppe est venu bénévolement pour offrir un spectacle haut en énergie ! Une belle journée qui s’est clôturée sur une tombola qui a permis au plus chanceux de gagner de superbes lots. Un immense merci à la commune d’Ambrumesnil pour son accueil, à nos partenaires pour leur animation, aux brocanteurs venus dès l’aube, et surtout à nos bénévoles — sans eux, cette journée n’aurait jamais été possible ni réussie !",
     "images": [
-      "/HandiFunWorld/style/img/evenements/11.2023_avril/annonce.jpg",
-      "/HandiFunWorld/style/img/evenements/11.2023_avril/dragaura1.jpg",
-      "/HandiFunWorld/style/img/evenements/11.2023_avril/dragaura2.jpg",
-      "/HandiFunWorld/style/img/evenements/11.2023_avril/majorette1.jpg",
-      "/HandiFunWorld/style/img/evenements/11.2023_avril/majorette2.jpg",
-      "/HandiFunWorld/style/img/evenements/11.2023_avril/bmjcouture.jpg"
+      "/style/img/evenements/11.2023_avril/annonce.jpg",
+      "/style/img/evenements/11.2023_avril/dragaura1.jpg",
+      "/style/img/evenements/11.2023_avril/dragaura2.jpg",
+      "/style/img/evenements/11.2023_avril/majorette1.jpg",
+      "/style/img/evenements/11.2023_avril/majorette2.jpg",
+      "/style/img/evenements/11.2023_avril/bmjcouture.jpg"
     ]
   },
   {
     "id": "event11",
     "title": "2nd Cahier de Vacance",
     "date": "Août 2023",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/13.2023_aout/1.png",
+    "thumbnail": "/style/img/evenements/13.2023_aout/1.png",
     "description": "Et oui, le revoila pour sa deuxième édition : le Carnet de Vacances ! Cette année, petite nouveauté : au lieu des 3 carnets de niveaux différents préparés par notre président, c’est Funny qui s’est chargé de concocter les activités. Au programme : un mot croisé spécial chansons de princesses Disney (retrouve les paroles pour trouver le bon mot), un quiz sur le handicap, un jeu d’identification et de comptage de Pokémon, un mot mêlé inspiré des sortilèges appris à Poudlard, un code secret à déchiffrer, un labyrinthe, un tutoriel pour apprendre à dessiner Funny et, pour finir, une petite carte postale à écrire à Funny. De quoi s’amuser tout en apprenant de manière ludique pendant les vacances !",
     "images": [
-      "/HandiFunWorld/style/img/evenements/13.2023_aout/2.png",
-      "/HandiFunWorld/style/img/evenements/13.2023_aout/3.png",
-      "/HandiFunWorld/style/img/evenements/13.2023_aout/4.png",
-      "/HandiFunWorld/style/img/evenements/13.2023_aout/5.png",
-      "/HandiFunWorld/style/img/evenements/13.2023_aout/6.png",
-      "/HandiFunWorld/style/img/evenements/13.2023_aout/7.png",
-      "/HandiFunWorld/style/img/evenements/13.2023_aout/8.png",
-      "/HandiFunWorld/style/img/evenements/13.2023_aout/9.png"
+      "/style/img/evenements/13.2023_aout/2.png",
+      "/style/img/evenements/13.2023_aout/3.png",
+      "/style/img/evenements/13.2023_aout/4.png",
+      "/style/img/evenements/13.2023_aout/5.png",
+      "/style/img/evenements/13.2023_aout/6.png",
+      "/style/img/evenements/13.2023_aout/7.png",
+      "/style/img/evenements/13.2023_aout/8.png",
+      "/style/img/evenements/13.2023_aout/9.png"
     ]
   },
   {
     "id": "event12",
     "title": "Conours de Noël",
     "date": "Décembre 2023",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/14.2023_decembre/concours.jpg",
+    "thumbnail": "/style/img/evenements/14.2023_decembre/concours.jpg",
     "description": "Que serait l’Handi Fun World sans son traditionnel concours de Noël ? Pour l’édition 2023, l'Handi Fun World vous fait gagner un carnet de feuilles à dessin format A4 ainsi qu’une boîte de 45 crayons de couleur. En parallèle, notre éditrice a préparé un petit événement spécial. Comme nous sommes aussi de grands cinéphiles, nous vous avons proposé de replonger en enfance en traitent 6 films de Noël cultes (toujours dans l’univers Disney, Marvel ou Harry Potter bien sûr) : L’Étrange Noël de Monsieur Jack, Le Drôle de Noël de Scrooge, Noël chez les Muppets, Les Gardiens de la Galaxie : Joyeuses Fêtes, Le Noël de Mickey et Au Temps de la Guerre des Étoiles (Star Wars Holiday Special). Un moment magique, plein de nostalgie et de bonne humeur pour terminer l’année en beauté !",
     "images": [
-      "/HandiFunWorld/style/img/evenements/14.2023_decembre/annonce_concours.png",
-      "/HandiFunWorld/style/img/evenements/14.2023_decembre/concours.jpg",
-      "/HandiFunWorld/style/img/evenements/14.2023_decembre/annonce_evenement.png"
+      "/style/img/evenements/14.2023_decembre/annonce_concours.png",
+      "/style/img/evenements/14.2023_decembre/concours.jpg",
+      "/style/img/evenements/14.2023_decembre/annonce_evenement.png"
     ]
   },
   {
     "id": "event13",
     "title": "2nd Foire à tout",
     "date": "Avril 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/15.2024_avril/annonce.jpg",
+    "thumbnail": "/style/img/evenements/15.2024_avril/annonce.jpg",
     "description": "Et rebelote pour une deuxième année ! L’Handi Fun World a de nouveau organisé une kermesse le 21 avril 2024, toujours à Ambrumesnil. Cette année, une petite nouveauté a fait son apparition : un stand de maquillage ! Il était tenu par notre super bénévole en chef, Cara, et ses amies. Malgré leur jeune âge, elles ont répondu présentes et se sont portées volontaires pour maquiller petits et grands (mais surtout les petits !) en apportant une belle dose d’animation tout au long de la journée. Un immense merci à elles, ainsi qu’à tous nos bénévoles qui nous ont aidés à installer et à ranger, à la commune qui nous accueille toujours si chaleureusement, et à tous les brocanteurs venus nombreux pour partager cette belle fête !",
     "images": [
-      "/HandiFunWorld/style/img/evenements/15.2024_avril/annonce.jpg",
-      "/HandiFunWorld/style/img/evenements/15.2024_avril/stand1.jpg"
+      "/style/img/evenements/15.2024_avril/annonce.jpg",
+      "/style/img/evenements/15.2024_avril/stand1.jpg"
     ]
   },
   {
     "id": "event14",
     "title": "1er Kermess à Ambrumesnil",
     "date": "Juin 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/16.2024_mai/annonce.jpg",
+    "thumbnail": "/style/img/evenements/16.2024_mai/annonce.jpg",
     "description": "Le 23 juin 2024, lors de la fête du village d’Ambrumesnil, l’Handi Fun World a organisé sa toute première kermesse ! Tandis que la commune proposait concert, animations autour du travail du fer, buvette et restauration, nous avons eu la mission de divertir les enfants. Toute l’après-midi, ils ont pu profiter de la pêche aux canards, d’une initiation Pokémon, d’ateliers créatifs et d’un stand de maquillage qui a rencontré un immense succès. La journée s’est clôturée par un défilé de costumes où 6 enfants déguisés ont enchanté le public. C’est Noah, en Spiderman, qui a remporté le concours et gagné une tablette lumineuse ! Un immense merci à la commune pour son accueil, à nos bénévoles et jeunes volontaires pour leur énergie, et à toutes les familles présentes. Pour une première, cette kermesse fut un moment inoubliable de partage, de rires et de solidarité",
     "images": [
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/annonce.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/annonce_village.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/presentation.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/canard.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/dessin.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/jeux_libre.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/makeup1.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/makeup2.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/pokemon.jpg",
-      "/HandiFunWorld/style/img/evenements/16.2024_mai/remerciement.png"
+      "/style/img/evenements/16.2024_mai/annonce.jpg",
+      "/style/img/evenements/16.2024_mai/annonce_village.jpg",
+      "/style/img/evenements/16.2024_mai/presentation.jpg",
+      "/style/img/evenements/16.2024_mai/canard.jpg",
+      "/style/img/evenements/16.2024_mai/dessin.jpg",
+      "/style/img/evenements/16.2024_mai/jeux_libre.jpg",
+      "/style/img/evenements/16.2024_mai/makeup1.jpg",
+      "/style/img/evenements/16.2024_mai/makeup2.jpg",
+      "/style/img/evenements/16.2024_mai/pokemon.jpg",
+      "/style/img/evenements/16.2024_mai/remerciement.png"
     ]
   },
   {
     "id": "event15",
     "title": "Kermess à Greuville",
     "date": "Septembre 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/18.2024_septembre/annonce.jpg",
+    "thumbnail": "/style/img/evenements/18.2024_septembre/annonce.jpg",
     "description": "Une nouvelle kermesse ! Cette fois, c’est la commune de Greuville qui a fait appel à nous pour animer les plus jeunes lors de leur fête de village le 29 septembre 2024. Au programme : jeux d’extérieur, chamboule-tout, maquillage, pêche aux canards, initiation Pokémon et activités manuelles, de quoi amuser petits et grands toute la journée. Un grand merci à la commune de Grèville pour son invitation chaleureuse, malgré le temps un peu frais, ainsi qu’à nos bénévoles sans qui nos stands n’auraient pas pu voir le jour. Grâce à eux, cette journée fut une réussite remplie de rires et de bonne humeur !",
     "images": [
-      "/HandiFunWorld/style/img/evenements/18.2024_septembre/annonce.jpg",
-      "/HandiFunWorld/style/img/evenements/18.2024_septembre/stand.jpg",
-      "/HandiFunWorld/style/img/evenements/18.2024_septembre/stand2.jpg",
-      "/HandiFunWorld/style/img/evenements/18.2024_septembre/village.jpg",
-      "/HandiFunWorld/style/img/evenements/18.2024_septembre/remerciement.png"
+      "/style/img/evenements/18.2024_septembre/annonce.jpg",
+      "/style/img/evenements/18.2024_septembre/stand.jpg",
+      "/style/img/evenements/18.2024_septembre/stand2.jpg",
+      "/style/img/evenements/18.2024_septembre/village.jpg",
+      "/style/img/evenements/18.2024_septembre/remerciement.png"
     ]
   },
   {
     "id": "event16",
     "title": "Passage dans de nombreux journeaux",
     "date": "Octobre 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/19.2024_octobre/article.jpg",
+    "thumbnail": "/style/img/evenements/19.2024_octobre/article.jpg",
     "description": "On a eu la super chance d’apparaître dans les Informations Dieppoises avec un article élogieux sur notre travail à Gréville ! 🎉 Grâce à eux, de nouvelles portes se sont ouvertes et notre message positif voyage encore plus loin. Un énorme merci à eux et à tous les journaux qui nous aident à partager notre énergie, notre passion et notre bonne humeur ! 🌟",
     "images": [
-      "/HandiFunWorld/style/img/evenements/19.2024_octobre/article.jpg"
+      "/style/img/evenements/19.2024_octobre/article.jpg"
     ]
   },
   {
     "id": "event17",
     "title": "Kermess à Luneray",
     "date": "Octobre 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/20.2024_octobre/annonce.jpg",
+    "thumbnail": "/style/img/evenements/20.2024_octobre/annonce.jpg",
     "description": "Le 12 octobre 2024, nous avons organisé notre première kermesse à Luneray avec des jeux libres (cube de construction géant, chamboule-tout, marelle), du maquillage, des activités d'art créatif, pêche au canard et initiation Pokémon ! 🎉 Un immense merci à Luneray pour leur invitation, et à tous les bénévoles : rien ne nous fait plus plaisir que d’apporter joie et rires aux enfants quand les villages font appel à nous ! 🌟",
     "images": [
-      "/HandiFunWorld/style/img/evenements/20.2024_octobre/annonce.jpg"
+      "/style/img/evenements/20.2024_octobre/annonce.jpg"
     ]
   },
   {
     "id": "event18",
     "title": "2nd Kermess à Ambrumesnil",
     "date": "Juin 2025",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/21.2025_juin/annonce.jpg",
+    "thumbnail": "/style/img/evenements/21.2025_juin/annonce.jpg",
     "description": "Après deux foires à tout et une première kermesse à Ambrumesnil, nous étions de retour pour la seconde kermesse ! 🎉 La fête annuelle du village s’est tenue le 14 juin 2025 avec concert, artisans du fer et restauration, et Ambrumesnil a fait appel à nous pour gérer les animations pour enfants : jeux libres (cube de construction géant, chamboule-tout, marelle), maquillage, activités d'art créatif, pêche au canard, initiation Pokémon, et une nouveauté : nos super goodies à vendre sur place (sacs adaptés aux enfants, stylos et porte-clés) ! Un immense merci à Ambrumesnil pour son accueil et surtout à nos incroyables bénévoles qui, depuis 2 ans, font vivre l’association lors de chaque événement, toujours présents pour installer les stands très tôt le matin, les démonter tard le soir, et apporter leur aide précieuse tout au long de la journée : vous êtes le cœur et l’âme de Handi Fun World ! 🌟",
     "images": [
-      "/HandiFunWorld/style/img/evenements/21.2025_juin/annonce.jpg",
-      "/HandiFunWorld/style/img/evenements/21.2025_juin/goodies.jpg",
-      "/HandiFunWorld/style/img/evenements/21.2025_juin/presentation.png",
-      "/HandiFunWorld/style/img/evenements/21.2025_juin/stand.png",
-      "/HandiFunWorld/style/img/evenements/21.2025_juin/dessin.png",
-      "/HandiFunWorld/style/img/evenements/21.2025_juin/makeup.png"
+      "/style/img/evenements/21.2025_juin/annonce.jpg",
+      "/style/img/evenements/21.2025_juin/goodies.jpg",
+      "/style/img/evenements/21.2025_juin/presentation.png",
+      "/style/img/evenements/21.2025_juin/stand.png",
+      "/style/img/evenements/21.2025_juin/dessin.png",
+      "/style/img/evenements/21.2025_juin/makeup.png"
     ]
   },
   {
     "id": "event19",
     "title": "2nd Kermess à Greuville",
     "date": "Juin 2025",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/21.2025_juin/annonce.jpg",
+    "thumbnail": "/style/img/evenements/21.2025_juin/annonce.jpg",
     "description": "Nous revoilà pour notre 5ᵉ kermesse, et devinez quoi… on revient pour la 2ᵉ fois à Gréville ! 🎉 Rendez-vous le dimanche 28 septembre 2024 pour une journée pleine de rires et de bonne humeur avec nos incontournables animations : jeux libres (cube de construction géant, chamboule-tout, marelle), maquillage, ateliers créatifs, pêche au canard et initiation Pokémon… sans oublier nos super goodies ! 😍 Réservez la date, ça va être fun, coloré et inoubliable ! 🌟",
     "images": [
-      "/HandiFunWorld/style/img/evenements/22.2025_septembre/annonce.jpg"
+      "/style/img/evenements/22.2025_septembre/annonce.jpg"
     ]
   }
 ]

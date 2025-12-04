@@ -1,4 +1,4 @@
-fetch('/HandiFunWorld/json/hnpw.json')
+fetch('/json/hnpw.json')
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('modalsContainer');

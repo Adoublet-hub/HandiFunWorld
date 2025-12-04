@@ -1,4 +1,4 @@
-fetch('/HandiFunWorld/json/handinfo.json')
+fetch('/json/handinfo.json')
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('modalsContainer');

@@ -1,4 +1,4 @@
-fetch('/HandiFunWorld/json/event.json')
+fetch('/json/event.json')
   .then(response => response.json())
   .then(data => {
     data.reverse(); // dernier événement en premier
