@@ -19,7 +19,7 @@
 }
 
 .page {
-  position: absolute;   /* ✅ RETIRÉ DU FLUX MAIS DANS .book */
+  position: absolute;
   top: 0;
   left: 0;
 
@@ -29,9 +29,9 @@
   opacity: 0;
   pointer-events: none;
 
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  background: transparent;   /* plus de fond blanc */
+  border-radius: 0;          /* on enlève l’arrondi ici */
+  box-shadow: none;          /* plus d’ombre ici */
 
   transform-origin: left;
   transform-style: preserve-3d;
@@ -41,11 +41,11 @@
   justify-content: center;
   align-items: center;
 
-  font-family: 'Segoe UI', sans-serif;
-  padding: 20px;
+  padding: 0;                /* ✅ CRUCIAL */
   box-sizing: border-box;
   backface-visibility: hidden;
 }
+
 
 .page.active {
   opacity: 1;
@@ -56,6 +56,9 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+
+  border: 3px solid #000;     /* ✅ contour noir collé à l’image */
+  border-radius: 8px;
   background: white;
 }
 
