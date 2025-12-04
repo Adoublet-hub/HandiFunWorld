@@ -8,7 +8,7 @@
 .book {
     position: relative;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   height: 500px; /* ✅ hauteur fixe */
   margin: auto;
   overflow: hidden;
@@ -53,7 +53,7 @@
 }
 
 .page img {
-  width: 150%;
+  width: 100%;
   height: 100%;
   object-fit: contain;
   background: white;
