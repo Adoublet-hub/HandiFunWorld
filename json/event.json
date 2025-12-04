@@ -147,16 +147,6 @@
   },
   {
     "id": "event11",
-    "title": "Voyage de Funny chez Heavijio",
-    "date": "Mai 2023",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/12.2023_mai/voyage.png",
-    "description": "Funny repart sur la route ! Après Cannes, notre mascotte part pour le Bas-Rhin chez notre partenaire Heavyjo, spécialiste des marque-pages. Heavyjo a fait de sa passion son métier en créant toutes sortes de marque-pages en résine ou en bois gravé. Il a également choisi de contribuer au look de Funny en lui offrant généreusement un marque-page personnalisé pour l’association. Nous espérons que Funny a pu lui apporter un petit coup de main dans la création de ses marque-pages ! 😄",
-    "images": [
-      "/HandiFunWorld/style/img/evenements/12.2023_mai/voyage.png"
-    ]
-  },
-  {
-    "id": "event12",
     "title": "2nd Cahier de Vacance",
     "date": "Août 2023",
     "thumbnail": "/HandiFunWorld/style/img/evenements/13.2023_aout/1.png",
@@ -173,7 +163,7 @@
     ]
   },
   {
-    "id": "event13",
+    "id": "event12",
     "title": "Conours de Noël",
     "date": "Décembre 2023",
     "thumbnail": "/HandiFunWorld/style/img/evenements/14.2023_decembre/concours.jpg",
@@ -185,7 +175,7 @@
     ]
   },
   {
-    "id": "event14",
+    "id": "event13",
     "title": "2nd Foire à tout",
     "date": "Avril 2024",
     "thumbnail": "/HandiFunWorld/style/img/evenements/15.2024_avril/annonce.jpg",
@@ -196,7 +186,7 @@
     ]
   },
   {
-    "id": "event15",
+    "id": "event14",
     "title": "1er Kermess à Ambrumesnil",
     "date": "Juin 2024",
     "thumbnail": "/HandiFunWorld/style/img/evenements/16.2024_mai/annonce.jpg",
@@ -215,17 +205,7 @@
     ]
   },
   {
-    "id": "event16",
-    "title": "Passage de Funny a la mission local",
-    "date": "Septembre 2024",
-    "thumbnail": "/HandiFunWorld/style/img/evenements/17.2024_juin/mission_local.jpg",
-    "description": "Le 27 septembre 2024, Funny a été invité à la Mission Locale Dieppe Côte d'Albâtre pour le festival On en Parle, un événement imaginé par les jeunes du Pôle Bien-Être autour de la santé mentale. Une belle occasion pour se détendre, câliner Funny dans les moments de stress et partager un peu de bonne humeur. Notre mascotte a proposé à chacun d’écrire sur un cœur en papier une raison d’être heureux, puis de le déposer dans une boîte remplie de positivité. Une belle dose de chaleur et d’ondes positives pour tous les participants !",
-    "images": [
-      "/HandiFunWorld/style/img/evenements/17.2024_juin/mission_local.jpg"
-    ]
-  },
-  {
-    "id": "event17",
+    "id": "event15",
     "title": "Kermess à Greuville",
     "date": "Septembre 2024",
     "thumbnail": "/HandiFunWorld/style/img/evenements/18.2024_septembre/annonce.jpg",
@@ -239,7 +219,7 @@
     ]
   },
   {
-    "id": "event18",
+    "id": "event16",
     "title": "Passage dans de nombreux journeaux",
     "date": "Octobre 2024",
     "thumbnail": "/HandiFunWorld/style/img/evenements/19.2024_octobre/article.jpg",
@@ -249,7 +229,7 @@
     ]
   },
   {
-    "id": "event19",
+    "id": "event17",
     "title": "Kermess à Luneray",
     "date": "Octobre 2024",
     "thumbnail": "/HandiFunWorld/style/img/evenements/20.2024_octobre/annonce.jpg",
@@ -259,7 +239,7 @@
     ]
   },
   {
-    "id": "event20",
+    "id": "event18",
     "title": "2nd Kermess à Ambrumesnil",
     "date": "Juin 2025",
     "thumbnail": "/HandiFunWorld/style/img/evenements/21.2025_juin/annonce.jpg",
@@ -274,7 +254,7 @@
     ]
   },
   {
-    "id": "event21",
+    "id": "event19",
     "title": "2nd Kermess à Greuville",
     "date": "Juin 2025",
     "thumbnail": "/HandiFunWorld/style/img/evenements/21.2025_juin/annonce.jpg",
