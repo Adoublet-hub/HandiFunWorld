@@ -7,15 +7,15 @@
 
 .book {
     position: relative;
-  width: 100%;
-  max-width: 400px;
-  height: 500px; /* ✅ hauteur fixe */
-  margin: auto;
-  overflow: hidden;
-  perspective: 1200px;
-   border: 2px solid rgba(0,0,0,0.1);  /* contour léger */
-  border-radius: 12px;
-  background: #b8b8b8;              /* léger fond papier */
+    width: 100%;
+    max-width: 700px;   /* ⬅ AUGMENTE LA LARGEUR */
+    height: 900px;      /* ⬅ AUGMENTE LA HAUTEUR */
+    margin: auto;
+    overflow: hidden;
+    perspective: 1200px;
+    border: 2px solid rgba(0,0,0,0.1);  
+    border-radius: 12px;
+    background: #b8b8b8;
 }
 
 .page {
