@@ -134,15 +134,10 @@
     "id": "event10",
     "title": "1er Foire à tout",
     "date": "Avril 2023",
-    "thumbnail": "/style/img/evenements/11.2023_avril/annonce.jpg",
-    "description": "Notre premier gros événement : la brocante Handi Fun World ! 🎉 Le 29 avril 2023, l’Handi Fun World a organisé sa toute première brocante à Ambrumesnil, dans le but de récolter des fonds pour nos futurs événements. Dans ce charmant village de Seine-Maritime, une quinzaine de brocanteurs se sont réunis pour partager cette journée conviviale. Nos partenaires étaient également au rendez-vous : Dragaura (spécialiste du bois et du cuir) et BMJ Couture (experte en cosplay) qui ont toutes deux contribué à l'habillement de notre mascotte Funny. Pour rendre l’après-midi encore plus festif, le groupe de majorettes Les Dynamiques de Dieppe est venu bénévolement pour offrir un spectacle haut en énergie ! Une belle journée qui s’est clôturée sur une tombola qui a permis au plus chanceux de gagner de superbes lots. Un immense merci à la commune d’Ambrumesnil pour son accueil, à nos partenaires pour leur animation, aux brocanteurs venus dès l’aube, et surtout à nos bénévoles — sans eux, cette journée n’aurait jamais été possible ni réussie !",
+    "thumbnail": "/style/img/evenements/11.jpg",
+    "description": "",
     "images": [
-      "/style/img/evenements/11.2023_avril/annonce.jpg",
-      "/style/img/evenements/11.2023_avril/dragaura1.jpg",
-      "/style/img/evenements/11.2023_avril/dragaura2.jpg",
-      "/style/img/evenements/11.2023_avril/majorette1.jpg",
-      "/style/img/evenements/11.2023_avril/majorette2.jpg",
-      "/style/img/evenements/11.2023_avril/bmjcouture.jpg"
+      "/style/img/evenements/11.jpg"
     ]
   },
   {
@@ -189,33 +184,20 @@
     "id": "event14",
     "title": "1er Kermess à Ambrumesnil",
     "date": "Juin 2024",
-    "thumbnail": "/style/img/evenements/16.2024_mai/annonce.jpg",
-    "description": "Le 23 juin 2024, lors de la fête du village d’Ambrumesnil, l’Handi Fun World a organisé sa toute première kermesse ! Tandis que la commune proposait concert, animations autour du travail du fer, buvette et restauration, nous avons eu la mission de divertir les enfants. Toute l’après-midi, ils ont pu profiter de la pêche aux canards, d’une initiation Pokémon, d’ateliers créatifs et d’un stand de maquillage qui a rencontré un immense succès. La journée s’est clôturée par un défilé de costumes où 6 enfants déguisés ont enchanté le public. C’est Noah, en Spiderman, qui a remporté le concours et gagné une tablette lumineuse ! Un immense merci à la commune pour son accueil, à nos bénévoles et jeunes volontaires pour leur énergie, et à toutes les familles présentes. Pour une première, cette kermesse fut un moment inoubliable de partage, de rires et de solidarité",
+    "thumbnail": "/style/img/evenements/12.jpg",
+    "description": "",
     "images": [
-      "/style/img/evenements/16.2024_mai/annonce.jpg",
-      "/style/img/evenements/16.2024_mai/annonce_village.jpg",
-      "/style/img/evenements/16.2024_mai/presentation.jpg",
-      "/style/img/evenements/16.2024_mai/canard.jpg",
-      "/style/img/evenements/16.2024_mai/dessin.jpg",
-      "/style/img/evenements/16.2024_mai/jeux_libre.jpg",
-      "/style/img/evenements/16.2024_mai/makeup1.jpg",
-      "/style/img/evenements/16.2024_mai/makeup2.jpg",
-      "/style/img/evenements/16.2024_mai/pokemon.jpg",
-      "/style/img/evenements/16.2024_mai/remerciement.png"
+      "/style/img/evenements/12.jpg"
     ]
   },
   {
     "id": "event15",
     "title": "Kermess à Greuville",
     "date": "Septembre 2024",
-    "thumbnail": "/style/img/evenements/18.2024_septembre/annonce.jpg",
-    "description": "Une nouvelle kermesse ! Cette fois, c’est la commune de Greuville qui a fait appel à nous pour animer les plus jeunes lors de leur fête de village le 29 septembre 2024. Au programme : jeux d’extérieur, chamboule-tout, maquillage, pêche aux canards, initiation Pokémon et activités manuelles, de quoi amuser petits et grands toute la journée. Un grand merci à la commune de Grèville pour son invitation chaleureuse, malgré le temps un peu frais, ainsi qu’à nos bénévoles sans qui nos stands n’auraient pas pu voir le jour. Grâce à eux, cette journée fut une réussite remplie de rires et de bonne humeur !",
+    "thumbnail": "/style/img/evenements/14.jpg",
+    "description": "",
     "images": [
-      "/style/img/evenements/18.2024_septembre/annonce.jpg",
-      "/style/img/evenements/18.2024_septembre/stand.jpg",
-      "/style/img/evenements/18.2024_septembre/stand2.jpg",
-      "/style/img/evenements/18.2024_septembre/village.jpg",
-      "/style/img/evenements/18.2024_septembre/remerciement.png"
+      "/style/img/evenements/14.jpg"
     ]
   },
   {
@@ -232,35 +214,30 @@
     "id": "event17",
     "title": "Kermess à Luneray",
     "date": "Octobre 2024",
-    "thumbnail": "/style/img/evenements/20.2024_octobre/annonce.jpg",
-    "description": "Le 12 octobre 2024, nous avons organisé notre première kermesse à Luneray avec des jeux libres (cube de construction géant, chamboule-tout, marelle), du maquillage, des activités d'art créatif, pêche au canard et initiation Pokémon ! 🎉 Un immense merci à Luneray pour leur invitation, et à tous les bénévoles : rien ne nous fait plus plaisir que d’apporter joie et rires aux enfants quand les villages font appel à nous ! 🌟",
+    "thumbnail": "/style/img/evenements/15.jpg",
+    "description": "",
     "images": [
-      "/style/img/evenements/20.2024_octobre/annonce.jpg"
+      "/style/img/evenements/15.jpg"
     ]
   },
   {
     "id": "event18",
     "title": "2nd Kermess à Ambrumesnil",
     "date": "Juin 2025",
-    "thumbnail": "/style/img/evenements/21.2025_juin/annonce.jpg",
-    "description": "Après deux foires à tout et une première kermesse à Ambrumesnil, nous étions de retour pour la seconde kermesse ! 🎉 La fête annuelle du village s’est tenue le 14 juin 2025 avec concert, artisans du fer et restauration, et Ambrumesnil a fait appel à nous pour gérer les animations pour enfants : jeux libres (cube de construction géant, chamboule-tout, marelle), maquillage, activités d'art créatif, pêche au canard, initiation Pokémon, et une nouveauté : nos super goodies à vendre sur place (sacs adaptés aux enfants, stylos et porte-clés) ! Un immense merci à Ambrumesnil pour son accueil et surtout à nos incroyables bénévoles qui, depuis 2 ans, font vivre l’association lors de chaque événement, toujours présents pour installer les stands très tôt le matin, les démonter tard le soir, et apporter leur aide précieuse tout au long de la journée : vous êtes le cœur et l’âme de Handi Fun World ! 🌟",
+    "thumbnail": "/style/img/evenements/16.jpg",
+    "description": "",
     "images": [
-      "/style/img/evenements/21.2025_juin/annonce.jpg",
-      "/style/img/evenements/21.2025_juin/goodies.jpg",
-      "/style/img/evenements/21.2025_juin/presentation.png",
-      "/style/img/evenements/21.2025_juin/stand.png",
-      "/style/img/evenements/21.2025_juin/dessin.png",
-      "/style/img/evenements/21.2025_juin/makeup.png"
+      "/style/img/evenements/16.jpg"
     ]
   },
   {
     "id": "event19",
     "title": "2nd Kermess à Greuville",
     "date": "Juin 2025",
-    "thumbnail": "/style/img/evenements/21.2025_juin/annonce.jpg",
-    "description": "Nous revoilà pour notre 5ᵉ kermesse, et devinez quoi… on revient pour la 2ᵉ fois à Gréville ! 🎉 Rendez-vous le dimanche 28 septembre 2024 pour une journée pleine de rires et de bonne humeur avec nos incontournables animations : jeux libres (cube de construction géant, chamboule-tout, marelle), maquillage, ateliers créatifs, pêche au canard et initiation Pokémon… sans oublier nos super goodies ! 😍 Réservez la date, ça va être fun, coloré et inoubliable ! 🌟",
+    "thumbnail": "/style/img/evenements/17.jpg",
+    "description": "",
     "images": [
-      "/style/img/evenements/22.2025_septembre/annonce.jpg"
+      "/style/img/evenements/17.jpg"
     ]
   }
 ]
