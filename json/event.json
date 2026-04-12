@@ -14,7 +14,7 @@
     "id": "event2",
     "title": "Officiellement enregistré en tant qu'association",
     "date": "Juin 2022",
-    "thumbnail": "/style/img/evenements/3.2022_juin.png",
+    "thumbnail": "/style/img/evenements/3.2022_juin(1).png",
     "description": "En juin 2022, nous sommes officiellement inscrits en tant qu’association (à l’époque basée dans le Médoc), marquant le début d’une grande aventure !",
     "images": [
       "/style/img/evenements/3.2022_juin.png"
@@ -122,7 +122,7 @@
     "id": "event9",
     "title": "Les premiers voyages de Funny",
     "date": "Février 2023",
-    "thumbnail": "/style/img/evenements/10.2023_fevrier/oceane1.jpg",
+    "thumbnail": "/style/img/evenements/10.2023_fevrier/oceane1minia.jpg",
     "description": "Les débuts du voyage de Funny ! 🐻✈️ Notre mascotte, Funny, a décidé de partir à l’aventure à travers la France pour rendre visite à nos partenaires ! Pour son premier arrêt, direction Cannes, chez Océane, du compte TikTok Océan_after_all_this_time. Pendant toute une semaine, Funny a séjourné dans la boutique “Elixir et Sorcellerie”, un salon de thé magique sur le thème d’Harry Potter. Entre deux bières au beurre, notre peluche a appris plein de sorts et rencontré plein de personnes pour échanger autour du handicap… toujours dans la bonne humeur et avec un brin de magie !",
     "images": [
       "/style/img/evenements/10.2023_fevrier/oceane1.jpg",
@@ -134,7 +134,7 @@
     "id": "event10",
     "title": "1er Foire à tout",
     "date": "Avril 2023",
-    "thumbnail": "/style/img/evenements/11.jpg",
+    "thumbnail": "/style/img/evenements/11minia.jpg",
     "description": "",
     "images": [
       "/style/img/evenements/11.jpg"
@@ -144,7 +144,7 @@
     "id": "event11",
     "title": "2nd Cahier de Vacance",
     "date": "Août 2023",
-    "thumbnail": "/style/img/evenements/13.2023_aout/1.png",
+    "thumbnail": "/style/img/evenements/13.2023_aout/1minia.png",
     "description": "Et oui, le revoila pour sa deuxième édition : le Carnet de Vacances ! Cette année, petite nouveauté : au lieu des 3 carnets de niveaux différents préparés par notre président, c’est Funny qui s’est chargé de concocter les activités. Au programme : un mot croisé spécial chansons de princesses Disney (retrouve les paroles pour trouver le bon mot), un quiz sur le handicap, un jeu d’identification et de comptage de Pokémon, un mot mêlé inspiré des sortilèges appris à Poudlard, un code secret à déchiffrer, un labyrinthe, un tutoriel pour apprendre à dessiner Funny et, pour finir, une petite carte postale à écrire à Funny. De quoi s’amuser tout en apprenant de manière ludique pendant les vacances !",
     "images": [
       "/style/img/evenements/13.2023_aout/2.png",
@@ -173,7 +173,7 @@
     "id": "event13",
     "title": "2nd Foire à tout",
     "date": "Avril 2024",
-    "thumbnail": "/style/img/evenements/15.2024_avril/annonce.jpg",
+    "thumbnail": "/style/img/evenements/15.2024_avril/annonceminia.jpg",
     "description": "Et rebelote pour une deuxième année ! L’Handi Fun World a de nouveau organisé une kermesse le 21 avril 2024, toujours à Ambrumesnil. Cette année, une petite nouveauté a fait son apparition : un stand de maquillage ! Il était tenu par notre super bénévole en chef, Cara, et ses amies. Malgré leur jeune âge, elles ont répondu présentes et se sont portées volontaires pour maquiller petits et grands (mais surtout les petits !) en apportant une belle dose d’animation tout au long de la journée. Un immense merci à elles, ainsi qu’à tous nos bénévoles qui nous ont aidés à installer et à ranger, à la commune qui nous accueille toujours si chaleureusement, et à tous les brocanteurs venus nombreux pour partager cette belle fête !",
     "images": [
       "/style/img/evenements/15.2024_avril/annonce.jpg",
@@ -184,7 +184,7 @@
     "id": "event14",
     "title": "1er Kermess à Ambrumesnil",
     "date": "Juin 2024",
-    "thumbnail": "/style/img/evenements/12.jpg",
+    "thumbnail": "/style/img/evenements/12minia.jpg",
     "description": "",
     "images": [
       "/style/img/evenements/12.jpg"
@@ -194,7 +194,7 @@
     "id": "event15",
     "title": "Kermess à Greuville",
     "date": "Septembre 2024",
-    "thumbnail": "/style/img/evenements/14.jpg",
+    "thumbnail": "/style/img/evenements/14minia.jpg",
     "description": "",
     "images": [
       "/style/img/evenements/14.jpg"
@@ -214,7 +214,7 @@
     "id": "event17",
     "title": "Kermess à Luneray",
     "date": "Octobre 2024",
-    "thumbnail": "/style/img/evenements/15.jpg",
+    "thumbnail": "/style/img/evenements/15minia.jpg",
     "description": "",
     "images": [
       "/style/img/evenements/15.jpg"
@@ -224,7 +224,7 @@
     "id": "event18",
     "title": "2nd Kermess à Ambrumesnil",
     "date": "Juin 2025",
-    "thumbnail": "/style/img/evenements/16.jpg",
+    "thumbnail": "/style/img/evenements/16minia.jpg",
     "description": "",
     "images": [
       "/style/img/evenements/16.jpg"
@@ -233,11 +233,29 @@
   {
     "id": "event19",
     "title": "2nd Kermess à Greuville",
-    "date": "Juin 2025",
-    "thumbnail": "/style/img/evenements/17.jpg",
+    "date": "Septembre 2025",
+    "thumbnail": "/style/img/evenements/17minia.jpg",
     "description": "",
     "images": [
       "/style/img/evenements/17.jpg"
     ]
-  }
+  },
+  {
+    "id": "event20",
+    "title": "Téléthon",
+    "date": "Décembre 2025",
+    "thumbnail": "/style/img/evenements/18minia.jpg",
+    "description": "",
+    "images": [
+      "/style/img/evenements/18.jpg"
+    ]
+  },
+{
+  "id": "event21",
+  "title": "Évènement à venir",
+  "date": "Dans le futur",
+  "thumbnail": "/style/img/evenements/futur.png",
+  "description": "🎉 Nos prochains événements 🎉\nNous avons le plaisir de vous annoncer nos deux prochaines kermesses, des moments de partage, de joie et d’inclusion à ne pas manquer :\n📍 Juin 2026 – Ambrumesnil\n📍 Septembre 2026 – Greuville\nVenez nombreux pour vivre ces instants conviviaux avec nous, soutenir nos actions et faire grandir ensemble de beaux projets 💙",
+  "images": []
+}
 ]
