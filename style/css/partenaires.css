@@ -189,12 +189,35 @@
   cursor: pointer;
 }
 
-.city-image {
-  display: block;
+.city-desktop {
+    display: block;
     width: 100%;
-    max-width: 900px;   /* limite pour éviter monstrueux sur grand écran */
+    max-width: 900px;
     margin: 20px auto;
-    animation: none;
+}
+
+.city-mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .city-desktop {
+        display: none;
+    }
+
+    .city-mobile {
+        display: block;
+        text-align: center;
+    }
+
+    .city-mobile .city-image {
+        width: 100%;
+        max-width: 500px;
+        display: block;
+        margin: 10px auto;
+    }
 }
 
 
@@ -238,6 +261,7 @@
   .card-back button {
     display: none;
   }
+  
 }
 
 /* ===== TRÈS PETITS ÉCRANS ===== */
