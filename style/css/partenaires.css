@@ -200,15 +200,15 @@
     display: none;
 }
 
-
+/* 📱 MOBILE */
 @media screen and (max-width: 768px) {
 
     .city-desktop {
-        display: none;
+        display: none !important;
     }
 
     .city-mobile {
-        display: block;
+        display: block !important;
         text-align: center;
     }
 
