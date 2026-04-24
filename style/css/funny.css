@@ -1,91 +1,80 @@
-.book-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 50px auto;
+/* Container */
+.funny-container {
+    text-align: center;
+    padding: 20px;
 }
 
-.book {
-    position: relative;
-    width: 100%;
-    max-width: 700px;   /* ⬅ AUGMENTE LA LARGEUR */
-    height: 900px;      /* ⬅ AUGMENTE LA HAUTEUR */
+/* Carte */
+.funny-card {
+    max-width: 800px;
     margin: auto;
-    overflow: hidden;
-    perspective: 1200px;
-    border: 2px solid rgba(0,0,0,0.1);  
-    border-radius: 12px;
-    background: #b8b8b8;
+    background: #ffffffcc;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-.page {
-  position: absolute;   /* ✅ RETIRÉ DU FLUX MAIS DANS .book */
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-
-  opacity: 0;
-  pointer-events: none;
-
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-
-  transform-origin: left;
-  transform-style: preserve-3d;
-  transition: opacity 0.4s ease, transform 0.6s;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: 'Segoe UI', sans-serif;
-  padding: 20px;
-  box-sizing: border-box;
-  backface-visibility: hidden;
+/* Titres */
+.funny-title {
+    color: #ff8fb1;
 }
 
-.page.active {
-  opacity: 1;
-  pointer-events: auto;
+.funny-subtitle {
+    color: #276b9f;
 }
 
-.page img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  background: white;
+/* Texte */
+.funny-text {
+    color: #000000;
+    line-height: 1.6;
 }
 
-
-.cover {
-  background: linear-gradient(135deg, #004AAD, #6BA8FF);
-  color: white;
-  font-size: 1.6rem;
-  font-weight: bold;
+/* Listes */
+.funny-list {
+    list-style: none;
+    padding: 0;
 }
 
-.back-cover {
-  background: linear-gradient(135deg, #003080, #001a40);
-  color: white;
+.funny-list li {
+    background: #c5f9ff;
+    margin: 8px auto;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 400px;
 }
 
-.page.flipped {
-  transform: rotateY(-180deg);
+/* Sections */
+.funny-box {
+    background: #e8ffe8;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px 0;
 }
 
-/* Boutons */
-.nav-btn {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin: 10px;
-  color: #004AAD;
+/* Image du haut (garde l'animation) */
+.top-image {
+    width: 150px;
+    margin: 20px;
+    animation: funny-float 3s ease-in-out infinite;
 }
 
-.nav-btn:hover {
-  transform: scale(1.2);
+/* Images du bas (fixes et plus grandes) */
+.bottom-image {
+    display: block;
+    width: 220px; /* plus grand */
+    margin: 15px auto;
+    animation: none; /* enlève le mouvement */
+}
+
+/* Animation */
+@keyframes funny-float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Signature */
+.funny-signature {
+    font-weight: bold;
+    margin-top: 20px;
 }

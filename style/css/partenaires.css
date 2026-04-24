@@ -189,6 +189,15 @@
   cursor: pointer;
 }
 
+.city-image {
+  display: block;
+    width: 100%;
+    max-width: 900px;   /* limite pour éviter monstrueux sur grand écran */
+    margin: 20px auto;
+    animation: none;
+}
+
+
 /* ===== TABLETTES ET SMARTPHONES ===== */
 @media (max-width: 1024px) {
   .partners-container {
