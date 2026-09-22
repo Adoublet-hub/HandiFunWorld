@@ -51,82 +51,585 @@
     color: black;
 }
 
-.joliTexte {
-    white-space: pre-line;
+/* ========================================
+   L'HANDI FUN WORLD
+   PAGE ASSOCIATION
+======================================== */
 
-    margin: 50px auto;
-    width: 75%;
+.association-page {
+    --blue: #5579b8;
+    --blue-light: #eaf1fb;
+    --blue-soft: #f5f8fd;
+
+    --pink: #d98fa8;
+    --pink-light: #f9edf2;
+
+    --text: #354052;
+    --text-light: #687386;
+
+    --white: #ffffff;
+    --border: #e1e8f2;
+
+    --radius: 22px;
+
+    color: var(--text);
+    font-family: inherit;
+    line-height: 1.7;
+}
+
+
+/* ========================================
+   ELEMENTS GENERAUX
+======================================== */
+
+.association-page h1,
+.association-page h2,
+.association-page h3,
+.association-page p {
+    margin-top: 0;
+}
+
+.association-page h1,
+.association-page h2,
+.association-page h3 {
+    line-height: 1.25;
+}
+
+.association-page p {
+    margin-bottom: 1.2rem;
+}
+
+.association-page section {
+    padding: 80px 20px;
+}
+
+.section-tag {
+    display: inline-block;
+    margin-bottom: 18px;
+    padding: 7px 15px;
+
+    background: var(--blue-light);
+    color: var(--blue);
+
+    border-radius: 50px;
+
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.section-tag.pink {
+    background: var(--pink-light);
+    color: #b86d88;
+}
+
+
+/* ========================================
+   INTRODUCTION
+======================================== */
+
+.association-intro {
+    background:
+        radial-gradient(
+            circle at 90% 15%,
+            rgba(217, 143, 168, 0.12),
+            transparent 25%
+        ),
+        var(--blue-soft);
+
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.association-intro h1 {
+    margin-bottom: 30px;
+
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    color: var(--text);
+}
+
+.association-intro h1 span {
+    color: var(--blue);
+}
+
+.association-intro p {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: var(--text-light);
+    font-size: 1.05rem;
+}
+
+
+/* ========================================
+   FUNNY
+======================================== */
+
+.funny-section {
+    background: var(--white);
+}
+
+.funny-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    max-width: 1050px;
+    margin: auto;
+
+    padding: 50px;
+
+    background: var(--pink-light);
+    border-radius: var(--radius);
+}
+
+.funny-text {
+    flex: 1;
+}
+
+.funny-text h2 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+.funny-text p {
+    color: var(--text-light);
+}
+
+.funny-decoration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 180px;
+    height: 180px;
+
+    flex-shrink: 0;
+
+    background: var(--white);
+
+    border-radius: 50%;
+
+    font-size: 5rem;
+
+    box-shadow: 0 10px 30px rgba(80, 100, 130, 0.08);
+}
+
+
+/* ========================================
+   TITRES DE SECTIONS
+======================================== */
+
+.section-heading {
     max-width: 850px;
+    margin: 0 auto 45px;
+
+    text-align: center;
+}
+
+.section-heading.left {
+    margin-left: 0;
+    text-align: left;
+}
+
+.section-heading h2 {
+    margin-bottom: 15px;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+}
+
+.section-heading p {
+    color: var(--text-light);
+}
+
+
+/* ========================================
+   MISSIONS
+======================================== */
+
+.missions-section {
+    background: var(--blue-soft);
+}
+
+.missions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    max-width: 1100px;
+    margin: auto;
+}
+
+.mission-card {
+    position: relative;
+
+    padding: 30px;
+
+    background: var(--white);
+
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.mission-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 12px 30px rgba(60, 90, 130, 0.08);
+}
+
+.mission-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+
+    margin-bottom: 20px;
+
+    background: var(--blue-light);
+    color: var(--blue);
+
+    border-radius: 50%;
+
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.mission-card h3 {
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+}
+
+.mission-card p {
+    margin-bottom: 0;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+
+/* ========================================
+   ACTIONS
+======================================== */
+
+.actions-section {
+    background: var(--white);
+}
+
+.actions-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+
+    max-width: 950px;
+    margin: auto;
+}
+
+.actions-list span {
+    padding: 10px 17px;
+
+    background: var(--blue-soft);
+
+    border: 1px solid var(--border);
+    border-radius: 50px;
+
+    color: var(--text);
+
+    font-size: 0.95rem;
+}
+
+.actions-conclusion {
+    max-width: 800px;
+    margin: 45px auto 0;
+
     padding: 25px 30px;
 
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 1rem;
-    line-height: 1.7;
-    color: #1f1f1f;
+    background: var(--blue-light);
+
+    border-radius: var(--radius);
+
     text-align: center;
-
-    background: white;
-    border-radius: 12px;
-
-    border: 1px solid rgba(0, 74, 173, 0.15);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-
-    position: relative;
 }
 
-/* bandeau discret en haut */
-.joliTexte::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(to right, #004AAD, #6BA8FF);
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
+.actions-conclusion p {
+    margin: 0;
 
-/* petite animation douce */
-.joliTexte:hover {
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-}
-
-.accueil-texte {
-    margin: 40px auto;
-    width: 75%;
-    padding: 30px 25px;
-    background: #ffffff;
-    border: 2px solid #004AAD;
-    border-radius: 12px;
-    text-align: center;
-    font-family: 'Segoe UI', sans-serif;
-    color: #222;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.accueil-texte h2 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: #004AAD;
-}
-
-.accueil-texte p {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    margin-bottom: 15px;
-}
-
-.accueil-texte strong {
-    color: #004AAD;
+    color: var(--blue);
     font-weight: 600;
 }
 
-.accueil-sous-texte {
+
+/* ========================================
+   EVENEMENTS
+======================================== */
+
+.events-section {
+    background: var(--blue-soft);
+}
+
+.events-content {
+    display: grid;
+    grid-template-columns: minmax(250px, 0.75fr) minmax(300px, 1.25fr);
+    gap: 70px;
+
+    max-width: 1100px;
+    margin: auto;
+}
+
+.events-text {
+    color: var(--text-light);
+}
+
+.events-text .intro-paragraph {
+    color: var(--text);
     font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
-    margin-top: 20px;
+    font-weight: 600;
+}
+
+.highlight-box {
+    margin: 30px 0;
+    padding: 25px 30px;
+
+    background: var(--white);
+
+    border-left: 5px solid var(--pink);
+    border-radius: 0 var(--radius) var(--radius) 0;
+
+    box-shadow: 0 5px 20px rgba(70, 90, 120, 0.05);
+}
+
+.highlight-box p {
+    margin: 0;
+
+    color: var(--text);
+    font-weight: 600;
+}
+
+.family-highlight {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+
+    margin-top: 35px;
+    padding: 30px;
+
+    background: var(--pink-light);
+
+    border-radius: var(--radius);
+}
+
+.family-highlight > span {
+    font-size: 1.8rem;
+}
+
+.family-highlight p {
+    margin: 0;
+    color: var(--text);
+}
+
+.family-highlight strong {
+    color: #b86d88;
+}
+
+
+/* ========================================
+   POUR TOUS LES ENFANTS
+======================================== */
+
+.everyone-section {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+
+    text-align: center;
+
+    background: var(--white);
+}
+
+.everyone-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.everyone-content h2 {
+    margin-bottom: 20px;
+
+    font-size: clamp(2.3rem, 5vw, 3.5rem);
+    color: var(--blue);
+}
+
+.everyone-content > p {
+    max-width: 650px;
+    margin: 0 auto 45px;
+
+    color: var(--text-light);
+    font-size: 1.1rem;
+}
+
+.everyone-message {
+    padding: 35px;
+
+    background: var(--blue-soft);
+
+    border-radius: var(--radius);
+}
+
+.everyone-message p {
+    color: var(--text-light);
+}
+
+.everyone-message p:last-child {
+    margin-bottom: 0;
+}
+
+.final-message {
+    margin-top: 30px;
+    padding-top: 25px;
+
+    border-top: 1px solid var(--border);
+
+    color: var(--text) !important;
+    font-size: 1.2rem;
+}
+
+.final-message strong {
+    color: var(--blue);
+}
+
+
+/* ========================================
+   PHOTO
+======================================== */
+
+.association-photo {
+    padding-top: 20px !important;
+    background: var(--white);
+}
+
+.photo-frame {
+    max-width: 1100px;
+    margin: auto;
+
+    overflow: hidden;
+
+    border-radius: 28px;
+
+    box-shadow: 0 15px 40px rgba(50, 70, 100, 0.12);
+}
+
+.photo-frame img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 900px) {
+
+    .association-page section {
+        padding: 65px 20px;
+    }
+
+    .missions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .events-content {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .section-heading.left {
+        text-align: center;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .association-page section {
+        padding: 50px 15px;
+    }
+
+    .association-intro h1 {
+        font-size: 2rem;
+    }
+
+    .funny-content {
+        flex-direction: column;
+
+        padding: 30px 25px;
+
+        text-align: center;
+    }
+
+    .funny-decoration {
+        width: 130px;
+        height: 130px;
+
+        font-size: 3.5rem;
+    }
+
+    .missions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mission-card {
+        padding: 25px;
+    }
+
+    .actions-list {
+        justify-content: flex-start;
+    }
+
+    .actions-list span {
+        font-size: 0.9rem;
+    }
+
+    .family-highlight {
+        padding: 25px 20px;
+    }
+
+    .everyone-message {
+        padding: 25px 20px;
+    }
+
+    .photo-frame {
+        border-radius: 18px;
+    }
+}
+
+
+/* ========================================
+   ACCESSIBILITE
+======================================== */
+
+/* Pour les personnes qui préfèrent réduire les animations */
+@media (prefers-reduced-motion: reduce) {
+
+    .mission-card {
+        transition: none;
+    }
+
+    .mission-card:hover {
+        transform: none;
+    }
 }
 
 .cta-text {
