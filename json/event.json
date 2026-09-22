@@ -132,7 +132,7 @@
   },
   {
     "id": "event10",
-    "title": "1er Foire à tout",
+    "title": "1er Foire à tout à Ambrumesnil",
     "date": "Avril 2023",
     "thumbnail": "/style/img/evenements/11minia.jpg",
     "description": "",
@@ -171,7 +171,7 @@
   },
   {
     "id": "event13",
-    "title": "2nd Foire à tout",
+    "title": "2nd Foire à tout à Ambrumesnil",
     "date": "Avril 2024",
     "thumbnail": "/style/img/evenements/15.2024_avril/annonceminia.jpg",
     "description": "Et rebelote pour une deuxième année ! L’Handi Fun World a de nouveau organisé une kermesse le 21 avril 2024, toujours à Ambrumesnil. Cette année, une petite nouveauté a fait son apparition : un stand de maquillage ! Il était tenu par notre super bénévole en chef, Cara, et ses amies. Malgré leur jeune âge, elles ont répondu présentes et se sont portées volontaires pour maquiller petits et grands (mais surtout les petits !) en apportant une belle dose d’animation tout au long de la journée. Un immense merci à elles, ainsi qu’à tous nos bénévoles qui nous ont aidés à installer et à ranger, à la commune qui nous accueille toujours si chaleureusement, et à tous les brocanteurs venus nombreux pour partager cette belle fête !",
@@ -192,7 +192,7 @@
   },
   {
     "id": "event15",
-    "title": "Kermess à Greuville",
+    "title": "1er Kermess à Greuville",
     "date": "Septembre 2024",
     "thumbnail": "/style/img/evenements/14minia.jpg",
     "description": "",
@@ -212,7 +212,7 @@
   },
   {
     "id": "event17",
-    "title": "Kermess à Luneray",
+    "title": "1er Kermess à Luneray",
     "date": "Octobre 2024",
     "thumbnail": "/style/img/evenements/15minia.jpg",
     "description": "",
@@ -222,7 +222,7 @@
   },
   {
     "id": "event18",
-    "title": "2nd Kermess à Ambrumesnil",
+    "title": "2eme Kermess à Ambrumesnil",
     "date": "Juin 2025",
     "thumbnail": "/style/img/evenements/16minia.jpg",
     "description": "",
@@ -232,7 +232,7 @@
   },
   {
     "id": "event19",
-    "title": "2nd Kermess à Greuville",
+    "title": "2eme Kermess à Greuville",
     "date": "Septembre 2025",
     "thumbnail": "/style/img/evenements/17minia.jpg",
     "description": "",
@@ -250,12 +250,42 @@
       "/style/img/evenements/18.jpg"
     ]
   },
+  {
+    "id": "event21",
+    "title": "3eme Kermess à Ambrumesnil",
+    "date": "Décembre 2025",
+    "thumbnail": "/style/img/evenements/19minia.jpg",
+    "description": "",
+    "images": [
+      "/style/img/evenements/19.jpg"
+    ]
+  },
+  {
+    "id": "event22",
+    "title": "1er Foire à tout d'Offranville",
+    "date": "Juin 2026",
+    "thumbnail": "/style/img/evenements/20minia.jpg",
+    "description": "",
+    "images": [
+      "/style/img/evenements/20.jpg"
+    ]
+  },
+  {
+    "id": "event23",
+    "title": "1er Forum des associations d'offranville",
+    "date": "août 2026",
+    "thumbnail": "/style/img/evenements/21minia.jpg",
+    "description": "",
+    "images": [
+      "/style/img/evenements/21.jpg"
+    ]
+  },
 {
-  "id": "event21",
+  "id": "event24",
   "title": "Évènement à venir",
   "date": "Dans le futur",
   "thumbnail": "/style/img/evenements/futur.png",
-  "description": "🎉 Nos prochains événements 🎉\nNous avons le plaisir de vous annoncer nos deux prochaines kermesses, des moments de partage, de joie et d’inclusion à ne pas manquer :\n📍 Juin 2026 – Ambrumesnil\n📍 Septembre 2026 – Greuville\nVenez nombreux pour vivre ces instants conviviaux avec nous, soutenir nos actions et faire grandir ensemble de beaux projets 💙",
+  "description": "🎉 Nos prochains événements 🎉\nNous avons le plaisir de vous annoncer nos prochaine événements, des moments de partage, de joie et d’inclusion à ne pas manquer :\n📍27 Septembre 2026 – Kermess à Greuville\nVenez nombreux pour vivre ces instants conviviaux avec nous, soutenir nos actions et faire grandir ensemble de beaux projets 💙",
   "images": []
 }
 ]
