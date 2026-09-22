@@ -83,6 +83,12 @@
   padding-left: 12px;
 }
 
+.phone-numbers {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
