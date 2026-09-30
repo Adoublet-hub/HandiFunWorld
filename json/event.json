@@ -253,7 +253,7 @@
   {
     "id": "event21",
     "title": "3eme Kermess à Ambrumesnil",
-    "date": "Décembre 2025",
+    "date": "Juin 2026",
     "thumbnail": "/style/img/evenements/19minia.jpg",
     "description": "",
     "images": [
@@ -273,19 +273,29 @@
   {
     "id": "event23",
     "title": "1er Forum des associations d'offranville",
-    "date": "août 2026",
+    "date": "Août 2026",
     "thumbnail": "/style/img/evenements/21minia.jpg",
     "description": "",
     "images": [
       "/style/img/evenements/21.jpg"
     ]
   },
+  {
+    "id": "event24",
+    "title": "3eme Kermess à Greuville",
+    "date": "Septembre 2026",
+    "thumbnail": "/style/img/evenements/22minia.jpg",
+    "description": "",
+    "images": [
+      "/style/img/evenements/22.jpg"
+    ]
+  },
 {
-  "id": "event24",
+  "id": "event25",
   "title": "Évènement à venir",
   "date": "Dans le futur",
   "thumbnail": "/style/img/evenements/futur.png",
-  "description": "🎉 Nos prochains événements 🎉\nNous avons le plaisir de vous annoncer nos prochaine événements, des moments de partage, de joie et d’inclusion à ne pas manquer :\n📍27 Septembre 2026 – Kermess à Greuville\nVenez nombreux pour vivre ces instants conviviaux avec nous, soutenir nos actions et faire grandir ensemble de beaux projets 💙",
+  "description": "🎉 Nos prochains événements 🎉\nNous avons le plaisir de vous annoncer nos prochaine événements, des moments de partage, de joie et d’inclusion à ne pas manquer :\n📍30 Octobre 2026 – Halloween à Greuville.\nVenez nombreux pour vivre ces instants conviviaux avec nous, soutenir nos actions et faire grandir ensemble de beaux projets 💙",
   "images": []
 }
 ]
